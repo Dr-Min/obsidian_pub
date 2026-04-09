@@ -7,13 +7,20 @@ It now uses a bilingual structure:
 - `site/content/en/` for English pages
 - `site/content/index.md` as the language hub
 
+Important publishing rule:
+
+- Public articles should be created in both Korean and English.
+- Keep both versions at matching relative paths.
+- Reuse the same `translationKey` for both pages so the site language toggle can switch between them.
+
 ## How to Use It
 
 1. Draft articles in `drafts/`.
 2. Run:
 
 ```powershell
-python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/seedance --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article-ko.md --locale ko --folder blog/ai-video/seedance --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article-en.md --locale en --folder blog/ai-video/seedance --translation-key your-article
 ```
 
 3. The exported note appears in `site/content/ko/blog/ai-video/...` or `site/content/en/blog/ai-video/...` depending on the `--folder` you choose.

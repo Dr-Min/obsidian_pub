@@ -14,6 +14,14 @@ The preferred publishing path is now:
 
 ## Codex Workflow
 
+## Non-Negotiable Publishing Rules
+
+- Every publishable article must be created as a Korean and English pair.
+- Korean and English versions must live at matching relative paths under `site/content/ko/...` and `site/content/en/...`.
+- Korean and English versions of the same article must share the same `translationKey`.
+- Public pages must support language switching with the site toggle. A reader should be able to click the toggle and move between the paired Korean and English pages.
+- Do not leave a public article as one-language-only unless the user explicitly asks for a temporary exception.
+
 ### 1. Audit Context
 
 Run:
@@ -50,6 +58,7 @@ When drafting:
 
 - Read `context/brand-voice.md`, `context/style-guide.md`, `context/seo-guidelines.md`, `context/features.md`, and `context/internal-links-map.md`.
 - Save the article to `drafts/[topic-slug]-[YYYY-MM-DD].md`.
+- Draft both the Korean and English versions for any publishable article.
 - Keep metadata in markdown using fields like `**Meta Title**:`, `**Meta Description**:`, and `**Primary Keyword**:`.
 - Prefer Obsidian-style links such as `[[other-note]]` or `[[other-note|Anchor Text]]` for cross-post references when the target note exists.
 
@@ -68,10 +77,11 @@ This scrubs the draft in place and writes an optimization report next to it.
 Run:
 
 ```powershell
-python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article-ko.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article-en.md --locale en --folder blog/ai-video/camera-techniques --translation-key your-article
 ```
 
-This writes a Quartz-ready note into `site/content/ko/blog/ai-video/...` or `site/content/en/blog/ai-video/...` when you pass `--locale` and a nested `--folder`. You can also point `--content-dir` to an external Obsidian vault root or an existing Quartz `content/` directory.
+This writes Quartz-ready notes into matching Korean and English paths when you pass `--locale`, a nested `--folder`, and the same `--translation-key` for both exports. The shared `translationKey` is what makes the site toggle switch between languages. You can also point `--content-dir` to an external Obsidian vault root or an existing Quartz `content/` directory.
 
 ### 7. Install Quartz Dependencies
 
@@ -121,3 +131,4 @@ This uses the existing WordPress REST integration if you still want it.
 - `optimize` requires Python dependencies from `data_sources/requirements.txt`.
 - The deterministic parts of the workflow live in `scripts/codex_seo_machine.py`; use that instead of manually recreating analysis steps.
 - Quartz/Cloudflare deployment guidance lives in `site/DEPLOY-QUARTZ-CLOUDFLARE.md`.
+- Language-toggle behavior depends on Korean and English pages both existing and sharing the same `translationKey`.

@@ -22,6 +22,9 @@ Use this skill for repository-local content operations in this workspace.
 
 - Treat `context/*.md` as the source of truth for voice, style, SEO rules, features, and internal links.
 - Do not skip context auditing if files still contain template placeholders.
+- Every publishable article must exist in both Korean and English.
+- Keep Korean and English versions in matching relative paths and reuse the same `translationKey` so the Quartz language toggle can switch between them.
+- Do not leave a public article as Korean-only or English-only unless the user explicitly approves that exception.
 - Use markdown metadata fields in article drafts:
   - `**Meta Title**:`
   - `**Meta Description**:`
@@ -31,6 +34,7 @@ Use this skill for repository-local content operations in this workspace.
 - Keep research briefs in `research/` and drafts in `drafts/`.
 - Use `site/content/` as the default Obsidian vault or Quartz content root.
 - Prefer Obsidian wikilinks `[[note]]` or `[[note|Label]]` for internal note-to-note linking.
+- When exporting for publication, run `quartz-export` for both locales and keep the folder path identical on both sides.
 - Use the CLI for deterministic work instead of redoing analysis manually.
 
 ## Command Reference

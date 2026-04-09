@@ -12,6 +12,12 @@ tags:
 
 This site publishes prompt-writing notes in two language paths so Korean and English readers each get a dedicated URL.
 
+## Editorial Rule
+
+- Every public article should exist in both Korean and English.
+- Both versions should use the same relative path under `ko/` and `en/`.
+- Both versions should share the same `translationKey` so the language toggle can switch between them.
+
 ## Choose a Language
 
 - [한국어로 보기](./ko/)
