@@ -12,6 +12,7 @@ Important publishing rule:
 - Public articles should be created in both Korean and English.
 - Keep both versions at matching relative paths.
 - Reuse the same `translationKey` for both pages so the site language toggle can switch between them.
+- Keep public notes inside category folders such as `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/`.
 
 ## How to Use It
 

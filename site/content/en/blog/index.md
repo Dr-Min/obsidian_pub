@@ -22,5 +22,6 @@ The English section is organized as `AI Video -> category folders`.
 
 ## Read Next
 
+- [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and a Clear Structure]]
 - [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
 - [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]

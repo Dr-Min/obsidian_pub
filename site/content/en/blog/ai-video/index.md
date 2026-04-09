@@ -17,7 +17,7 @@ This folder groups AI video prompt writing notes by subcategory.
 
 ## Start Here
 
-- [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
+- [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and a Clear Structure]]
 
 ## Subfolders
 

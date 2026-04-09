@@ -64,3 +64,4 @@ python scripts/codex_seo_machine.py quartz-build --serve --watch
 - WordPress publishing is optional and no longer the recommended default.
 - The Quartz site is now bilingual by default. Keep Korean and English versions under matching category paths in `site/content/ko/blog/ai-video/...` and `site/content/en/blog/ai-video/...`.
 - The language toggle between Korean and English only works when both versions exist and share the same `translationKey`.
+- Keep public notes inside category folders like `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/` instead of using a flat blog root.

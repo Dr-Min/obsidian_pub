@@ -35,6 +35,7 @@ npm run build:seomachine
 - Korean content lives in `../content/ko`
 - English content lives in `../content/en`
 - Public articles should be exported as Korean/English pairs with matching relative paths and the same `translationKey`
+- Public articles should also be grouped into category folders such as `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/`
 - Export blog posts there with:
 
 ```powershell

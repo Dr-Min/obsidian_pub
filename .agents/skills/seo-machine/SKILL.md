@@ -25,6 +25,7 @@ Use this skill for repository-local content operations in this workspace.
 - Every publishable article must exist in both Korean and English.
 - Keep Korean and English versions in matching relative paths and reuse the same `translationKey` so the Quartz language toggle can switch between them.
 - Do not leave a public article as Korean-only or English-only unless the user explicitly approves that exception.
+- Organize publishable notes into category folders, not a flat blog root. Example paths: `blog/ai-video/`, `blog/ai-video/camera-techniques/`, `blog/ai-video/seedance/`.
 - Use markdown metadata fields in article drafts:
   - `**Meta Title**:`
   - `**Meta Description**:`

@@ -21,6 +21,7 @@ The preferred publishing path is now:
 - Korean and English versions of the same article must share the same `translationKey`.
 - Public pages must support language switching with the site toggle. A reader should be able to click the toggle and move between the paired Korean and English pages.
 - Do not leave a public article as one-language-only unless the user explicitly asks for a temporary exception.
+- Do not dump public notes directly into `site/content/blog/`. Always place them inside a category path such as `blog/ai-video/`, `blog/ai-video/camera-techniques/`, or `blog/ai-video/seedance/`.
 
 ### 1. Audit Context
 
@@ -132,3 +133,4 @@ This uses the existing WordPress REST integration if you still want it.
 - The deterministic parts of the workflow live in `scripts/codex_seo_machine.py`; use that instead of manually recreating analysis steps.
 - Quartz/Cloudflare deployment guidance lives in `site/DEPLOY-QUARTZ-CLOUDFLARE.md`.
 - Language-toggle behavior depends on Korean and English pages both existing and sharing the same `translationKey`.
+- Category management is mandatory. Put each article into the closest matching category folder instead of using a flat blog root.

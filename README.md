@@ -40,6 +40,7 @@ Publishing rule:
 - Treat Korean plus English as the default output, not an optional add-on.
 - Every public article should be written and exported as a Korean/English pair with the same `translationKey`.
 - The language toggle only works correctly when both versions exist at matching relative paths.
+- Public notes should be filed into category folders, not dropped into a flat `blog/` root.
 
 Optional WordPress publishing still exists:
 
@@ -117,6 +118,12 @@ claude-code .
 7. Use `site/content/` as your Obsidian vault root. Public content now lives under `site/content/ko/blog/ai-video/...` and `site/content/en/blog/ai-video/...`.
 8. Preview or build the bundled Quartz app in `site/quartz-site/`.
 9. Follow `site/DEPLOY-QUARTZ-CLOUDFLARE.md` for free public deployment and custom domains.
+
+Recommended category layout:
+
+- `blog/ai-video/` for broad AI video guides
+- `blog/ai-video/camera-techniques/` for framing, lens, movement, and shot-language posts
+- `blog/ai-video/seedance/` for Seedance-specific archives and examples
 
 ## Workflows
 

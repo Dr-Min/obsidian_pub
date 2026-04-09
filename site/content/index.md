@@ -17,6 +17,7 @@ This site publishes prompt-writing notes in two language paths so Korean and Eng
 - Every public article should exist in both Korean and English.
 - Both versions should use the same relative path under `ko/` and `en/`.
 - Both versions should share the same `translationKey` so the language toggle can switch between them.
+- Public notes should be stored in category folders. Current examples: `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/`.
 
 ## Choose a Language
 
