@@ -1,113 +1,62 @@
 # Quick Start Guide
 
-Get SEO Machine running in **10 minutes** ⚡
+Get SEO Machine running in Codex or Claude Code in 10 minutes.
 
-## Step 1: Install Dependencies (2 min)
+## Step 1: Install Dependencies
 
-```bash
-# Install Python dependencies for analysis modules
+```powershell
 pip install -r data_sources/requirements.txt
 ```
 
-## Step 2: Configure Context Files (5 min)
+`brief` and `plan` mostly use repo code and the standard library. `optimize` and `publish` need the Python dependencies above.
 
-Fill out these **3 essential files** with your company info:
+## Step 2: Configure Context Files
 
-### 1. Brand Voice (`context/brand-voice.md`)
-- Define 3-5 voice pillars
-- Add tone guidelines
-- Include do's and don'ts
+Fill out these files before writing production content:
 
-💡 **Tip**: Check `examples/castos/brand-voice.md` for a complete example
+- `context/brand-voice.md`
+- `context/features.md`
+- `context/writing-examples.md`
+- `context/internal-links-map.md`
+- `context/target-keywords.md`
+- `context/style-guide.md`
+- `context/seo-guidelines.md`
 
-### 2. Features (`context/features.md`)
-- List your product/service features
-- Add value propositions
-- Include key differentiators
+Check `examples/castos/` for a complete real-world example.
 
-### 3. Writing Examples (`context/writing-examples.md`)
-- Copy/paste 3-5 of your best blog posts
-- Include full content (not just excerpts)
-- Note what makes each example great
+## Step 3: Start the Codex Workflow
 
-**Optional but recommended**:
-- `internal-links-map.md` - Map your key pages
-- `target-keywords.md` - Add keyword research
-
-## Step 3: Create Your First Article (3 min)
-
-```bash
-# Open in Claude Code
-claude-code .
-
-# Research a topic
-/research [your topic]
-
-# Review the research brief in /research/ directory
-
-# Write the article
-/write [your topic]
-
-# Check /drafts/ for your article + optimization reports
+```powershell
+python scripts/codex_seo_machine.py context-audit
+python scripts/codex_seo_machine.py brief "your topic"
+python scripts/codex_seo_machine.py plan "your topic" --brief research/brief-your-topic-YYYY-MM-DD.md
 ```
 
-## That's It! 🎉
+Then:
 
-You now have:
-- ✅ A comprehensive, SEO-optimized article (2000+ words)
-- ✅ Meta elements (title, description, keywords)
-- ✅ SEO optimization report
-- ✅ Internal linking suggestions
-- ✅ Keyword analysis
+1. Complete the brief with verified research.
+2. Draft the article into `drafts/`.
+3. Run `python scripts/codex_seo_machine.py optimize drafts/your-article.md`.
+4. Run `python scripts/codex_seo_machine.py quartz-export drafts/your-article.md`.
+5. Run `python scripts/codex_seo_machine.py quartz-install`.
+6. Run `python scripts/codex_seo_machine.py quartz-build --serve --watch`.
+7. Use `site/DEPLOY-QUARTZ-CLOUDFLARE.md` to publish the site for free with your custom domain.
 
-## Next Steps
+## Core Commands
 
-**To publish:**
-1. Review the article in `/drafts/`
-2. Make any final edits
-3. Copy to your CMS
-4. Publish and watch it rank!
-
-**To improve quality:**
-- Add more writing examples to `context/writing-examples.md`
-- Refine your brand voice in `context/brand-voice.md`
-- Map more internal links in `context/internal-links-map.md`
-
-## Common Commands
-
-```bash
-# Core workflow
-/research [topic]           # Research before writing
-/write [topic]              # Create new article
-/article [topic]            # Simplified article creation
-/rewrite [topic]            # Update old content
-/optimize [file]            # Final SEO polish
-/scrub [file]               # Remove AI watermarks
-/publish-draft [file]       # Publish to WordPress
-
-# Analysis
-/analyze-existing [URL]     # Analyze existing post
-/performance-review         # Analytics-driven priorities
-/priorities                 # Content prioritization matrix
-
-# Research
-/research-serp [keyword]    # SERP analysis
-/research-gaps              # Competitor content gaps
-/research-trending          # Trending topics
-/research-topics            # Topic clusters
-
-# Landing pages
-/landing-write [topic]      # Create landing page
-/landing-audit [file]       # Audit for CRO issues
-/landing-research [topic]   # Research positioning
+```powershell
+python scripts/codex_seo_machine.py context-audit
+python scripts/codex_seo_machine.py brief "topic"
+python scripts/codex_seo_machine.py plan "topic" --brief research/brief-topic-YYYY-MM-DD.md
+python scripts/codex_seo_machine.py optimize drafts/topic-YYYY-MM-DD.md
+python scripts/codex_seo_machine.py quartz-export drafts/topic-YYYY-MM-DD.md
+python scripts/codex_seo_machine.py quartz-install
+python scripts/codex_seo_machine.py quartz-build --serve --watch
 ```
 
-## Need Help?
+## Notes
 
-- Full Documentation: See README.md
-- Real Example: Check `examples/castos/` directory
-- Issues: https://github.com/[your-username]/seomachine/issues
-
----
-
-**Pro Tip**: The quality of your output depends on the quality of your context files. Spend time filling them out thoroughly!
+- Codex instructions live in `AGENTS.md`.
+- The legacy Claude slash commands still exist in `.claude/`.
+- Output quality still depends heavily on how well the context files are filled out.
+- WordPress publishing is optional and no longer the recommended default.

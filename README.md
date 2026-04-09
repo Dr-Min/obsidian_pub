@@ -1,5 +1,38 @@
 # SEO Machine
 
+## Codex Support
+
+This repository now includes a Codex-first workflow alongside the original Claude setup.
+
+The recommended free publishing stack is:
+
+- Write and edit in Obsidian-compatible Markdown
+- Export to Quartz-ready notes
+- Deploy with Quartz on Cloudflare Pages
+- Attach a custom domain you own
+
+- Workspace instructions live in `AGENTS.md`.
+- The repo-local Codex skill lives in `.agents/skills/seo-machine/SKILL.md`.
+- Deterministic workflow commands live in `scripts/codex_seo_machine.py`.
+
+Typical Codex workflow:
+
+```powershell
+python scripts/codex_seo_machine.py context-audit
+python scripts/codex_seo_machine.py brief "your topic"
+python scripts/codex_seo_machine.py plan "your topic" --brief research/brief-your-topic-YYYY-MM-DD.md
+python scripts/codex_seo_machine.py optimize drafts/your-article.md
+python scripts/codex_seo_machine.py quartz-export drafts/your-article.md
+python scripts/codex_seo_machine.py quartz-install
+python scripts/codex_seo_machine.py quartz-build --serve --watch
+```
+
+Optional WordPress publishing still exists:
+
+```powershell
+python scripts/codex_seo_machine.py publish drafts/your-article.md
+```
+
 A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves your target audience.
 
 ## Overview
@@ -16,8 +49,8 @@ SEO Machine is built on Claude Code and provides:
 ## Getting Started
 
 ### Prerequisites
-- [Claude Code](https://claude.com/claude-code) installed
-- Anthropic API account
+- Codex or [Claude Code](https://claude.com/claude-code)
+- Anthropic API account for Claude workflows
 
 ### Installation
 
@@ -39,7 +72,7 @@ This installs:
 - Machine learning (scikit-learn)
 - Web scraping tools (beautifulsoup4)
 
-3. Open in Claude Code:
+3. Open in Codex or Claude Code:
 ```bash
 claude-code .
 ```
@@ -58,6 +91,18 @@ claude-code .
    - `context/seo-guidelines.md` - Review and adjust SEO requirements
 
    **Quick Start**: Check out `examples/castos/` to see a complete real-world example of all context files filled out for a podcast hosting SaaS company.
+
+### Using With Codex
+
+1. Open the repo in Codex.
+2. Read `AGENTS.md`.
+3. Run `python scripts/codex_seo_machine.py context-audit`.
+4. Scaffold a research brief with `python scripts/codex_seo_machine.py brief "[topic]"`.
+5. Complete the brief with real research, then run `python scripts/codex_seo_machine.py plan "[topic]" --brief [path]`.
+6. Draft into `drafts/`, optimize with `python scripts/codex_seo_machine.py optimize [file]`, and export with `python scripts/codex_seo_machine.py quartz-export [file]`.
+7. Use `site/content/` as your Obsidian vault root.
+8. Preview or build the bundled Quartz app in `site/quartz-site/`.
+9. Follow `site/DEPLOY-QUARTZ-CLOUDFLARE.md` for free public deployment and custom domains.
 
 ## Workflows
 

@@ -68,6 +68,9 @@ rewrites/*
 
 # Node modules if using any tools
 node_modules/
+site/quartz-site/public/
+site/quartz-site/.quartz-cache/
+site/quartz-site/prof/
 
 # Python
 __pycache__/
