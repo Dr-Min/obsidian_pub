@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Shot scale reference</title>
+  <desc id="desc">A three-panel diagram showing wide shot, medium shot, and close-up framing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8efe7"/>
+      <stop offset="100%" stop-color="#efe5d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g transform="translate(40 60)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#2a2a2a">
+      Shot Scale Reference
+    </text>
+    <text x="0" y="42" font-family="Arial, sans-serif" font-size="20" fill="#5a5a5a">
+      Use this when describing framing inside AI video prompts.
+    </text>
+  </g>
+  <g transform="translate(50 140)">
+    <g transform="translate(0 0)">
+      <rect width="360" height="480" rx="28" fill="#fffdf8" stroke="#c8b7a4" stroke-width="3"/>
+      <text x="180" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2a2a2a">
+        Wide Shot
+      </text>
+      <text x="180" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5a5a5a">
+        Subject is small inside the environment
+      </text>
+      <rect x="55" y="120" width="250" height="300" rx="20" fill="#e9ddd1" stroke="#d5c1aa" stroke-width="2"/>
+      <circle cx="180" cy="205" r="26" fill="#2a2a2a"/>
+      <rect x="150" y="230" width="60" height="115" rx="24" fill="#2a2a2a"/>
+      <line x1="150" y1="260" x2="120" y2="320" stroke="#2a2a2a" stroke-width="12" stroke-linecap="round"/>
+      <line x1="210" y1="260" x2="240" y2="320" stroke="#2a2a2a" stroke-width="12" stroke-linecap="round"/>
+      <line x1="160" y1="345" x2="130" y2="405" stroke="#2a2a2a" stroke-width="12" stroke-linecap="round"/>
+      <line x1="200" y1="345" x2="230" y2="405" stroke="#2a2a2a" stroke-width="12" stroke-linecap="round"/>
+      <text x="180" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a6146">
+        Best for location, scale, atmosphere
+      </text>
+    </g>
+    <g transform="translate(410 0)">
+      <rect width="360" height="480" rx="28" fill="#fffdf8" stroke="#c8b7a4" stroke-width="3"/>
+      <text x="180" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2a2a2a">
+        Medium Shot
+      </text>
+      <text x="180" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5a5a5a">
+        Waist-up or torso-centered framing
+      </text>
+      <rect x="90" y="120" width="180" height="300" rx="22" fill="#e9ddd1" stroke="#d5c1aa" stroke-width="2"/>
+      <circle cx="180" cy="180" r="38" fill="#2a2a2a"/>
+      <rect x="130" y="220" width="100" height="160" rx="30" fill="#2a2a2a"/>
+      <line x1="130" y1="255" x2="95" y2="330" stroke="#2a2a2a" stroke-width="14" stroke-linecap="round"/>
+      <line x1="230" y1="255" x2="265" y2="330" stroke="#2a2a2a" stroke-width="14" stroke-linecap="round"/>
+      <text x="180" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a6146">
+        Best for gesture, dialogue, product handling
+      </text>
+    </g>
+    <g transform="translate(820 0)">
+      <rect width="360" height="480" rx="28" fill="#fffdf8" stroke="#c8b7a4" stroke-width="3"/>
+      <text x="180" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2a2a2a">
+        Close-Up
+      </text>
+      <text x="180" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#5a5a5a">
+        Face, hands, or detail fills the frame
+      </text>
+      <rect x="80" y="120" width="200" height="300" rx="24" fill="#e9ddd1" stroke="#d5c1aa" stroke-width="2"/>
+      <circle cx="180" cy="215" r="82" fill="#2a2a2a"/>
+      <circle cx="152" cy="200" r="9" fill="#fffdf8"/>
+      <circle cx="208" cy="200" r="9" fill="#fffdf8"/>
+      <path d="M145 255 Q180 282 215 255" fill="none" stroke="#fffdf8" stroke-width="8" stroke-linecap="round"/>
+      <text x="180" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a6146">
+        Best for emotion, texture, emphasis
+      </text>
+    </g>
+  </g>
+</svg>

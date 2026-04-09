@@ -17,3 +17,4 @@ This folder holds English posts.
 - Default path: `site/content/en/blog/`
 - Keep translated posts in the same relative path as their Korean pair when possible
 - Use `[[other-note]]` links to preserve backlinks inside the English section
+- First article example: [[en/blog/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
