@@ -22,7 +22,7 @@ python scripts/codex_seo_machine.py context-audit
 python scripts/codex_seo_machine.py brief "your topic"
 python scripts/codex_seo_machine.py plan "your topic" --brief research/brief-your-topic-YYYY-MM-DD.md
 python scripts/codex_seo_machine.py optimize drafts/your-article.md
-python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article
 python scripts/codex_seo_machine.py quartz-install
 python scripts/codex_seo_machine.py quartz-build --serve --watch
 ```
@@ -106,7 +106,7 @@ claude-code .
 4. Scaffold a research brief with `python scripts/codex_seo_machine.py brief "[topic]"`.
 5. Complete the brief with real research, then run `python scripts/codex_seo_machine.py plan "[topic]" --brief [path]`.
 6. Draft into `drafts/`, optimize with `python scripts/codex_seo_machine.py optimize [file]`, and export with `python scripts/codex_seo_machine.py quartz-export [file] --locale ko|en --translation-key [shared-key]`.
-7. Use `site/content/` as your Obsidian vault root. Public content now lives under `site/content/ko/` and `site/content/en/`.
+7. Use `site/content/` as your Obsidian vault root. Public content now lives under `site/content/ko/blog/ai-video/...` and `site/content/en/blog/ai-video/...`.
 8. Preview or build the bundled Quartz app in `site/quartz-site/`.
 9. Follow `site/DEPLOY-QUARTZ-CLOUDFLARE.md` for free public deployment and custom domains.
 

@@ -37,7 +37,7 @@ Then:
 1. Complete the brief with verified research.
 2. Draft the article into `drafts/`.
 3. Run `python scripts/codex_seo_machine.py optimize drafts/your-article.md`.
-4. Run `python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --translation-key your-article`.
+4. Run `python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article`.
 5. Run `python scripts/codex_seo_machine.py quartz-install`.
 6. Run `python scripts/codex_seo_machine.py quartz-build --serve --watch`.
 7. Use `site/DEPLOY-QUARTZ-CLOUDFLARE.md` to publish the site for free with your custom domain.
@@ -49,7 +49,7 @@ python scripts/codex_seo_machine.py context-audit
 python scripts/codex_seo_machine.py brief "topic"
 python scripts/codex_seo_machine.py plan "topic" --brief research/brief-topic-YYYY-MM-DD.md
 python scripts/codex_seo_machine.py optimize drafts/topic-YYYY-MM-DD.md
-python scripts/codex_seo_machine.py quartz-export drafts/topic-YYYY-MM-DD.md --locale ko --translation-key topic
+python scripts/codex_seo_machine.py quartz-export drafts/topic-YYYY-MM-DD.md --locale ko --folder blog/ai-video/camera-techniques --translation-key topic
 python scripts/codex_seo_machine.py quartz-install
 python scripts/codex_seo_machine.py quartz-build --serve --watch
 ```
@@ -60,4 +60,4 @@ python scripts/codex_seo_machine.py quartz-build --serve --watch
 - The legacy Claude slash commands still exist in `.claude/`.
 - Output quality still depends heavily on how well the context files are filled out.
 - WordPress publishing is optional and no longer the recommended default.
-- The Quartz site is now bilingual by default. Keep Korean and English versions under matching paths in `site/content/ko/` and `site/content/en/`.
+- The Quartz site is now bilingual by default. Keep Korean and English versions under matching category paths in `site/content/ko/blog/ai-video/...` and `site/content/en/blog/ai-video/...`.

@@ -13,10 +13,10 @@ It now uses a bilingual structure:
 2. Run:
 
 ```powershell
-python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --translation-key your-article
+python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/seedance --translation-key your-article
 ```
 
-3. The exported note appears in `site/content/ko/blog/` or `site/content/en/blog/`.
+3. The exported note appears in `site/content/ko/blog/ai-video/...` or `site/content/en/blog/ai-video/...` depending on the `--folder` you choose.
 4. Open `site/content/` as an Obsidian vault if you want to edit or link notes there directly.
 5. Use the bundled Quartz project in `site/quartz-site/` to preview and build the site.
 

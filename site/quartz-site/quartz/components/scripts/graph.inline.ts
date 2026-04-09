@@ -53,6 +53,7 @@ type NodeRenderData = GraphicsInfo & {
 }
 
 const localStorageKey = "graph-visited"
+const graphTagsStorageKey = "graph-show-tags"
 function getVisited(): Set<SimpleSlug> {
   return new Set(JSON.parse(localStorage.getItem(localStorageKey) ?? "[]"))
 }
@@ -61,6 +62,49 @@ function addToVisited(slug: SimpleSlug) {
   const visited = getVisited()
   visited.add(slug)
   localStorage.setItem(localStorageKey, JSON.stringify([...visited]))
+}
+
+function getStoredTagVisibility(defaultValue: boolean): boolean {
+  const stored = localStorage.getItem(graphTagsStorageKey)
+  if (stored === null) {
+    return defaultValue
+  }
+
+  return stored === "true"
+}
+
+function setStoredTagVisibility(value: boolean) {
+  localStorage.setItem(graphTagsStorageKey, value ? "true" : "false")
+}
+
+function updateTagToggleButtons(showTags: boolean) {
+  const buttons = [...document.getElementsByClassName("graph-tag-toggle")] as HTMLButtonElement[]
+  for (const button of buttons) {
+    const showLabel = button.dataset["showLabel"] ?? "Show Tags"
+    const hideLabel = button.dataset["hideLabel"] ?? "Hide Tags"
+    button.classList.toggle("is-active", showTags)
+    button.setAttribute("aria-pressed", showTags ? "true" : "false")
+    button.textContent = showTags ? hideLabel : showLabel
+  }
+}
+
+function graphContainersByClass(className: string): HTMLElement[] {
+  return [...document.getElementsByClassName(className)] as HTMLElement[]
+}
+
+function applyTagVisibility(showTags: boolean) {
+  const containers = [
+    ...graphContainersByClass("graph-container"),
+    ...graphContainersByClass("global-graph-container"),
+  ]
+
+  for (const container of containers) {
+    const config = JSON.parse(container.dataset["cfg"]!) as D3Config
+    config.showTags = showTags
+    container.dataset["cfg"] = JSON.stringify(config)
+  }
+
+  updateTagToggleButtons(showTags)
 }
 
 type TweenNode = {
@@ -88,6 +132,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     focusOnHover,
     enableRadial,
   } = JSON.parse(graph.dataset["cfg"]!) as D3Config
+  showTags = getStoredTagVisibility(showTags)
 
   const data: Map<SimpleSlug, ContentDetails> = new Map(
     Object.entries<ContentDetails>(await fetchData).map(([k, v]) => [
@@ -585,6 +630,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
+  applyTagVisibility(getStoredTagVisibility(false))
   await renderLocalGraph()
   const handleThemeChange = () => {
     void renderLocalGraph()
@@ -598,6 +644,7 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   const containers = [...document.getElementsByClassName("global-graph-outer")] as HTMLElement[]
   async function renderGlobalGraph() {
     const slug = getFullSlug(window)
+    cleanupGlobalGraphs()
     for (const container of containers) {
       container.classList.add("active")
       const sidebar = container.closest(".sidebar") as HTMLElement
@@ -624,6 +671,18 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
     }
   }
 
+  async function handleTagToggle() {
+    const nextValue = !getStoredTagVisibility(false)
+    setStoredTagVisibility(nextValue)
+    applyTagVisibility(nextValue)
+    await renderLocalGraph()
+
+    const anyGlobalGraphOpen = containers.some((container) => container.classList.contains("active"))
+    if (anyGlobalGraphOpen) {
+      await renderGlobalGraph()
+    }
+  }
+
   async function shortcutHandler(e: HTMLElementEventMap["keydown"]) {
     if (e.key === "g" && (e.ctrlKey || e.metaKey) && !e.shiftKey) {
       e.preventDefault()
@@ -638,6 +697,12 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   Array.from(containerIcons).forEach((icon) => {
     icon.addEventListener("click", renderGlobalGraph)
     window.addCleanup(() => icon.removeEventListener("click", renderGlobalGraph))
+  })
+
+  const tagToggleButtons = document.getElementsByClassName("graph-tag-toggle")
+  Array.from(tagToggleButtons).forEach((button) => {
+    button.addEventListener("click", handleTagToggle)
+    window.addCleanup(() => button.removeEventListener("click", handleTagToggle))
   })
 
   document.addEventListener("keydown", shortcutHandler)

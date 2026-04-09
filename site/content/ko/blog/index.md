@@ -1,6 +1,6 @@
 ---
 title: "한국어 글 목록"
-description: "AI 영상 프롬프트와 촬영 설계 관련 한국어 게시글 모음."
+description: "AI 영상 프롬프트 글을 카테고리별 폴더로 정리한 한국어 인덱스."
 publish: true
 draft: false
 lang: "ko"
@@ -12,10 +12,16 @@ tags:
 
 # 한국어 글 목록
 
-이 폴더에는 한국어 게시글이 들어갑니다.
+한국어 글은 `AI 영상 -> 세부 카테고리` 구조로 정리됩니다.
 
-- 기본 경로: `site/content/ko/blog/`
-- 언어 짝을 맞추려면 영어 글도 같은 상대 경로에 두세요
-- 내부 연결은 `[[다른-글]]` 형식으로 작성하면 backlink가 표시됩니다
-- 첫 글 예시: [[ko/blog/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]
-- 프롬프트 아카이브 예시: [[ko/blog/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 프롬프트 아카이브: 맨해튼 질주, 빌딩 월런, 포털 다이브]]
+## AI 영상
+
+- 카테고리 허브: [[ko/blog/ai-video|AI 영상]]
+- 카메라 기법 폴더: [[ko/blog/ai-video/camera-techniques|카메라 기법]]
+- Seedance 아카이브 폴더: [[ko/blog/ai-video/seedance|Seedance]]
+
+## 바로 읽기
+
+- [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 완전 가이드]]
+- [[ko/blog/ai-video/camera-techniques/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]
+- [[ko/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 프롬프트 아카이브: 맨해튼 질주, 빌딩 월런, 포털 다이브]]

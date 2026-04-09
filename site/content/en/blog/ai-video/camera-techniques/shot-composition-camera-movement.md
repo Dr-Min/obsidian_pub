@@ -10,7 +10,8 @@ translationKey: "shot-composition-camera-movement"
 tags:
   - blog
   - en
-  - ai-video-prompts
+  - ai-video
+  - camera-techniques
   - shot-design
 aliases:
   - "AI video prompt shot guide"
@@ -24,7 +25,7 @@ For people-centered scenes, the most important variables are `shot size`, `camer
 
 Here is the basic shot-scale reference used in this article.
 
-![Shot scale reference](../../assets/shot-scale-reference.svg)
+![Shot scale reference](../../../../assets/shot-scale-reference.svg)
 
 ## Why composition language matters
 

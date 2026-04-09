@@ -1,6 +1,6 @@
 ---
 title: "English Articles"
-description: "English article index for AI video prompts, shot planning, and visual prompt systems."
+description: "English index for AI video prompt guides, camera techniques, and Seedance archives."
 publish: true
 draft: false
 lang: "en"
@@ -12,10 +12,15 @@ tags:
 
 # English Articles
 
-This folder holds English posts.
+The English section is organized as `AI Video -> category folders`.
 
-- Default path: `site/content/en/blog/`
-- Keep translated posts in the same relative path as their Korean pair when possible
-- Use `[[other-note]]` links to preserve backlinks inside the English section
-- First article example: [[en/blog/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
-- Prompt archive example: [[en/blog/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]
+## AI Video
+
+- Category hub: [[en/blog/ai-video|AI Video]]
+- Camera techniques folder: [[en/blog/ai-video/camera-techniques|Camera Techniques]]
+- Seedance archive folder: [[en/blog/ai-video/seedance|Seedance]]
+
+## Read Next
+
+- [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
+- [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]

@@ -10,9 +10,10 @@ translationKey: "seedance-manhattan-wall-run-portal-prompt"
 tags:
   - blog
   - en
+  - ai-video
+  - seedance
   - seedance-2
   - prompt-archive
-  - ai-video-prompts
   - vertical-video
 aliases:
   - "Manhattan wall run portal prompt archive"
@@ -22,7 +23,7 @@ aliases:
 
 This page is a **Seedance 2.0 action prompt archive**. The goal is not only to preserve the prompt, but to make it reusable later by documenting the **cut structure**, **main keywords**, **why it works**, and **how it adapts to 9:16 vertical framing**.
 
-If you want a deeper grounding in framing and camera language first, read [[en/blog/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]].
+If you want a deeper grounding in framing and camera language first, read [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]].
 
 ## Reference videos
 

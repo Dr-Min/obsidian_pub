@@ -37,7 +37,7 @@ npm run build:seomachine
 - Export blog posts there with:
 
 ```powershell
-python ..\..\scripts\codex_seo_machine.py quartz-export ..\..\drafts\your-article.md --locale ko --translation-key your-article
+python ..\..\scripts\codex_seo_machine.py quartz-export ..\..\drafts\your-article.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article
 ```
 
 Quartz supports Obsidian wikilinks and backlinks, so links like `[[another-post]]` will work in the published site.

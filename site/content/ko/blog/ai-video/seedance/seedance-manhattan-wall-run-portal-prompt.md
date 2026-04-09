@@ -10,9 +10,10 @@ translationKey: "seedance-manhattan-wall-run-portal-prompt"
 tags:
   - blog
   - ko
+  - ai-video
+  - seedance
   - seedance-2
   - prompt-archive
-  - ai-video-prompts
   - vertical-video
 aliases:
   - "맨해튼 월런 포털 프롬프트 아카이브"
@@ -22,7 +23,7 @@ aliases:
 
 이 글은 **Seedance 2.0 기반 액션 프롬프트 아카이브**입니다. 목적은 단순 보관이 아니라, 나중에 다시 꺼내 쓸 수 있도록 **컷 구조**, **핵심 키워드**, **왜 먹히는지**, **9:16 변형 포인트**까지 정리하는 데 있습니다.
 
-구도와 카메라 언어 자체가 익숙하지 않다면 먼저 [[ko/blog/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]부터 보는 편이 좋습니다.
+구도와 카메라 언어 자체가 익숙하지 않다면 먼저 [[ko/blog/ai-video/camera-techniques/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]부터 보는 편이 좋습니다.
 
 ## 레퍼런스 영상
 

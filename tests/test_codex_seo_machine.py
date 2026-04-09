@@ -208,6 +208,18 @@ Body text.
             REPO_ROOT / "site/content/ko/blog/shot-composition-guide.md",
         )
 
+    def test_default_quartz_export_path_supports_nested_folder_segments(self) -> None:
+        output = default_quartz_export_path(
+            REPO_ROOT / "site/content",
+            "blog/ai-video/seedance",
+            "Portal Dive Prompt",
+            locale="ko",
+        )
+        self.assertEqual(
+            output,
+            REPO_ROOT / "site/content/ko/blog/ai-video/seedance/portal-dive-prompt.md",
+        )
+
     def test_normalize_site_locale_accepts_supported_values(self) -> None:
         self.assertEqual(normalize_site_locale("ko"), "ko")
         self.assertEqual(normalize_site_locale("en"), "en")

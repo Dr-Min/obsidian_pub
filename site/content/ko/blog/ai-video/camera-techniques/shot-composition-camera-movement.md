@@ -10,7 +10,8 @@ translationKey: "shot-composition-camera-movement"
 tags:
   - blog
   - ko
-  - ai-video-prompts
+  - ai-video
+  - camera-techniques
   - shot-design
 aliases:
   - "AI 영상 프롬프트 구도 가이드"
@@ -22,7 +23,7 @@ AI 영상 모델은 "예쁜 영상"이라는 막연한 표현보다, **무엇을
 
 아래 다이어그램은 가장 기본적인 샷 스케일입니다.
 
-![샷 스케일 레퍼런스](../../assets/shot-scale-reference.svg)
+![샷 스케일 레퍼런스](../../../../assets/shot-scale-reference.svg)
 
 ## 왜 구도 설명이 중요한가
 

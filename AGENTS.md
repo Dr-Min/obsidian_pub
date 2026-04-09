@@ -68,10 +68,10 @@ This scrubs the draft in place and writes an optimization report next to it.
 Run:
 
 ```powershell
-python scripts/codex_seo_machine.py quartz-export drafts/your-article.md
+python scripts/codex_seo_machine.py quartz-export drafts/your-article.md --locale ko --folder blog/ai-video/camera-techniques --translation-key your-article
 ```
 
-This writes a Quartz-ready note into `site/content/blog/` by default. You can also point `--content-dir` to an external Obsidian vault root or an existing Quartz `content/` directory.
+This writes a Quartz-ready note into `site/content/ko/blog/ai-video/...` or `site/content/en/blog/ai-video/...` when you pass `--locale` and a nested `--folder`. You can also point `--content-dir` to an external Obsidian vault root or an existing Quartz `content/` directory.
 
 ### 7. Install Quartz Dependencies
 
@@ -110,7 +110,7 @@ This uses the existing WordPress REST integration if you still want it.
 - Research briefs: `research/brief-[topic-slug]-[YYYY-MM-DD].md`
 - Article plans: `research/article-plan-[topic-slug]-[YYYY-MM-DD].md`
 - Drafts: `drafts/[topic-slug]-[YYYY-MM-DD].md`
-- Obsidian/Quartz notes: `site/content/blog/[topic-slug].md`
+- Obsidian/Quartz notes: `site/content/[locale]/blog/ai-video/[category]/[topic-slug].md`
 - Quartz project: `site/quartz-site/`
 - Rewrites: `rewrites/[topic-slug]-rewrite-[YYYY-MM-DD].md`
 - Published references: `published/`
