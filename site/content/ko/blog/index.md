@@ -18,3 +18,4 @@ tags:
 - 언어 짝을 맞추려면 영어 글도 같은 상대 경로에 두세요
 - 내부 연결은 `[[다른-글]]` 형식으로 작성하면 backlink가 표시됩니다
 - 첫 글 예시: [[ko/blog/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]
+- 프롬프트 아카이브 예시: [[ko/blog/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 프롬프트 아카이브: 맨해튼 질주, 빌딩 월런, 포털 다이브]]
