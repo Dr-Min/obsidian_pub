@@ -1,25 +1,25 @@
 ---
-title: "Home"
-description: "SEO Machine publishing workspace powered by Obsidian-style notes and Quartz."
+title: "AI Prompt Library"
+description: "Bilingual publishing hub for AI prompt guides, visual references, and workflow notes."
 publish: true
 draft: false
 tags:
   - home
+  - bilingual
 ---
 
-# SEO Machine
+# AI Prompt Library
 
-This site is designed for an Obsidian-style writing workflow with free public publishing through Quartz and Cloudflare Pages.
+This site publishes prompt-writing notes in two language paths so Korean and English readers each get a dedicated URL.
 
-## Start Here
+## Choose a Language
 
-- Browse the [[blog/index|blog]]
-- Add posts to `site/content/blog/`
-- Use wikilinks like `[[another-post]]` to build internal connections and backlinks
+- [한국어로 보기](./ko/)
+- [Read in English](./en/)
 
-## Workflow
+## What Lives Here
 
-1. Draft articles in `drafts/`
-2. Optimize them
-3. Export them to Quartz-ready notes
-4. Build and publish the site
+- Camera composition guides
+- Shot design and framing references
+- Lighting, motion, and storyboard prompt patterns
+- Linked notes with Obsidian-style backlinks inside each language section

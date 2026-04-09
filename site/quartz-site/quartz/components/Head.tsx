@@ -5,12 +5,20 @@ import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
 import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+import {
+  SITE_LOCALES,
+  absoluteHrefForSlug,
+  findLocalizedVariant,
+  isLocaleHome,
+  localeFromPage,
+} from "../util/siteLocale"
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
     fileData,
     externalResources,
     ctx,
+    allFiles,
   }: QuartzComponentProps) => {
     const titleSuffix = cfg.pageTitleSuffix ?? ""
     const title =
@@ -28,8 +36,28 @@ export default (() => {
     const iconPath = joinSegments(baseDir, "static/icon.png")
 
     // Url of current page
-    const socialUrl =
-      fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
+    const socialPath = fileData.slug === "404" ? "/" : absoluteHrefForSlug(fileData.slug) ?? "/"
+    const socialUrl = fileData.slug === "404" ? url.toString() : new URL(socialPath, url).toString()
+    const canonicalUrl = socialUrl
+
+    const locale = localeFromPage(fileData)
+    const alternateLinks =
+      locale && fileData.slug
+        ? SITE_LOCALES.flatMap((targetLocale) => {
+            const variant = findLocalizedVariant(fileData, allFiles, targetLocale)
+            const href = absoluteHrefForSlug(variant?.slug)
+            return href
+              ? [
+                  {
+                    hrefLang: targetLocale,
+                    href: `https://${cfg.baseUrl}${href}`,
+                  },
+                ]
+              : []
+          })
+        : []
+    const xDefaultHref =
+      locale && isLocaleHome(fileData) ? `https://${cfg.baseUrl}/` : null
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
       (e) => e.name === CustomOgImagesEmitterName,
@@ -79,6 +107,16 @@ export default (() => {
             <meta property="twitter:domain" content={cfg.baseUrl}></meta>
             <meta property="og:url" content={socialUrl}></meta>
             <meta property="twitter:url" content={socialUrl}></meta>
+            <link rel="canonical" href={canonicalUrl} />
+            {alternateLinks.map((alternate) => (
+              <link
+                key={alternate.hrefLang}
+                rel="alternate"
+                hrefLang={alternate.hrefLang}
+                href={alternate.href}
+              />
+            ))}
+            {xDefaultHref && <link rel="alternate" hrefLang="x-default" href={xDefaultHref} />}
           </>
         )}
 

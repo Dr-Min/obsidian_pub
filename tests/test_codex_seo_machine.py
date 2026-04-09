@@ -17,6 +17,7 @@ from scripts.codex_seo_machine import (  # noqa: E402
     convert_internal_markdown_links_to_wikilinks,
     default_quartz_export_path,
     extract_field,
+    normalize_site_locale,
     parse_brief,
     slugify,
 )
@@ -165,6 +166,25 @@ Body text.
         self.assertNotIn("**Meta Title**:", note)
         self.assertNotIn("# Email Marketing for SaaS", note)
 
+    def test_build_quartz_note_markdown_supports_locale_metadata(self) -> None:
+        article = """
+# Shot Composition Guide
+
+**Meta Description**: Learn how to describe wide, medium, and close-up shots.
+"""
+        note = build_quartz_note_markdown(
+            article_content=article,
+            source_path=REPO_ROOT / "drafts/shot-composition-guide-2026-04-10.md",
+            internal_domains_list=[],
+            publish=True,
+            tags=["blog"],
+            locale="ko",
+            translation_key="shot-composition-guide",
+        )
+        self.assertIn('lang: "ko"', note)
+        self.assertIn('translationKey: "shot-composition-guide"', note)
+        self.assertIn("- blog", note)
+
     def test_default_quartz_export_path_uses_blog_folder_and_slug(self) -> None:
         output = default_quartz_export_path(
             REPO_ROOT / "site/content",
@@ -175,6 +195,23 @@ Body text.
             output,
             REPO_ROOT / "site/content/blog/email-marketing-for-saas.md",
         )
+
+    def test_default_quartz_export_path_uses_locale_subfolder(self) -> None:
+        output = default_quartz_export_path(
+            REPO_ROOT / "site/content",
+            "blog",
+            "Shot Composition Guide",
+            locale="ko",
+        )
+        self.assertEqual(
+            output,
+            REPO_ROOT / "site/content/ko/blog/shot-composition-guide.md",
+        )
+
+    def test_normalize_site_locale_accepts_supported_values(self) -> None:
+        self.assertEqual(normalize_site_locale("ko"), "ko")
+        self.assertEqual(normalize_site_locale("en"), "en")
+        self.assertIsNone(normalize_site_locale(None))
 
     def test_build_quartz_build_args_for_serve_mode(self) -> None:
         args = build_quartz_build_args(

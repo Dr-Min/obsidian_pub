@@ -41,6 +41,7 @@ TEMPLATE_MARKERS = (
 )
 
 DEFAULT_TARGET_WORD_COUNT = "2200-2800"
+SUPPORTED_SITE_LOCALES = ("ko", "en")
 
 
 @dataclass
@@ -166,6 +167,18 @@ def split_csv(value: str) -> List[str]:
     return [item.strip() for item in value.split(",") if item.strip()]
 
 
+def normalize_site_locale(value: Optional[str]) -> Optional[str]:
+    if value is None:
+        return None
+
+    normalized = value.strip().lower()
+    if normalized in SUPPORTED_SITE_LOCALES:
+        return normalized
+    raise ValueError(
+        f"Unsupported site locale '{value}'. Supported locales: {', '.join(SUPPORTED_SITE_LOCALES)}."
+    )
+
+
 def section_text(text: str, heading: str) -> str:
     pattern = rf"^##\s+{re.escape(heading)}\s*$"
     match = re.search(pattern, text, re.MULTILINE)
@@ -254,11 +267,23 @@ def default_optimize_report_path(article_path: Path) -> Path:
     return article_path.with_name(f"optimization-{article_path.stem}-{today_iso()}.md")
 
 
-def default_quartz_export_path(content_root: Path, folder: str, topic_or_slug: str) -> Path:
+def default_quartz_export_path(
+    content_root: Path,
+    folder: str,
+    topic_or_slug: str,
+    locale: Optional[str] = None,
+) -> Path:
     normalized_folder = folder.strip("/\\")
-    if normalized_folder:
-        return content_root / normalized_folder / f"{slugify(topic_or_slug)}.md"
-    return content_root / f"{slugify(topic_or_slug)}.md"
+    parts = [content_root]
+
+    folder_segments = [segment for segment in re.split(r"[\\/]+", normalized_folder) if segment]
+    if locale and folder_segments[:1] != [locale]:
+        parts.append(Path(locale))
+
+    if folder_segments:
+        parts.append(Path(*folder_segments))
+
+    return Path(*parts) / f"{slugify(topic_or_slug)}.md"
 
 
 def default_quartz_project_dir() -> Path:
@@ -406,6 +431,8 @@ def build_quartz_note_markdown(
     internal_domains_list: Sequence[str],
     publish: bool,
     tags: Sequence[str],
+    locale: Optional[str] = None,
+    translation_key: Optional[str] = None,
 ) -> str:
     metadata = article_metadata(article_content, source_path)
     body = strip_article_metadata(article_content, metadata.title)
@@ -430,6 +457,11 @@ def build_quartz_note_markdown(
             f"publish: {'true' if publish else 'false'}",
         ]
     )
+
+    if locale:
+        lines.append(f"lang: {yaml_escape(locale)}")
+    if translation_key:
+        lines.append(f"translationKey: {yaml_escape(translation_key)}")
 
     if normalized_tags:
         lines.append("tags:")
@@ -922,21 +954,36 @@ def run_quartz_export(args: argparse.Namespace) -> int:
     article_path = Path(args.article)
     article_content = load_article(article_path)
     metadata = article_metadata(article_content, article_path)
+    locale = normalize_site_locale(args.locale)
 
     content_root = Path(args.content_dir) if args.content_dir else repo_path("site/content")
     tags = split_csv(args.tags) if args.tags else ["blog"]
+    if locale and locale not in tags:
+        tags.append(locale)
+
+    translation_key = args.translation_key.strip() if args.translation_key else None
+    if locale and not translation_key:
+        translation_key = metadata.slug or slugify(metadata.title)
+
     note = build_quartz_note_markdown(
         article_content=article_content,
         source_path=article_path,
         internal_domains_list=internal_domains(),
         publish=not args.draft,
         tags=tags,
+        locale=locale,
+        translation_key=translation_key,
     )
 
     output = (
         Path(args.output)
         if args.output
-        else default_quartz_export_path(content_root, args.folder, metadata.slug or metadata.title)
+        else default_quartz_export_path(
+            content_root,
+            args.folder,
+            metadata.slug or metadata.title,
+            locale=locale,
+        )
     )
     write_text(output, note, overwrite=args.overwrite)
     print(f"quartz note exported to {output}")
@@ -1020,6 +1067,15 @@ def build_parser() -> argparse.ArgumentParser:
         "--folder",
         default="blog",
         help="Folder under the content root where the note will be written. Default: blog.",
+    )
+    quartz_parser.add_argument(
+        "--locale",
+        choices=SUPPORTED_SITE_LOCALES,
+        help="Optional site locale. Current bilingual site supports ko and en.",
+    )
+    quartz_parser.add_argument(
+        "--translation-key",
+        help="Optional shared translation key used to pair ko/en versions of the same article.",
     )
     quartz_parser.add_argument("--output", help="Optional full output path.")
     quartz_parser.add_argument("--tags", help='Comma-separated tags, for example "blog,seo,saas".')

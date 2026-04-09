@@ -32,10 +32,13 @@ npm run build:seomachine
 ## Content Source
 
 - Source notes live in `../content`
+- Korean content lives in `../content/ko`
+- English content lives in `../content/en`
 - Export blog posts there with:
 
 ```powershell
-python ..\..\scripts\codex_seo_machine.py quartz-export ..\..\drafts\your-article.md
+python ..\..\scripts\codex_seo_machine.py quartz-export ..\..\drafts\your-article.md --locale ko --translation-key your-article
 ```
 
 Quartz supports Obsidian wikilinks and backlinks, so links like `[[another-post]]` will work in the published site.
+Paired `ko/en` pages also get language-switch links and SEO-safe `hreflang` tags.

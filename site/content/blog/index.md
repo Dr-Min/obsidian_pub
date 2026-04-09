@@ -1,16 +1,16 @@
 ---
-title: "Blog"
-description: "Published articles exported from SEO Machine into Quartz."
+title: "All Articles"
+description: "Language hub for published Korean and English prompt-writing articles."
 publish: true
 draft: false
 tags:
   - blog
+  - bilingual
 ---
 
-# Blog
+# All Articles
 
-Published articles live in this folder.
+Choose a language-specific article list:
 
-- Add notes here with `python scripts/codex_seo_machine.py quartz-export drafts/your-article.md`
-- Cross-link posts with Obsidian wikilinks such as `[[another-post]]`
-- Quartz will show backlinks when one note links to another
+- [한국어 글 목록](../ko/blog/)
+- [English article index](../en/blog/)
