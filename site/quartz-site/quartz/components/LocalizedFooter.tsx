@@ -12,8 +12,6 @@ type FooterLink = {
 function linksForLocale(locale: string | null): FooterLink[] {
   if (locale === "ko") {
     return [
-      { text: "홈", href: "/ko/" },
-      { text: "블로그", href: "/ko/blog" },
       { text: "소개", href: "/ko/about" },
       { text: "개인정보처리방침", href: "/ko/privacy" },
       { text: "문의", href: "/ko/contact" },
@@ -22,8 +20,6 @@ function linksForLocale(locale: string | null): FooterLink[] {
 
   if (locale === "en") {
     return [
-      { text: "Home", href: "/en/" },
-      { text: "Blog", href: "/en/blog" },
       { text: "About", href: "/en/about" },
       { text: "Privacy", href: "/en/privacy" },
       { text: "Contact", href: "/en/contact" },
@@ -31,12 +27,8 @@ function linksForLocale(locale: string | null): FooterLink[] {
   }
 
   return [
-    { text: "Home", href: "/" },
     { text: "한국어", href: "/ko/" },
     { text: "English", href: "/en/" },
-    { text: "About", href: "/en/about" },
-    { text: "Privacy", href: "/en/privacy" },
-    { text: "Contact", href: "/en/contact" },
   ]
 }
 
@@ -49,7 +41,7 @@ const LocalizedFooter: QuartzComponent = ({ displayClass, cfg, fileData }: Quart
     <footer class={`${displayClass ?? ""}`}>
       <p>
         {i18n(cfg.locale).components.footer.createdWith}{" "}
-        <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+        <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> · {year}
       </p>
       <ul>
         {links.map((link) => (

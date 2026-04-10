@@ -10,28 +10,19 @@ tags:
 
 # MINventory
 
-MINventory publishes prompt-writing notes in two language paths so Korean and English readers each get a dedicated URL.
+MINventory publishes AI prompt and visual-reference notes in two language paths so Korean and English readers each get a dedicated URL.
 
 ## Editorial Rule
 
 - Every public article should exist in both Korean and English.
 - Both versions should use the same relative path under `ko/` and `en/`.
 - Both versions should share the same `translationKey` so the language toggle can switch between them.
-- Public notes should be stored in category folders. Current examples: `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/`.
+- Public notes should be stored in category folders such as `blog/ai-video/`.
 
 ## Choose a Language
 
 - [한국어로 보기](./ko/)
 - [Read in English](./en/)
-
-## Site Information
-
-- [[ko/about|소개]]
-- [[ko/privacy|개인정보처리방침]]
-- [[ko/contact|문의]]
-- [[en/about|About]]
-- [[en/privacy|Privacy Policy]]
-- [[en/contact|Contact]]
 
 ## What Lives Here
 

@@ -1,7 +1,8 @@
 footer {
   text-align: left;
   margin-bottom: 4rem;
-  opacity: 0.7;
+  opacity: 0.72;
+  font-size: 0.95rem;
 
   & ul {
     list-style: none;
@@ -9,7 +10,12 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    margin-top: -1rem;
+    flex-wrap: wrap;
+    gap: 0.85rem;
+    margin-top: 0.45rem;
+  }
+
+  & p {
+    margin-bottom: 0.35rem;
   }
 }

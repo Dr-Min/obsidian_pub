@@ -1,6 +1,11 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+const primaryExplorer = Component.Explorer({
+  filterFn: (node) =>
+    node.slugSegment !== "tags" && !["about", "privacy", "contact"].includes(node.slugSegment),
+})
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -34,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    primaryExplorer,
   ],
   right: [
     Component.Graph(),
@@ -63,7 +68,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    primaryExplorer,
   ],
   right: [],
 }

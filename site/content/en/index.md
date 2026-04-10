@@ -12,19 +12,17 @@ tags:
 
 # English Hub
 
-This section publishes English notes about AI video prompts, image prompts, and visual direction systems.
+This is the main English entry point for AI video prompts, visual direction notes, and shot-design references.
 
 ## Topics
 
 - Shot composition and lens choices
 - Camera motion and scene blocking
-- Lighting, mood, and color direction
+- Lighting, mood, texture, and color direction
 - Prompt guides with reference images and embedded videos
 
 ## Start Here
 
 - [[en/blog/index|English article index]]
-- [[en/about|About]]
-- [[en/privacy|Privacy Policy]]
-- [[en/contact|Contact]]
+- [[en/blog/ai-video|AI Video hub]]
 - [한국어 보기](../ko/)
