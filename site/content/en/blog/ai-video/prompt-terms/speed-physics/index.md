@@ -1,6 +1,6 @@
 ---
 title: "Speed and Physics"
-description: "A glossary for speed, force, impact, and physical behavior in motion-heavy prompts."
+description: "A practical AI video prompt glossary for motion speed, force, and physical believability, rebuilt with real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,89 +14,96 @@ tags:
 
 # Speed and Physics
 
-Action scenes feel far more convincing when speed is paired with believable force and mass. 'Fast' alone is usually weaker than a prompt that also describes weight and impact.
-
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms tell the model not only how fast something moves, but also how heavy and forceful it should feel.
+This page has been rebuilt with **real photographic references**.  
+Speed-and-physics terms do more than say that something is fast or powerful. They describe how force carries, how mass behaves, and how motion leaves visible consequences in the frame.
 
 ## slow motion
 
-A slowed-down treatment that stretches time for emphasis.
+Slow motion stretches a fast event so smaller physical reactions become readable.
 
-![[assets/ai-video/glossary/speed-physics/slow-motion.svg|1200]]
+![slow motion reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Splash%201%20%2812160360784%29.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, slow motion, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `slow motion, suspended droplets, stretched action timing`
+- Real reference: [Splash 1 (12160360784).jpg](<https://commons.wikimedia.org/wiki/File%3ASplash%201%20%2812160360784%29.jpg>)
 
 ## real-time motion
 
-Motion presented at a natural real-time speed.
+Real-time motion keeps the event at ordinary speed rather than stylizing it through temporal distortion.
 
-![[assets/ai-video/glossary/speed-physics/real-time-motion.svg|1200]]
+![real-time motion reference](<https://commons.wikimedia.org/wiki/Special:FilePath/The%20runner%20-%20Chicago%2C%20United%20States%20-%20Black%20and%20white%20street%20photography%20%2821083841669%29.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, real-time motion, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `real-time motion, natural speed, unstretched movement`
+- Real reference: [The runner - Chicago, United States - Black and white street photography (21083841669).jpg](<https://commons.wikimedia.org/wiki/File%3AThe%20runner%20-%20Chicago%2C%20United%20States%20-%20Black%20and%20white%20street%20photography%20%2821083841669%29.jpg>)
 
 ## motion blur
 
-Blur streaks that imply fast movement through the frame.
+Motion blur gives speed a visible trace. Instead of freezing motion, it lets movement smear across the frame.
 
-![[assets/ai-video/glossary/speed-physics/motion-blur.svg|1200]]
+![motion blur reference](<https://commons.wikimedia.org/wiki/Special:FilePath/03%20portrait%20motion%20blur%20experimental%20digital%20photography%20by%20Rick%20Doble.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, motion blur, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `motion blur, speed streaks, directional smear`
+- Real reference: [03 portrait motion blur experimental digital photography by Rick Doble.jpg](<https://commons.wikimedia.org/wiki/File%3A03%20portrait%20motion%20blur%20experimental%20digital%20photography%20by%20Rick%20Doble.jpg>)
 
 ## shockwave
 
-A visible wave of force pushing through air, dust, or debris.
+Shockwave implies that force does not stop at the point of contact. It keeps traveling outward through air, dust, or surrounding material.
 
-![[assets/ai-video/glossary/speed-physics/shockwave.svg|1200]]
+![shockwave reference](<https://commons.wikimedia.org/wiki/Special:FilePath/23%200066984%20Convair%20Negative%20Image%20-%20Blast%20wave%20over%20a%20fixed%20structure%20measured%20with%20pressure%20change%20over%20time%20%2854158119780%29.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, shockwave, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `shockwave, outward force ring, displaced air and debris`
+- Real reference: [23 0066984 Convair Negative Image - Blast wave over a fixed structure measured with pressure change over time (54158119780).jpg](<https://commons.wikimedia.org/wiki/File%3A23%200066984%20Convair%20Negative%20Image%20-%20Blast%20wave%20over%20a%20fixed%20structure%20measured%20with%20pressure%20change%20over%20time%20%2854158119780%29.jpg>)
 
 ## energy trail
 
-A luminous trail or streak that follows fast movement.
+Energy trail describes luminous or persistent traces left behind by fast movement.
 
-![[assets/ai-video/glossary/speed-physics/energy-trail.svg|1200]]
+![energy trail reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Light%20Painting%201%20-%20Booyeembara%20Park.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, energy trail, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `energy trail, luminous streaks, persistent movement trace`
+- Real reference: [Light Painting 1 - Booyeembara Park.jpg](<https://commons.wikimedia.org/wiki/File%3ALight%20Painting%201%20-%20Booyeembara%20Park.jpg>)
 
 ## impact
 
-The hit, landing, or collision force at a key moment.
+Impact is the readable force of collision, landing, or strike at the exact moment of contact.
 
-![[assets/ai-video/glossary/speed-physics/impact.svg|1200]]
+![impact reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Water%20drop%20impact%20on%20a%20water-surface%20-%20%284%29.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, impact, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `impact, visible collision force, forceful contact moment`
+- Real reference: [Water drop impact on a water-surface - (4).jpg](<https://commons.wikimedia.org/wiki/File%3AWater%20drop%20impact%20on%20a%20water-surface%20-%20%284%29.jpg>)
 
 ## weight
 
-A sense that the moving subject carries believable mass.
+Weight means movement feels loaded with mass rather than floating without consequence.
 
-![[assets/ai-video/glossary/speed-physics/weight.svg|1200]]
+![weight reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Oksana%20Slivenko%20on%20Geraklion.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, weight, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `weight, loaded body mechanics, heavy grounded force`
+- Real reference: [Oksana Slivenko on Geraklion.jpg](<https://commons.wikimedia.org/wiki/File%3AOksana%20Slivenko%20on%20Geraklion.jpg>)
 
 ## momentum
 
-The carried force of movement continuing through the action.
+Momentum is the carry of force after movement has already started. It makes acceleration feel continuous instead of isolated.
 
-![[assets/ai-video/glossary/speed-physics/momentum.svg|1200]]
+![momentum reference](<https://commons.wikimedia.org/wiki/Special:FilePath/A%20Toronto%20cyclist%20%281%29%2003.jpg?width=1200>)
 
-- Prompt fragment: `a sprinting character, momentum, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `momentum, sustained forward force, carried acceleration`
+- Real reference: [A Toronto cyclist (1) 03.jpg](<https://commons.wikimedia.org/wiki/File%3AA%20Toronto%20cyclist%20%281%29%2003.jpg>)
 
 ## physics-based movement
 
-Movement that respects inertia, gravity, and believable physical reaction.
+Physics-based movement means the body respects gravity, landing logic, inertia, and believable balance.
 
-![[assets/ai-video/glossary/speed-physics/physics-based-movement.svg|1200]]
+![physics-based movement reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Nyc%20parkour%20roof%20gap.png?width=1200>)
 
-- Prompt fragment: `a sprinting character, physics-based movement, debris, cinematic action`
-- What to notice: Speed becomes more convincing when weight, force, and inertia are included.
+- Prompt fragment: `physics-based movement, believable jump arc, grounded body mechanics`
+- Real reference: [Nyc parkour roof gap.png](<https://commons.wikimedia.org/wiki/File%3ANyc%20parkour%20roof%20gap.png>)
+
+## Summary
+
+It helps to divide this category into three working groups.
+
+- time treatment: `slow motion`, `real-time motion`
+- visible speed residue: `motion blur`, `energy trail`
+- force transfer: `shockwave`, `impact`, `weight`, `momentum`, `physics-based movement`
+
+When this layer is missing from an AI video prompt, action often feels weightless or toy-like.

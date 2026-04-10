@@ -1,6 +1,6 @@
 ---
 title: "Lens and Depth"
-description: "A practical glossary for focal length, depth of field, and focus behavior built with real photo references."
+description: "A practical glossary for focal length, depth of field, and focus behavior built with unique real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,8 +14,8 @@ tags:
 
 # Lens and Depth
 
-This page has been rebuilt with **real photographic references**.  
-The 24mm, 35mm, and 50mm examples use the same kind of test scene so the angle-of-view shift stays easy to compare. For time-based terms such as `rack focus`, the still reference is used to show the **focus-plane separation** that the move depends on.
+This page has been rebuilt with **unique real photographic references**.  
+The 24mm, 35mm, and 50mm examples intentionally use the same style of test scene so the angle-of-view shift stays easy to compare. The depth and focus terms use separate references so the page does not recycle the same display image across different ideas.
 
 ## 24mm wide lens
 
@@ -24,7 +24,7 @@ The 24mm, 35mm, and 50mm examples use the same kind of test scene so the angle-o
 ![24mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f24mm.jpg?width=1100)
 
 - Prompt fragment: `24mm wide lens, expanded environment, strong spatial depth`
-- Real reference: [Focal length f24mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f24mm.jpg)
+- Real reference: [Focal length f24mm.jpg](https://commons.wikimedia.org/wiki/File%3AFocal_length_f24mm.jpg)
 
 ## 35mm lens
 
@@ -33,7 +33,7 @@ The 24mm, 35mm, and 50mm examples use the same kind of test scene so the angle-o
 ![35mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f35mm.jpg?width=1100)
 
 - Prompt fragment: `35mm lens, natural cinematic perspective, balanced framing`
-- Real reference: [Focal length f35mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f35mm.jpg)
+- Real reference: [Focal length f35mm.jpg](https://commons.wikimedia.org/wiki/File%3AFocal_length_f35mm.jpg)
 
 ## 50mm lens
 
@@ -42,7 +42,7 @@ The 24mm, 35mm, and 50mm examples use the same kind of test scene so the angle-o
 ![50mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f50mm.jpg?width=1100)
 
 - Prompt fragment: `50mm lens, natural perspective, neutral subject-to-background balance`
-- Real reference: [Focal length f50mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f50mm.jpg)
+- Real reference: [Focal length f50mm.jpg](https://commons.wikimedia.org/wiki/File%3AFocal_length_f50mm.jpg)
 
 ## 85mm portrait lens
 
@@ -51,25 +51,25 @@ The 85mm portrait zone compresses the background more strongly and gives clean v
 ![85mm portrait reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1100)
 
 - Prompt fragment: `85mm portrait lens, compressed background, clean subject separation`
-- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
+- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File%3AElegant_woman_by_storefront_%28Unsplash%29.jpg)
 
 ## shallow depth of field
 
 Shallow depth of field keeps the subject sharp while pushing the background into blur. It is one of the fastest ways to isolate attention.
 
-![shallow depth of field reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
+![[assets/ai-video/shot-composition-photos/close-up.jpg|1200]]
 
 - Prompt fragment: `shallow depth of field, creamy background blur, subject isolated`
-- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
+- Real reference: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## deep focus
 
 Deep focus keeps foreground and background readable at the same time. It is useful when geography, blocking, or layered action matters.
 
-![deep focus reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
+![deep focus reference](https://commons.wikimedia.org/wiki/Special:FilePath/Vilnius%20Modern%20Skyline%20At%20Dusk%2C%20Lithuania%20-%20Diliff.jpg?width=1200)
 
 - Prompt fragment: `deep focus, foreground and background both sharp, spatial clarity`
-- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
+- Real reference: [Vilnius Modern Skyline At Dusk, Lithuania - Diliff.jpg](https://commons.wikimedia.org/wiki/File%3AVilnius%20Modern%20Skyline%20At%20Dusk%2C%20Lithuania%20-%20Diliff.jpg)
 
 ## anamorphic lens look
 
@@ -78,16 +78,16 @@ An anamorphic look usually implies horizontal flares, a wider cinematic impressi
 ![anamorphic lens look reference](https://commons.wikimedia.org/wiki/Special:FilePath/Lens_Flare_(Unsplash).jpg?width=1200)
 
 - Prompt fragment: `anamorphic lens look, horizontal flare, cinematic widescreen mood`
-- Real reference: [Lens Flare (Unsplash)](https://commons.wikimedia.org/wiki/File:Lens_Flare_(Unsplash).jpg)
+- Real reference: [Lens Flare (Unsplash)](https://commons.wikimedia.org/wiki/File%3ALens_Flare_%28Unsplash%29.jpg)
 
 ## rack focus
 
-`rack focus` shifts sharpness from one subject plane to another. A still image cannot show the transition in time, so the key reference is the **near-vs-far focus separation** the move relies on.
+`rack focus` shifts sharpness from one subject plane to another. A still image cannot show the transition in time, so the key reference is the **near-vs-far focus separation** the move depends on.
 
 ![rack focus reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
 
 - Prompt fragment: `rack focus from foreground object to background subject`
-- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
+- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File%3ADepth-of-field-comparison-side-by-side-small.png)
 
 ## Summary
 

@@ -1,6 +1,6 @@
 ---
 title: "Editing and Cut Structure"
-description: "A glossary for planning short sequences through cuts, beats, and transitions."
+description: "A practical glossary for planning short AI video sequences through cuts, beats, and transitions using real photographic references."
 publish: true
 draft: false
 lang: "en"
@@ -16,87 +16,97 @@ tags:
 
 AI video often becomes stronger when it moves beyond a single shot. Cut-structure terms give short sequences rhythm and progression.
 
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms help you divide time into setup, escalation, climax, and transition beats.
+This page no longer uses SVG placeholders. The visual examples are now **real-photo reference boards** built from CC0 or public photographic sources, plus a few single-photo references where one frame is enough.
 
 ## Cut 1 / Cut 2
 
-A simple way to break a prompt into ordered shot beats.
+This is the simplest way to split a prompt into ordered beats. The point is not only what each shot looks like, but how the second shot changes scale, emphasis, or information.
 
-![[assets/ai-video/glossary/editing-cuts/cut-1-cut-2.svg|1200]]
+![[assets/ai-video/editing-cuts-photos/cut-1-cut-2.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 Cut 1 / Cut 2, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `Cut 1 wide establishing frame, Cut 2 close-up emotional emphasis`
+- Real reference board: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg) + [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), both `CC0`
 
 ## setup
 
-The opening beat that establishes the situation and space.
+The setup is the opening beat that establishes the situation, the space, and the basic visual logic of the sequence.
 
-![[assets/ai-video/glossary/editing-cuts/setup.svg|1200]]
+![[assets/ai-video/shot-composition-photos/wide-shot.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 setup, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `Cut 1 setup, wide establishing frame, subject small inside the environment`
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## escalation
 
-The beat where motion, tension, or stakes start rising.
+Escalation is the beat where motion, tension, or stakes start rising. The subject is no longer only introduced; the sequence begins to accelerate.
 
-![[assets/ai-video/glossary/editing-cuts/escalation.svg|1200]]
+![escalation reference](https://commons.wikimedia.org/wiki/Special:FilePath/Woman_running.jpg?width=1200)
 
-- Prompt fragment: `Cut 1 setup, Cut 2 escalation, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `Cut 2 escalation, faster movement, rising urgency`
+- Real reference: [Woman running](https://commons.wikimedia.org/wiki/File%3AWoman_running.jpg)
 
 ## climax
 
-The visual or emotional peak of the sequence.
+The climax is the visual or emotional peak of the sequence. It is the moment where scale, intensity, or payoff becomes most explicit.
 
-![[assets/ai-video/glossary/editing-cuts/climax.svg|1200]]
+![climax reference](<https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/New_York_City_night_skyline_by_500px_1.jpg/1280px-New_York_City_night_skyline_by_500px_1.jpg>)
 
-- Prompt fragment: `Cut 1 setup, Cut 2 climax, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `Cut 3 climax, epic payoff, maximum visual scale`
+- Real reference: [New York City night skyline by 500px 1.jpg](<https://commons.wikimedia.org/wiki/File%3ANew%20York%20City%20night%20skyline%20by%20500px%201.jpg>)
 
 ## ending beat
 
-The final beat that lands the sequence and leaves an afterimage.
+The ending beat is the final image that leaves the sequence with a residue, aftertaste, or visual landing.
 
-![[assets/ai-video/glossary/editing-cuts/ending-beat.svg|1200]]
+![ending beat reference](https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Hour_(Unsplash).jpg?width=1200)
 
-- Prompt fragment: `Cut 1 setup, Cut 2 ending beat, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `final ending beat, quieter landing image, lingering afterglow`
+- Real reference: [Golden Hour (Unsplash)](https://commons.wikimedia.org/wiki/File%3AGolden_Hour_%28Unsplash%29.jpg)
 
 ## match cut
 
-A cut that connects two shots through similar shape or motion.
+A match cut connects two different shots through a similar shape, line, gesture, or motion direction. The visual rhyme makes the cut feel intentional instead of abrupt.
 
-![[assets/ai-video/glossary/editing-cuts/match-cut.svg|1200]]
+![[assets/ai-video/editing-cuts-photos/match-cut.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 match cut, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `match cut through circular shape continuity`
+- Real reference board: [Comparison of softbox to direct flash.jpg](https://commons.wikimedia.org/wiki/File%3AComparison_of_softbox_to_direct_flash.jpg) + [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg)
 
 ## transition
 
-A broad term for how one shot changes into the next.
+`transition` is the broad category for how one shot changes into the next. It often implies a designed bridge, not only a raw cut.
 
-![[assets/ai-video/glossary/editing-cuts/transition.svg|1200]]
+![[assets/ai-video/editing-cuts-photos/transition.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 transition, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `transition beat, image change carried by blur and directional motion`
+- Real reference board: [Golden Hour (Unsplash)](https://commons.wikimedia.org/wiki/File%3AGolden_Hour_%28Unsplash%29.jpg) + [Motion blur (1325070316).jpg](https://commons.wikimedia.org/wiki/File%3AMotion_blur_%281325070316%29.jpg) + [Red and blue open neon (Unsplash)](https://commons.wikimedia.org/wiki/File%3ARed_and_blue_open_neon_%28Unsplash%29.jpg)
 
 ## hard cut
 
-A direct cut from one shot to the next with no soft blend.
+A hard cut jumps directly from one shot to the next with no soft blend. What makes it work is usually contrast, clarity, and a strong decision to move on.
 
-![[assets/ai-video/glossary/editing-cuts/hard-cut.svg|1200]]
+![[assets/ai-video/editing-cuts-photos/hard-cut.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 hard cut, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `hard cut from warm daylight to neon night`
+- Real reference board: [Golden Hour (Unsplash)](https://commons.wikimedia.org/wiki/File%3AGolden_Hour_%28Unsplash%29.jpg) + [Red and blue open neon (Unsplash)](https://commons.wikimedia.org/wiki/File%3ARed_and_blue_open_neon_%28Unsplash%29.jpg)
 
 ## fade in / fade out
 
-A gradual visual entry or exit that softens the transition.
+Fade in and fade out gradually open or close the image. They soften the entry or exit and usually feel less abrupt than a direct cut.
 
-![[assets/ai-video/glossary/editing-cuts/fade-in-fade-out.svg|1200]]
+![[assets/ai-video/editing-cuts-photos/fade-in-fade-out.jpg|1400]]
 
-- Prompt fragment: `Cut 1 setup, Cut 2 fade in / fade out, Cut 3 climax`
-- What to notice: Focus on progression across beats, not only on the look of one isolated shot.
+- Prompt fragment: `fade in from black, hold on the subject, fade out gently`
+- Real reference board: [Elegant man with a laptop (Unsplash)](https://commons.wikimedia.org/wiki/File%3AElegant_man_with_a_laptop_%28Unsplash%29.jpg)
+
+## Summary
+
+These terms become practical when you think in beats instead of one long sentence.
+
+- opening logic: `setup`
+- rising energy: `escalation`
+- payoff image: `climax`
+- last afterimage: `ending beat`
+- cut behavior: `match cut`, `transition`, `hard cut`, `fade in / fade out`
+
+In AI video prompting, cut language works best when each beat clearly changes framing, intensity, or information.

@@ -24,7 +24,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/wide-shot.jpg|1400]]
 
 - 프롬프트 조각: `a lone subject in a basketball court, wide shot, urban backdrop`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 풀 샷
 
@@ -33,7 +33,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/full-shot.jpg|1000]]
 
 - 프롬프트 조각: `full shot of a standing subject, neutral posture`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 미디엄 샷
 
@@ -42,7 +42,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/medium-shot.jpg|1200]]
 
 - 프롬프트 조각: `medium shot of a speaker, eye-level framing`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 클로즈업
 
@@ -51,7 +51,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/close-up.jpg|1200]]
 
 - 프롬프트 조각: `close-up portrait, direct gaze, shallow depth of field`
-- 실제 레퍼런스: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File:Face_portrait_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 익스트림 클로즈업
 
@@ -60,7 +60,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/extreme-close-up.jpg|1400]]
 
 - 프롬프트 조각: `extreme close-up of the eyes, hyper-detailed skin texture`
-- 실제 레퍼런스: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File:Face_portrait_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 오버 더 숄더
 
@@ -69,7 +69,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/over-the-shoulder.jpg|1400]]
 
 - 프롬프트 조각: `over-the-shoulder shot of a person framing a scene with a phone`
-- 실제 레퍼런스: [Smartphone photographer (Unsplash)](https://commons.wikimedia.org/wiki/File:Smartphone_photographer_(Unsplash).jpg), `CC0`
+- 실제 레퍼런스: [Smartphone photographer (Unsplash)](https://commons.wikimedia.org/wiki/File%3ASmartphone_photographer_%28Unsplash%29.jpg), `CC0`
 
 ## POV 샷
 
@@ -78,7 +78,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/pov-shot.jpg|1400]]
 
 - 프롬프트 조각: `POV-style operational framing, first-person context`
-- 실제 레퍼런스: [First Person View Drone (9192507)](https://commons.wikimedia.org/wiki/File:First_Person_View_Drone_(9192507).jpg), `Public domain`
+- 실제 레퍼런스: [First Person View Drone (9192507)](https://commons.wikimedia.org/wiki/File%3AFirst_Person_View_Drone_%289192507%29.jpg), `Public domain`
 
 ## 로우 앵글
 
@@ -87,7 +87,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/low-angle.jpg|1400]]
 
 - 프롬프트 조각: `low angle shot of a speaker at a podium`
-- 실제 레퍼런스: [A low-angle, medium shot features Thomas Zurbuchen...](https://commons.wikimedia.org/wiki/File:A_low-angle,_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium,_smiling_as_he_looks_toward_an_audience_(amf-8a214ef4-39d3-443e-a460-14023c1c1d35).jpg), `Public domain`
+- 실제 레퍼런스: [A low-angle, medium shot features Thomas Zurbuchen...](https://commons.wikimedia.org/wiki/File%3AA_low-angle%2C_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium%2C_smiling_as_he_looks_toward_an_audience_%28amf-8a214ef4-39d3-443e-a460-14023c1c1d35%29.jpg), `Public domain`
 
 ## 하이 앵글
 
@@ -96,7 +96,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/high-angle.jpg|1400]]
 
 - 프롬프트 조각: `high angle shot looking down from a rooftop`
-- 실제 레퍼런스: [Feet dangling from a building (Unsplash)](https://commons.wikimedia.org/wiki/File:Feet_dangling_from_a_building_(Unsplash).jpg), `CC0`
+- 실제 레퍼런스: [Feet dangling from a building (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFeet_dangling_from_a_building_%28Unsplash%29.jpg), `CC0`
 
 ## 탑다운 샷
 
@@ -105,7 +105,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/top-down-shot.jpg|1400]]
 
 - 프롬프트 조각: `top-down shot of a dense forest canopy`
-- 실제 레퍼런스: [Bird's-eye view of a forest (Unsplash)](https://commons.wikimedia.org/wiki/File:Bird%27s-eye_view_of_a_forest_(Unsplash).jpg), `CC0`
+- 실제 레퍼런스: [Bird's-eye view of a forest (Unsplash)](https://commons.wikimedia.org/wiki/File%3ABird%27s-eye_view_of_a_forest_%28Unsplash%29.jpg), `CC0`
 
 ## 센터 프레이밍
 
@@ -114,7 +114,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/centered-framing.jpg|1000]]
 
 - 프롬프트 조각: `centered framing, subject locked in the middle of frame`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 삼등분 구도
 
@@ -123,7 +123,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/rule-of-thirds.jpg|1200]]
 
 - 프롬프트 조각: `subject placed on the right third, balanced environmental space`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 네거티브 스페이스
 
@@ -132,7 +132,7 @@ tags:
 ![[assets/ai-video/shot-composition-photos/negative-space.jpg|1400]]
 
 - 프롬프트 조각: `subject isolated with strong negative space on the left`
-- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, crop
+- 실제 레퍼런스: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, crop
 
 ## 정리
 

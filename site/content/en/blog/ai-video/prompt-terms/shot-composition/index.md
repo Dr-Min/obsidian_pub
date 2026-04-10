@@ -24,7 +24,7 @@ A wide shot gives more weight to the environment than to facial detail. Use it w
 ![[assets/ai-video/shot-composition-photos/wide-shot.jpg|1400]]
 
 - Prompt fragment: `a lone subject in a basketball court, wide shot, urban backdrop`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## full shot
 
@@ -33,7 +33,7 @@ A full shot keeps the entire body visible in frame. It is useful when posture, c
 ![[assets/ai-video/shot-composition-photos/full-shot.jpg|1000]]
 
 - Prompt fragment: `full shot of a standing subject, neutral posture`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## medium shot
 
@@ -42,7 +42,7 @@ A medium shot usually frames the subject around the waist or torso area. It is u
 ![[assets/ai-video/shot-composition-photos/medium-shot.jpg|1200]]
 
 - Prompt fragment: `medium shot of a speaker, eye-level framing`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## close-up
 
@@ -51,7 +51,7 @@ A close-up pushes attention toward the face or an important detail. It is one of
 ![[assets/ai-video/shot-composition-photos/close-up.jpg|1200]]
 
 - Prompt fragment: `close-up portrait, direct gaze, shallow depth of field`
-- Real reference: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File:Face_portrait_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## extreme close-up
 
@@ -60,7 +60,7 @@ An extreme close-up isolates a very small detail such as the eyes, fingertips, o
 ![[assets/ai-video/shot-composition-photos/extreme-close-up.jpg|1400]]
 
 - Prompt fragment: `extreme close-up of the eyes, hyper-detailed skin texture`
-- Real reference: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File:Face_portrait_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Face portrait (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFace_portrait_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## over-the-shoulder
 
@@ -69,7 +69,7 @@ An over-the-shoulder shot looks past one subject toward another person, screen, 
 ![[assets/ai-video/shot-composition-photos/over-the-shoulder.jpg|1400]]
 
 - Prompt fragment: `over-the-shoulder shot of a person framing a scene with a phone`
-- Real reference: [Smartphone photographer (Unsplash)](https://commons.wikimedia.org/wiki/File:Smartphone_photographer_(Unsplash).jpg), `CC0`
+- Real reference: [Smartphone photographer (Unsplash)](https://commons.wikimedia.org/wiki/File%3ASmartphone_photographer_%28Unsplash%29.jpg), `CC0`
 
 ## POV shot
 
@@ -78,7 +78,7 @@ A POV shot makes the viewer feel as if they are seeing through the subject's per
 ![[assets/ai-video/shot-composition-photos/pov-shot.jpg|1400]]
 
 - Prompt fragment: `POV-style operational framing, first-person context`
-- Real reference: [First Person View Drone (9192507)](https://commons.wikimedia.org/wiki/File:First_Person_View_Drone_(9192507).jpg), `Public domain`
+- Real reference: [First Person View Drone (9192507)](https://commons.wikimedia.org/wiki/File%3AFirst_Person_View_Drone_%289192507%29.jpg), `Public domain`
 
 ## low angle
 
@@ -87,7 +87,7 @@ A low-angle shot looks upward from below the subject. It often makes the subject
 ![[assets/ai-video/shot-composition-photos/low-angle.jpg|1400]]
 
 - Prompt fragment: `low angle shot of a speaker at a podium`
-- Real reference: [A low-angle, medium shot features Thomas Zurbuchen...](https://commons.wikimedia.org/wiki/File:A_low-angle,_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium,_smiling_as_he_looks_toward_an_audience_(amf-8a214ef4-39d3-443e-a460-14023c1c1d35).jpg), `Public domain`
+- Real reference: [A low-angle, medium shot features Thomas Zurbuchen...](https://commons.wikimedia.org/wiki/File%3AA_low-angle%2C_medium_shot_features_Thomas_Zurbuchen_standing_at_a_wooden_podium%2C_smiling_as_he_looks_toward_an_audience_%28amf-8a214ef4-39d3-443e-a460-14023c1c1d35%29.jpg), `Public domain`
 
 ## high angle
 
@@ -96,7 +96,7 @@ A high-angle shot looks down at the subject from above. It can make the subject 
 ![[assets/ai-video/shot-composition-photos/high-angle.jpg|1400]]
 
 - Prompt fragment: `high angle shot looking down from a rooftop`
-- Real reference: [Feet dangling from a building (Unsplash)](https://commons.wikimedia.org/wiki/File:Feet_dangling_from_a_building_(Unsplash).jpg), `CC0`
+- Real reference: [Feet dangling from a building (Unsplash)](https://commons.wikimedia.org/wiki/File%3AFeet_dangling_from_a_building_%28Unsplash%29.jpg), `CC0`
 
 ## top-down shot
 
@@ -105,7 +105,7 @@ A top-down shot looks downward from a near-vertical position. It is useful for p
 ![[assets/ai-video/shot-composition-photos/top-down-shot.jpg|1400]]
 
 - Prompt fragment: `top-down shot of a dense forest canopy`
-- Real reference: [Bird's-eye view of a forest (Unsplash)](https://commons.wikimedia.org/wiki/File:Bird%27s-eye_view_of_a_forest_(Unsplash).jpg), `CC0`
+- Real reference: [Bird's-eye view of a forest (Unsplash)](https://commons.wikimedia.org/wiki/File%3ABird%27s-eye_view_of_a_forest_%28Unsplash%29.jpg), `CC0`
 
 ## centered framing
 
@@ -114,7 +114,7 @@ Centered framing places the subject in the middle of the frame. It creates immed
 ![[assets/ai-video/shot-composition-photos/centered-framing.jpg|1000]]
 
 - Prompt fragment: `centered framing, subject locked in the middle of frame`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## rule of thirds
 
@@ -123,7 +123,7 @@ Rule-of-thirds framing places the subject off-center, usually around one of the 
 ![[assets/ai-video/shot-composition-photos/rule-of-thirds.jpg|1200]]
 
 - Prompt fragment: `subject placed on the right third, balanced environmental space`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## negative space
 
@@ -132,7 +132,7 @@ Negative space uses emptiness around the subject on purpose. It is effective for
 ![[assets/ai-video/shot-composition-photos/negative-space.jpg|1400]]
 
 - Prompt fragment: `subject isolated with strong negative space on the left`
-- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File:Man_standing_in_court_(Unsplash).jpg), `CC0`, cropped
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## Summary
 

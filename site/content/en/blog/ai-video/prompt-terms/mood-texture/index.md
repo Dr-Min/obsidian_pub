@@ -1,6 +1,6 @@
 ---
 title: "Mood and Texture"
-description: "A glossary for emotional tone, realism level, and texture styling in a scene."
+description: "A practical glossary for emotional tone and surface texture in AI video prompts, rebuilt with real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,98 +14,106 @@ tags:
 
 # Mood and Texture
 
-Mood terms steer emotional interpretation, while texture terms shape the visual finish of the frame.
-
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms narrow the emotional and surface character of the generated result.
+This page has been rebuilt with **real photographic references**.  
+Mood and texture terms do not explain the whole scene, but they strongly shape how the finished frame feels emotionally and materially.
 
 ## cinematic
 
-A broad term for a polished film-like visual treatment.
+Cinematic usually means the frame feels intentionally staged like a film still, not just casually photographed.
 
-![[assets/ai-video/glossary/mood-texture/cinematic.svg|1200]]
+![cinematic reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Jessica%20Mauboy%20%287739424318%29.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, cinematic, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `cinematic, controlled portrait lighting, film still atmosphere`
+- Real reference: [Jessica Mauboy (7739424318).jpg](<https://commons.wikimedia.org/wiki/File%3AJessica%20Mauboy%20%287739424318%29.jpg>)
 
 ## moody
 
-A tone where emotion and atmosphere feel heavy or pronounced.
+Moody describes frames where emotional atmosphere is stronger than brightness or clarity. The scene feels weighted or emotionally charged.
 
-![[assets/ai-video/glossary/mood-texture/moody.svg|1200]]
+![moody reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Jo%20Louise%20%2819783568163%29.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, moody, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `moody, low-key atmosphere, emotionally dense portrait`
+- Real reference: [Jo Louise (19783568163).jpg](<https://commons.wikimedia.org/wiki/File%3AJo%20Louise%20%2819783568163%29.jpg>)
 
 ## gritty
 
-A rougher, dirtier, more grounded visual texture.
+Gritty suggests roughness that has not been polished away. Surface imperfection, dirt, wear, or blunt realism tend to dominate.
 
-![[assets/ai-video/glossary/mood-texture/gritty.svg|1200]]
+![gritty reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Abuja%20Street%20Portrait%20%28103397917%29.jpeg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, gritty, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `gritty, rough texture, unpolished realism`
+- Real reference: [Abuja Street Portrait (103397917).jpeg](<https://commons.wikimedia.org/wiki/File%3AAbuja%20Street%20Portrait%20%28103397917%29.jpeg>)
 
 ## dreamlike
 
-A soft surreal tone that feels like a dream state.
+Dreamlike frames feel softer, stranger, and less bound to ordinary reality, even when the photo still looks grounded.
 
-![[assets/ai-video/glossary/mood-texture/dreamlike.svg|1200]]
+![dreamlike reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Infrared%20HDR%20St%20Andrew%27s%20church%20Thursford%20Norfolk%20%282954315611%29.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, dreamlike, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `dreamlike, soft unreal atmosphere, gentle visual distortion`
+- Real reference: [Infrared HDR St Andrew's church Thursford Norfolk (2954315611).jpg](<https://commons.wikimedia.org/wiki/File%3AInfrared%20HDR%20St%20Andrew%27s%20church%20Thursford%20Norfolk%20%282954315611%29.jpg>)
 
 ## hyper-realistic
 
-A highly detailed realism style with strong material definition.
+Hyper-realistic pushes detail, texture, and sharpness so far that the frame feels almost more tactile than ordinary photography.
 
-![[assets/ai-video/glossary/mood-texture/hyper-realistic.svg|1200]]
+![hyper-realistic reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Untitled%20Portait%20Canon%20Canonet%20G3%20Ql17%20Test%20%2872971075%29.jpeg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, hyper-realistic, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `hyper-realistic, extremely crisp detail, tactile facial texture`
+- Real reference: [Untitled Portait Canon Canonet G3 Ql17 Test (72971075).jpeg](<https://commons.wikimedia.org/wiki/File%3AUntitled%20Portait%20Canon%20Canonet%20G3%20Ql17%20Test%20%2872971075%29.jpeg>)
 
 ## surreal
 
-A reality-bending tone that embraces impossible combinations.
+Surreal means the image still reads photographically, but the combination of objects, space, or logic feels impossible.
 
-![[assets/ai-video/glossary/mood-texture/surreal.svg|1200]]
+![surreal reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Surrealism%20in%20photography%2006.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, surreal, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `surreal, photographic but impossible, uncanny composition`
+- Real reference: [Surrealism in photography 06.jpg](<https://commons.wikimedia.org/wiki/File%3ASurrealism%20in%20photography%2006.jpg>)
 
 ## dramatic tension
 
-A tone that increases suspense and emotional pressure.
+Dramatic tension means the frame feels like something is about to happen. Pressure is present even before motion begins.
 
-![[assets/ai-video/glossary/mood-texture/dramatic-tension.svg|1200]]
+![dramatic tension reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Careless%20%2831558905%29.jpeg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, dramatic tension, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `dramatic tension, uneasy stillness, pressure-filled framing`
+- Real reference: [Careless (31558905).jpeg](<https://commons.wikimedia.org/wiki/File%3ACareless%20%2831558905%29.jpeg>)
 
 ## atmospheric haze
 
-A light haze that adds air, depth, and softness to distance.
+Atmospheric haze makes air itself readable. Distance becomes softer and the space between layers feels occupied by moisture or mist.
 
-![[assets/ai-video/glossary/mood-texture/atmospheric-haze.svg|1200]]
+![atmospheric haze reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Paris%20in%20the%20morning%20-%20Flickr%20-%20Gael%20Varoquaux.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, atmospheric haze, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `atmospheric haze, soft distant separation, suspended moisture in air`
+- Real reference: [Paris in the morning - Flickr - Gael Varoquaux.jpg](<https://commons.wikimedia.org/wiki/File%3AParis%20in%20the%20morning%20-%20Flickr%20-%20Gael%20Varoquaux.jpg>)
 
 ## film grain
 
-A fine analog grain texture layered over the image.
+Film grain adds an analog texture layer that feels less clinically clean than digital sharpness.
 
-![[assets/ai-video/glossary/mood-texture/film-grain.svg|1200]]
+![film grain reference](<https://commons.wikimedia.org/wiki/Special:FilePath/35mm%20analogue%20portrait%20Oona%20Mosna%20Windsor-Detroit%202019.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, film grain, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `film grain, analog texture, subtle organic noise`
+- Real reference: [35mm analogue portrait Oona Mosna Windsor-Detroit 2019.jpg](<https://commons.wikimedia.org/wiki/File%3A35mm%20analogue%20portrait%20Oona%20Mosna%20Windsor-Detroit%202019.jpg>)
 
 ## high contrast
 
-A treatment with a strong separation between bright and dark values.
+High contrast creates a stronger tonal fight between bright and dark values. The frame feels more graphic and aggressive.
 
-![[assets/ai-video/glossary/mood-texture/high-contrast.svg|1200]]
+![high contrast reference](<https://commons.wikimedia.org/wiki/Special:FilePath/Thomas%20Pynchon%2C%20high%20school%20senior%20portrait%2C%201953.jpg?width=1200>)
 
-- Prompt fragment: `a woman in a futuristic city, high contrast, realistic costume detail`
-- What to notice: Mood sets emotional tone while texture shapes the visual finish.
+- Prompt fragment: `high contrast, sharp tonal separation, striking light-dark balance`
+- Real reference: [Thomas Pynchon, high school senior portrait, 1953.jpg](<https://commons.wikimedia.org/wiki/File%3AThomas%20Pynchon%2C%20high%20school%20senior%20portrait%2C%201953.jpg>)
+
+## Summary
+
+Mood and texture terms usually work best after framing and lighting, but before final output style.
+
+- film-like control: `cinematic`
+- emotional density: `moody`, `dramatic tension`
+- surface roughness: `gritty`, `film grain`
+- reality distortion: `dreamlike`, `surreal`
+- detail pressure: `hyper-realistic`, `high contrast`
+- air and depth softness: `atmospheric haze`

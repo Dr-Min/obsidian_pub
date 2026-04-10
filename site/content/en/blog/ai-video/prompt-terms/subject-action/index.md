@@ -1,6 +1,6 @@
 ---
 title: "Subject and Action"
-description: "A practical AI video prompt glossary for subject, action, expression, and gesture built with real photo references."
+description: "A practical AI video prompt glossary for subject, action, expression, and gesture built with unique real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,8 +14,8 @@ tags:
 
 # Subject and Action
 
-This page has been rebuilt with **real photographic references** instead of abstract diagrams.  
-The subject-and-action layer is what gives an AI video prompt its first readable structure: **who is in frame**, **what they are doing**, and **how that behavior is expressed**.
+This page has been rebuilt with **unique real photographic references** instead of abstract diagrams.  
+The subject-and-action layer gives an AI video prompt its first readable structure: **who is in frame**, **what they are doing**, and **how that behavior is expressed**.
 
 ## subject
 
@@ -24,7 +24,7 @@ The subject-and-action layer is what gives an AI video prompt its first readable
 ![subject reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_man_with_a_laptop_(Unsplash).jpg?width=1200)
 
 - Prompt fragment: `an elegant man with a laptop, subject isolated, editorial portrait`
-- Real reference: [Elegant man with a laptop (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_man_with_a_laptop_(Unsplash).jpg)
+- Real reference: [Elegant man with a laptop (Unsplash)](https://commons.wikimedia.org/wiki/File%3AElegant_man_with_a_laptop_%28Unsplash%29.jpg)
 
 ## action
 
@@ -33,7 +33,7 @@ The subject-and-action layer is what gives an AI video prompt its first readable
 ![action reference](https://commons.wikimedia.org/wiki/Special:FilePath/Woman_running.jpg?width=1200)
 
 - Prompt fragment: `woman running along the waterfront, dynamic action, candid movement`
-- Real reference: [Woman running](https://commons.wikimedia.org/wiki/File:Woman_running.jpg)
+- Real reference: [Woman running](https://commons.wikimedia.org/wiki/File%3AWoman_running.jpg)
 
 ## expression
 
@@ -42,7 +42,7 @@ The subject-and-action layer is what gives an AI video prompt its first readable
 ![expression reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1100)
 
 - Prompt fragment: `thoughtful expression, eyes looking off frame, calm mood`
-- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
+- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File%3AElegant_woman_by_storefront_%28Unsplash%29.jpg)
 
 ## gesture
 
@@ -51,7 +51,7 @@ The subject-and-action layer is what gives an AI video prompt its first readable
 ![gesture reference](https://commons.wikimedia.org/wiki/Special:FilePath/Hands_(Unsplash).jpg?width=1200)
 
 - Prompt fragment: `delicate hand gesture holding a candle jar, intimate close detail`
-- Real reference: [Hands (Unsplash)](https://commons.wikimedia.org/wiki/File:Hands_(Unsplash).jpg)
+- Real reference: [Hands (Unsplash)](https://commons.wikimedia.org/wiki/File%3AHands_%28Unsplash%29.jpg)
 
 ## interaction
 
@@ -60,16 +60,16 @@ The subject-and-action layer is what gives an AI video prompt its first readable
 ![interaction reference](https://commons.wikimedia.org/wiki/Special:FilePath/Young_people_in_conversation_(Unsplash).jpg?width=1400)
 
 - Prompt fragment: `young people in conversation, natural interaction, warm social energy`
-- Real reference: [Young people in conversation (Unsplash)](https://commons.wikimedia.org/wiki/File:Young_people_in_conversation_(Unsplash).jpg)
+- Real reference: [Young people in conversation (Unsplash)](https://commons.wikimedia.org/wiki/File%3AYoung_people_in_conversation_%28Unsplash%29.jpg)
 
 ## pose
 
 `pose` is the full-body arrangement: weight distribution, leg angle, shoulder direction, and silhouette. It is one of the fastest ways to shape character presentation.
 
-![pose reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1200)
+![[assets/ai-video/shot-composition-photos/full-shot.jpg|1000]]
 
 - Prompt fragment: `full-body pose, one leg forward, relaxed editorial stance`
-- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
+- Real reference: [Man standing in court (Unsplash)](https://commons.wikimedia.org/wiki/File%3AMan_standing_in_court_%28Unsplash%29.jpg), `CC0`, cropped
 
 ## Summary
 
