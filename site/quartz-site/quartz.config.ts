@@ -6,15 +6,32 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+const DEFAULT_BASE_URL = "minventory.org"
+
+function normalizeBaseUrl(value?: string): string {
+  const normalized = (value ?? "")
+    .trim()
+    .replace(/^https?:\/\//i, "")
+    .replace(/\/+$/, "")
+
+  return normalized || DEFAULT_BASE_URL
+}
+
+const baseUrl = normalizeBaseUrl(DEFAULT_BASE_URL)
+const ga4TagId = (process.env.QUARTZ_GA4_TAG_ID ?? "G-1EXRLV6E1B").trim()
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "MINventory",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "google",
+      tagId: ga4TagId,
+    },
     locale: "en-US",
-    baseUrl: process.env.QUARTZ_BASE_URL ?? "minventory.org",
+    baseUrl,
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
