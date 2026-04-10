@@ -1,6 +1,6 @@
 ---
-title: "MINventory"
-description: "MINventory's English hub for AI video prompt writing, shot design, and visual reference guides."
+title: "English Home"
+description: "English hub for AI video prompt writing, shot design, and visual reference guides."
 publish: true
 draft: false
 lang: "en"
@@ -10,9 +10,9 @@ tags:
   - en
 ---
 
-# MINventory
+# English Hub
 
-MINventory publishes English notes about AI video prompts, image prompts, and visual direction systems.
+This section publishes English notes about AI video prompts, image prompts, and visual direction systems.
 
 ## Topics
 
