@@ -21,6 +21,15 @@ aliases:
 
 # Seedance 2.0 Prompt Archive: Anime Heroine vs Giant Monster in New York
 
+<iframe
+  class="external-embed youtube"
+  src="https://www.youtube.com/embed/OHzrlKMJMDU"
+  title="Seedance 2.0 anime heroine versus giant monster short"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
 This page archives a **5-cut Seedance 2.0 action prompt** built around a giant monster attack in New York and a much smaller anime heroine who wins through speed, evasive movement, and a final airborne strike. The goal is not only to store the wording, but to make it reusable by explaining the **cut structure**, **main keyword groups**, **scale design**, and **which parts of the prompt do the real work**.
 
 The core of this prompt is not just "monster battle." What really drives it is:

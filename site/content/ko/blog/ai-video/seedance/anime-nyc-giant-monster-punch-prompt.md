@@ -21,6 +21,15 @@ aliases:
 
 # Seedance 2.0 프롬프트 아카이브: 뉴욕 거대 괴수와 애니메이션 히로인의 공중 펀치
 
+<iframe
+  class="external-embed youtube"
+  src="https://www.youtube.com/embed/OHzrlKMJMDU"
+  title="Seedance 2.0 뉴욕 거대 괴수와 애니메이션 히로인 Shorts"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+
 이 글은 **Seedance 2.0용 5컷 액션 프롬프트 아카이브**입니다. 목적은 프롬프트를 그냥 저장해 두는 데서 끝나지 않고, 나중에 비슷한 장면을 다시 만들 수 있도록 **컷 구조**, **핵심 키워드**, **스케일 연출 방식**, **무엇을 유지해야 결과가 살아나는지**를 함께 정리하는 데 있습니다.
 
 이번 프롬프트의 핵심은 단순히 `괴수가 나온다`가 아닙니다. 더 중요한 것은 아래 네 가지입니다.
