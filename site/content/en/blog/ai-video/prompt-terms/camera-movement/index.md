@@ -1,6 +1,6 @@
 ---
 title: "Camera Movement"
-description: "A glossary for camera motion terms that control energy, rhythm, and immersion."
+description: "A practical camera-movement glossary built with real rig photos and motion-result references for AI video prompting."
 publish: true
 draft: false
 lang: "en"
@@ -14,125 +14,133 @@ tags:
 
 # Camera Movement
 
-Motion terms define the emotional speed of a scene. The same subject and setting can feel calm, urgent, or aggressive depending on the camera move.
-
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms anchor the main path of the camera: whether it rotates, follows, pushes, or floats.
+This page has been rebuilt with **real rig photos and motion-result references**.  
+Camera-movement terms are harder to explain with a single still image than lens or framing terms, so the references below mix **equipment photos**, **operator photos**, and **motion-blurred result frames** to show what each move is pointing toward.
 
 ## locked-off shot
 
-A static shot where the camera stays fixed in one place.
+A locked-off shot keeps the camera fixed in one place. The frame feels stable and the subject's movement becomes the main source of energy.
 
-![[assets/ai-video/glossary/camera-movement/locked-off-shot.svg|1200]]
+![locked-off shot reference](https://commons.wikimedia.org/wiki/Special:FilePath/Camera_tripod.jpg?width=960)
 
-- Prompt fragment: `a creator walking through an alley, locked-off shot, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `locked-off shot, static camera, subject movement only`
+- Real reference: [Camera tripod.jpg](https://commons.wikimedia.org/wiki/File:Camera_tripod.jpg)
 
 ## pan
 
-A horizontal camera rotation that sweeps left or right.
+A pan rotates the camera left or right from a fixed position. It is often used to reveal space or follow a subject across the frame.
 
-![[assets/ai-video/glossary/camera-movement/pan.svg|1200]]
+![pan reference](https://commons.wikimedia.org/wiki/Special:FilePath/Video_Pan_Head.JPG?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, pan, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `slow pan to the right, revealing the environment`
+- Real reference: [Video Pan Head.JPG](https://commons.wikimedia.org/wiki/File:Video_Pan_Head.JPG)
 
 ## tilt
 
-A vertical camera rotation that looks up or down.
+A tilt rotates the camera upward or downward from a fixed position. It is useful for vertical reveals such as moving from feet to face or from street level to skyline.
 
-![[assets/ai-video/glossary/camera-movement/tilt.svg|1200]]
+![tilt reference](https://commons.wikimedia.org/wiki/Special:FilePath/Video_Pan_Head.JPG?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, tilt, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `tilt up from the feet to the face, slow reveal`
+- Real reference: [Video Pan Head.JPG](https://commons.wikimedia.org/wiki/File:Video_Pan_Head.JPG)
 
 ## push-in
 
-A move that gradually brings the camera closer to the subject.
+A push-in physically moves the camera closer to the subject. It is commonly used to increase emotional pressure or attention.
 
-![[assets/ai-video/glossary/camera-movement/push-in.svg|1200]]
+![push-in reference](https://commons.wikimedia.org/wiki/Special:FilePath/MJK39950_Camera_dolly_(republica_17).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, push-in, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `slow push-in, emotional intensification, cinematic focus`
+- Real reference: [MJK39950 Camera dolly (republica 17).jpg](https://commons.wikimedia.org/wiki/File:MJK39950_Camera_dolly_(republica_17).jpg)
 
 ## pull-back
 
-A move that retreats and reveals more of the environment.
+A pull-back moves the camera away from the subject. It often creates emotional distance or reveals more of the environment.
 
-![[assets/ai-video/glossary/camera-movement/pull-back.svg|1200]]
+![pull-back reference](https://commons.wikimedia.org/wiki/Special:FilePath/MJK39950_Camera_dolly_(republica_17).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, pull-back, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `pull-back to reveal the full environment`
+- Real reference: [MJK39950 Camera dolly (republica 17).jpg](https://commons.wikimedia.org/wiki/File:MJK39950_Camera_dolly_(republica_17).jpg)
 
 ## dolly in / dolly out
 
-A smooth forward or backward move along a physical track or slider.
+`dolly in` and `dolly out` describe smooth forward or backward movement on rails or a moving platform. It is the equipment-centered version of push-in or pull-back language.
 
-![[assets/ai-video/glossary/camera-movement/dolly-in-dolly-out.svg|1200]]
+![dolly in/out reference](https://commons.wikimedia.org/wiki/Special:FilePath/MJK39950_Camera_dolly_(republica_17).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, dolly in / dolly out, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `dolly in on the subject, smooth rail movement`
+- Real reference: [MJK39950 Camera dolly (republica 17).jpg](https://commons.wikimedia.org/wiki/File:MJK39950_Camera_dolly_(republica_17).jpg)
 
 ## tracking shot
 
-A move that follows the subject through the scene.
+A tracking shot moves with the subject rather than simply looking at them from one place. It is useful for walking, running, or guided movement through space.
 
-![[assets/ai-video/glossary/camera-movement/tracking-shot.svg|1200]]
+![tracking shot reference](https://commons.wikimedia.org/wiki/Special:FilePath/Steadicam_operator_20250325_(1).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, tracking shot, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `tracking shot following the subject at walking speed`
+- Real reference: [Steadicam operator 20250325 (1).jpg](https://commons.wikimedia.org/wiki/File:Steadicam_operator_20250325_(1).jpg)
 
 ## orbit shot
 
-A circular move around the subject that reveals dimensionality.
+An orbit shot circles around the subject. It creates three-dimensional presence and can make a subject feel more central or dramatic.
 
-![[assets/ai-video/glossary/camera-movement/orbit-shot.svg|1200]]
+![orbit shot reference](https://commons.wikimedia.org/wiki/Special:FilePath/Camera_Operator_Stan_Edmonds_(5631843713).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, orbit shot, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `orbit shot around the subject, circular camera path`
+- Real reference: [Camera Operator Stan Edmonds (5631843713).jpg](https://commons.wikimedia.org/wiki/File:Camera_Operator_Stan_Edmonds_(5631843713).jpg)
 
 ## crane shot
 
-A large vertical move that rises or descends through space.
+A crane shot lifts or lowers the camera through a larger vertical arc. It is useful for scale, reveal, and sweeping spatial transitions.
 
-![[assets/ai-video/glossary/camera-movement/crane-shot.svg|1200]]
+![crane shot reference](https://commons.wikimedia.org/wiki/Special:FilePath/Camera_crane.jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, crane shot, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `crane shot rising above the crowd, epic spatial reveal`
+- Real reference: [Camera crane.jpg](https://commons.wikimedia.org/wiki/File:Camera_crane.jpg)
 
 ## handheld
 
-A camera feel with small natural shake and human instability.
+Handheld camera movement includes small natural instability from the operator's body. It often feels immediate, raw, or documentary-like.
 
-![[assets/ai-video/glossary/camera-movement/handheld.svg|1200]]
+![handheld reference](https://commons.wikimedia.org/wiki/Special:FilePath/Camera_Operator_Stan_Edmonds_(5631843713).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, handheld, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `handheld camera, subtle shake, documentary immediacy`
+- Real reference: [Camera Operator Stan Edmonds (5631843713).jpg](https://commons.wikimedia.org/wiki/File:Camera_Operator_Stan_Edmonds_(5631843713).jpg)
 
 ## gimbal shot
 
-A stabilized move that feels smooth and floating.
+A gimbal shot is defined by smooth stabilized motion. In practical reference use, steadicam and similar stabilization-rig photos are often close visual stand-ins for the intended feel.
 
-![[assets/ai-video/glossary/camera-movement/gimbal-shot.svg|1200]]
+![gimbal shot reference](https://commons.wikimedia.org/wiki/Special:FilePath/Steadicam_operator_20250325_(1).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, gimbal shot, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `gimbal shot, smooth forward glide, stabilized motion`
+- Real reference: [Steadicam operator 20250325 (1).jpg](https://commons.wikimedia.org/wiki/File:Steadicam_operator_20250325_(1).jpg)
 
 ## whip pan
 
-An extremely fast pan used for transition energy or impact.
+A whip pan snaps quickly from one direction to another, usually generating strong motion blur. It is often used as a transition or as an energy spike.
 
-![[assets/ai-video/glossary/camera-movement/whip-pan.svg|1200]]
+![whip pan reference](https://commons.wikimedia.org/wiki/Special:FilePath/Motion_blur_(1325070316).jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, whip pan, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `whip pan transition, heavy motion blur, fast directional energy`
+- Real reference: [Motion blur (1325070316).jpg](https://commons.wikimedia.org/wiki/File:Motion_blur_(1325070316).jpg)
 
 ## slow zoom in
 
-A gradual zoom that tightens the frame without moving the camera position.
+A slow zoom-in tightens the frame gradually without physically moving the camera body. It changes the feeling of attention more than the physical geography of the scene.
 
-![[assets/ai-video/glossary/camera-movement/slow-zoom-in.svg|1200]]
+![slow zoom in reference](https://commons.wikimedia.org/wiki/Special:FilePath/Canon_Zoom-Lens_EF_70-200_F2.8L_IS_II_USM-01.jpg?width=1200)
 
-- Prompt fragment: `a creator walking through an alley, slow zoom in, subtle urban tension`
-- What to notice: It is usually best to state one dominant camera move clearly.
+- Prompt fragment: `slow zoom in, gradual tightening of the frame`
+- Real reference: [Canon Zoom-Lens EF 70-200 F2.8L IS II USM-01.jpg](https://commons.wikimedia.org/wiki/File:Canon_Zoom-Lens_EF_70-200_F2.8L_IS_II_USM-01.jpg)
+
+## Summary
+
+The easiest way to organize camera-movement language is by purpose.
+
+- space reveal: `pan`, `tilt`, `crane shot`
+- subject immersion: `push-in`, `slow zoom in`
+- path following: `tracking shot`, `gimbal shot`
+- immediacy and speed: `handheld`, `whip pan`
+
+A single still image cannot fully capture motion, but it can still anchor the gear, direction, and sensory result each movement term is pointing toward.

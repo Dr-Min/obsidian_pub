@@ -1,6 +1,6 @@
 ---
 title: "Subject and Action"
-description: "A foundational glossary for describing who appears in frame and what they do."
+description: "A practical AI video prompt glossary for subject, action, expression, and gesture built with real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,62 +14,72 @@ tags:
 
 # Subject and Action
 
-This page helps you separate the subject, behavior, emotion, and body language in a prompt. When a result feels vague, these are the first layers to tighten.
-
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms help the model lock onto the main subject and the intended performance of the scene.
+This page has been rebuilt with **real photographic references** instead of abstract diagrams.  
+The subject-and-action layer is what gives an AI video prompt its first readable structure: **who is in frame**, **what they are doing**, and **how that behavior is expressed**.
 
 ## subject
 
-The primary person, object, or creature that the viewer should notice first.
+`subject` is the main entity in the frame. Before you decide on lens, framing, or lighting, you usually need to lock the subject first.
 
-![[assets/ai-video/glossary/subject-action/subject.svg|1200]]
+![subject reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_man_with_a_laptop_(Unsplash).jpg?width=1200)
 
-- Prompt fragment: `a woman on a rooftop, subject, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `an elegant man with a laptop, subject isolated, editorial portrait`
+- Real reference: [Elegant man with a laptop (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_man_with_a_laptop_(Unsplash).jpg)
 
 ## action
 
-What the subject is physically doing in the moment, including direction and intensity.
+`action` describes what the subject is physically doing right now. A still pose, a walk, and a run create very different energy even before camera movement is added.
 
-![[assets/ai-video/glossary/subject-action/action.svg|1200]]
+![action reference](https://commons.wikimedia.org/wiki/Special:FilePath/Woman_running.jpg?width=1200)
 
-- Prompt fragment: `a woman on a rooftop, action, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `woman running along the waterfront, dynamic action, candid movement`
+- Real reference: [Woman running](https://commons.wikimedia.org/wiki/File:Woman_running.jpg)
 
 ## expression
 
-The facial emotion or emotional read that appears on the subject.
+`expression` is the emotional signal on the face. It changes genre, tone, and audience perception fast, even when the rest of the setup stays the same.
 
-![[assets/ai-video/glossary/subject-action/expression.svg|1200]]
+![expression reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1100)
 
-- Prompt fragment: `a woman on a rooftop, expression, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `thoughtful expression, eyes looking off frame, calm mood`
+- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
 
 ## gesture
 
-Hand, arm, and body gestures that communicate intention or mood.
+`gesture` covers the smaller body-language layer, especially hands, wrists, and arm direction. It matters a lot in product shots, demonstrations, and intimate detail shots.
 
-![[assets/ai-video/glossary/subject-action/gesture.svg|1200]]
+![gesture reference](https://commons.wikimedia.org/wiki/Special:FilePath/Hands_(Unsplash).jpg?width=1200)
 
-- Prompt fragment: `a woman on a rooftop, gesture, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `delicate hand gesture holding a candle jar, intimate close detail`
+- Real reference: [Hands (Unsplash)](https://commons.wikimedia.org/wiki/File:Hands_(Unsplash).jpg)
 
 ## interaction
 
-The relationship or exchange between people, objects, or both inside the shot.
+`interaction` is the visible relationship between people, or between a person and an object. It creates context and narrative much faster than a single isolated figure.
 
-![[assets/ai-video/glossary/subject-action/interaction.svg|1200]]
+![interaction reference](https://commons.wikimedia.org/wiki/Special:FilePath/Young_people_in_conversation_(Unsplash).jpg?width=1400)
 
-- Prompt fragment: `a woman on a rooftop, interaction, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `young people in conversation, natural interaction, warm social energy`
+- Real reference: [Young people in conversation (Unsplash)](https://commons.wikimedia.org/wiki/File:Young_people_in_conversation_(Unsplash).jpg)
 
 ## pose
 
-The overall posture, body angle, and weight distribution of the subject.
+`pose` is the full-body arrangement: weight distribution, leg angle, shoulder direction, and silhouette. It is one of the fastest ways to shape character presentation.
 
-![[assets/ai-video/glossary/subject-action/pose.svg|1200]]
+![pose reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1200)
 
-- Prompt fragment: `a woman on a rooftop, pose, cinematic night light`
-- What to notice: Separate subject and behavior first to reduce vague scene interpretation.
+- Prompt fragment: `full-body pose, one leg forward, relaxed editorial stance`
+- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
+
+## Summary
+
+The main practical rule here is not to collapse all of these into one vague prompt phrase.
+
+- `subject`: who is visible
+- `action`: what they are doing
+- `expression`: what emotion the face carries
+- `gesture`: how the hands and arms behave
+- `interaction`: what relationship is visible
+- `pose`: what the full-body silhouette is doing
+
+In real prompting, `subject + action + expression` is often enough to stabilize the scene before you add lens, lighting, or movement.

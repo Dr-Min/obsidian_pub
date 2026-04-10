@@ -1,6 +1,6 @@
 ---
 title: "Lens and Depth"
-description: "A glossary for focal length and depth cues that change spatial feeling in AI video prompts."
+description: "A practical glossary for focal length, depth of field, and focus behavior built with real photo references."
 publish: true
 draft: false
 lang: "en"
@@ -14,80 +14,88 @@ tags:
 
 # Lens and Depth
 
-Lens terms are not just camera specs. They shape perspective, compression, background separation, and the perceived distance between elements.
-
-All visuals on this page are self-authored SVG reference images generated inside the repo.
-
-Key idea: These terms are useful when you need to control perspective, background separation, and focus behavior.
+This page has been rebuilt with **real photographic references**.  
+The 24mm, 35mm, and 50mm examples use the same kind of test scene so the angle-of-view shift stays easy to compare. For time-based terms such as `rack focus`, the still reference is used to show the **focus-plane separation** that the move depends on.
 
 ## 24mm wide lens
 
-A wide lens look that exaggerates perspective and makes space feel larger.
+24mm captures a broad field of view and exaggerates spatial distance between foreground and background. It is useful when place and environment matter strongly.
 
-![[assets/ai-video/glossary/lens-depth/24mm-wide-lens.svg|1200]]
+![24mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f24mm.jpg?width=1100)
 
-- Prompt fragment: `a director by a window, 24mm wide lens, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `24mm wide lens, expanded environment, strong spatial depth`
+- Real reference: [Focal length f24mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f24mm.jpg)
 
 ## 35mm lens
 
-A versatile cinematic focal length that balances subject and environment.
+35mm often feels like the sweet spot between environmental context and subject emphasis. It is one of the most common cinematic baseline choices.
 
-![[assets/ai-video/glossary/lens-depth/35mm-lens.svg|1200]]
+![35mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f35mm.jpg?width=1100)
 
-- Prompt fragment: `a director by a window, 35mm lens, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `35mm lens, natural cinematic perspective, balanced framing`
+- Real reference: [Focal length f35mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f35mm.jpg)
 
 ## 50mm lens
 
-A neutral, natural-looking focal length often used as a safe baseline.
+50mm tends to look neutral and natural. It is useful when you want subject emphasis without the stronger perspective exaggeration of a wider lens.
 
-![[assets/ai-video/glossary/lens-depth/50mm-lens.svg|1200]]
+![50mm reference](https://commons.wikimedia.org/wiki/Special:FilePath/Focal_length_f50mm.jpg?width=1100)
 
-- Prompt fragment: `a director by a window, 50mm lens, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `50mm lens, natural perspective, neutral subject-to-background balance`
+- Real reference: [Focal length f50mm.jpg](https://commons.wikimedia.org/wiki/File:Focal_length_f50mm.jpg)
 
 ## 85mm portrait lens
 
-A portrait lens look that compresses the background and isolates the subject.
+The 85mm portrait zone compresses the background more strongly and gives clean visual separation around the face and upper body.
 
-![[assets/ai-video/glossary/lens-depth/85mm-portrait-lens.svg|1200]]
+![85mm portrait reference](https://commons.wikimedia.org/wiki/Special:FilePath/Elegant_woman_by_storefront_(Unsplash).jpg?width=1100)
 
-- Prompt fragment: `a director by a window, 85mm portrait lens, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `85mm portrait lens, compressed background, clean subject separation`
+- Real reference: [Elegant woman by storefront (Unsplash)](https://commons.wikimedia.org/wiki/File:Elegant_woman_by_storefront_(Unsplash).jpg)
 
 ## shallow depth of field
 
-A focus style where the subject stays sharp while the background falls soft.
+Shallow depth of field keeps the subject sharp while pushing the background into blur. It is one of the fastest ways to isolate attention.
 
-![[assets/ai-video/glossary/lens-depth/shallow-depth-of-field.svg|1200]]
+![shallow depth of field reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
 
-- Prompt fragment: `a director by a window, shallow depth of field, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `shallow depth of field, creamy background blur, subject isolated`
+- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
 
 ## deep focus
 
-A focus style that keeps foreground and background readable at the same time.
+Deep focus keeps foreground and background readable at the same time. It is useful when geography, blocking, or layered action matters.
 
-![[assets/ai-video/glossary/lens-depth/deep-focus.svg|1200]]
+![deep focus reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
 
-- Prompt fragment: `a director by a window, deep focus, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `deep focus, foreground and background both sharp, spatial clarity`
+- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
 
 ## anamorphic lens look
 
-A cinematic lens style associated with wide horizontal space and anamorphic character.
+An anamorphic look usually implies horizontal flares, a wider cinematic impression, and a more stylized screen presence.
 
-![[assets/ai-video/glossary/lens-depth/anamorphic-lens-look.svg|1200]]
+![anamorphic lens look reference](https://commons.wikimedia.org/wiki/Special:FilePath/Lens_Flare_(Unsplash).jpg?width=1200)
 
-- Prompt fragment: `a director by a window, anamorphic lens look, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `anamorphic lens look, horizontal flare, cinematic widescreen mood`
+- Real reference: [Lens Flare (Unsplash)](https://commons.wikimedia.org/wiki/File:Lens_Flare_(Unsplash).jpg)
 
 ## rack focus
 
-A focus pull that shifts attention from one subject plane to another.
+`rack focus` shifts sharpness from one subject plane to another. A still image cannot show the transition in time, so the key reference is the **near-vs-far focus separation** the move relies on.
 
-![[assets/ai-video/glossary/lens-depth/rack-focus.svg|1200]]
+![rack focus reference](https://commons.wikimedia.org/wiki/Special:FilePath/Depth-of-field-comparison-side-by-side-small.png?width=1200)
 
-- Prompt fragment: `a director by a window, rack focus, soft daylight, cinematic realism`
-- What to notice: Notice how the sense of distance and background separation changes.
+- Prompt fragment: `rack focus from foreground object to background subject`
+- Real reference: [Depth-of-field-comparison-side-by-side-small.png](https://commons.wikimedia.org/wiki/File:Depth-of-field-comparison-side-by-side-small.png)
+
+## Summary
+
+Lens choice and depth behavior usually work best as a pair.
+
+- broader environment and space: `24mm + deep focus`
+- balanced cinematic baseline: `35mm + moderate background separation`
+- natural subject framing: `50mm + shallow depth of field`
+- portrait emphasis: `85mm + strong subject isolation`
+
+In prompting, lens language becomes much more reliable when you specify depth behavior at the same time.
