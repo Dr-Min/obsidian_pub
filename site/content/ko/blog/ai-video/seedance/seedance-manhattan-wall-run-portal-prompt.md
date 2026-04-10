@@ -83,14 +83,19 @@ She flies directly toward a glowing sci-fi portal in the air and dives into it, 
 첫 컷은 액션보다 **도입부 긴장감**이 핵심입니다.
 
 - `hyper-realistic beautiful woman`
+  한국어 번역: `하이퍼 리얼한 아름다운 여성`
   피사체의 외형과 리얼리즘 수준을 고정합니다.
 - `stylish skirt`
+  한국어 번역: `세련된 스커트`
   캐릭터 실루엣과 움직임 포인트를 만듭니다.
 - `middle of a busy Manhattan street at night`
+  한국어 번역: `밤의 분주한 맨해튼 거리 한가운데`
   장소, 시간대, 도시 밀도를 동시에 고정합니다.
 - `low-angle cinematic shot`
+  한국어 번역: `로우앵글 시네마틱 샷`
   인물을 크게 보이게 하고 히어로 느낌을 만듭니다.
 - `wind blowing her hair and skirt`
+  한국어 번역: `머리카락과 스커트를 바람이 휘날리게 한다`
   정지 컷에도 미세한 동세를 넣습니다.
 
 이 컷은 "누가, 어디에, 어떤 영화 톤으로 서 있는가"를 정리하는 역할입니다.
@@ -100,16 +105,22 @@ She flies directly toward a glowing sci-fi portal in the air and dives into it, 
 두 번째 컷은 액션이 갑자기 열리는 구간입니다.
 
 - `sprints at faster-than-light speed`
+  한국어 번역: `빛보다 빠른 속도로 질주한다`
   현실보다 과장된 속도를 한 줄로 지정합니다.
 - `running across moving cars`
+  한국어 번역: `움직이는 자동차들 위를 달린다`
   일반적인 러닝이 아니라 시각적으로 강한 지형을 사용합니다.
 - `roofs and hoods`
+  한국어 번역: `자동차 지붕과 보닛`
   접촉 지점을 명확히 해서 동작을 구체화합니다.
 - `metal dents, sparks, shockwaves`
+  한국어 번역: `금속 찌그러짐, 불꽃, 충격파`
   충격의 물리적 흔적을 만들어 줍니다.
 - `side tracking shot`
+  한국어 번역: `측면 추적 샷`
   속도감을 보기 좋은 카메라 선택입니다.
 - `ultra realistic motion blur`
+  한국어 번역: `초현실적 모션 블러`
   속도 해석을 돕는 렌더링 키워드입니다.
 
 이 컷의 핵심은 **속도 자체보다, 속도가 주변 물체를 어떻게 변형시키는지**를 보여주는 데 있습니다.
@@ -119,12 +130,16 @@ She flies directly toward a glowing sci-fi portal in the air and dives into it, 
 세 번째 컷은 이 프롬프트의 정체성을 만들어 줍니다.
 
 - `transitions from running on cars to sprinting along the vertical wall`
+  한국어 번역: `자동차 위를 달리던 흐름에서 수직 벽을 따라 질주하는 동작으로 전환한다`
   수평 액션에서 수직 액션으로 전환합니다.
 - `realistic wall-running physics`
+  한국어 번역: `현실적인 월런 물리`
   말도 안 되는 장면이지만, 내부 물리 규칙은 진지하게 유지하라는 신호입니다.
 - `hair flowing violently`
+  한국어 번역: `머리카락이 거칠게 휘날린다`
   속도의 체감을 인물 디테일로 전달합니다.
 - `New York lights reflecting on the building`
+  한국어 번역: `건물에 비치는 뉴욕의 불빛`
   배경 도시성과 표면 질감을 동시에 넣습니다.
 
 이 컷 덕분에 영상이 단순 추격전이 아니라 **초현실 도심 슈퍼런 시퀀스**로 보이게 됩니다.
@@ -134,12 +149,16 @@ She flies directly toward a glowing sci-fi portal in the air and dives into it, 
 여기서는 도심 전체를 사용하는 느낌이 필요합니다.
 
 - `massive jump across the New York skyline`
+  한국어 번역: `뉴욕 스카이라인을 가로지르는 거대한 점프`
   스케일을 도시 단위로 키웁니다.
 - `brief dramatic slow motion`
+  한국어 번역: `잠깐의 드라마틱한 슬로모션`
   속도 일변도에서 한 번 리듬을 꺾어 장면을 강조합니다.
 - `epic city view`
+  한국어 번역: `장대한 도시 전경`
   배경을 단순 장식이 아니라 서사적 무대로 확장합니다.
 - `glowing portal appearing ahead`
+  한국어 번역: `앞에 나타나는 빛나는 포털`
   다음 컷의 목적지를 미리 던져 줍니다.
 
 이 컷은 액션 서사에서 **정점 직전의 영웅 샷** 역할을 합니다.
@@ -149,14 +168,19 @@ She flies directly toward a glowing sci-fi portal in the air and dives into it, 
 마지막 컷은 착지보다 **흡입감 있는 종결**을 택합니다.
 
 - `flies directly toward a glowing sci-fi portal`
+  한국어 번역: `빛나는 SF 포털을 향해 곧장 날아간다`
   목표물이 명확합니다.
 - `energy trails, air shockwaves`
+  한국어 번역: `에너지 트레일과 공기 충격파`
   이동 궤적과 충격을 시각화합니다.
 - `portal light filling the frame`
+  한국어 번역: `프레임을 가득 채우는 포털의 빛`
   프레임 전체를 하나의 광원 이벤트로 덮습니다.
 - `portal closes behind her`
+  한국어 번역: `그녀의 뒤에서 포털이 닫힌다`
   엔딩을 닫는 문장입니다.
 - `ultra-realistic blockbuster ending`
+  한국어 번역: `초현실적 블록버스터 엔딩`
   최종 질감의 방향을 다시 한 번 못 박습니다.
 
 ## 핵심 키워드 분해

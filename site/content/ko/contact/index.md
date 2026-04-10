@@ -18,7 +18,7 @@ MINventory 관련 문의는 이메일로 받을 예정입니다.
 
 ## 연락 방법
 
-- 이메일: [contact@minventory.org](mailto:contact@minventory.org)
+- 이메일: [mks010103@gmail.com](mailto:mks010103@gmail.com)
 
 ## 이런 문의에 적합합니다
 

@@ -63,4 +63,4 @@ This policy may be updated when site features, analytics, advertising, or contac
 
 ## Contact
 
-Privacy-related questions can be sent to [contact@minventory.org](mailto:contact@minventory.org).
+Privacy-related questions can be sent to [mks010103@gmail.com](mailto:mks010103@gmail.com).

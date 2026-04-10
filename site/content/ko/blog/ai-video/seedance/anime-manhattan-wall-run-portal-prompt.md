@@ -117,14 +117,19 @@ She flies directly toward a glowing sci-fi portal in midair and dives into it, b
 첫 컷의 핵심은 행동보다 **등장 방식**입니다.
 
 - `beautiful anime girl`
+  한국어 번역: `아름다운 애니메 소녀`
   캐릭터 외형과 장르 톤을 먼저 고정합니다.
 - `stylish skirt`
+  한국어 번역: `세련된 스커트`
   실루엣과 바람 표현 포인트를 만듭니다.
 - `busy Manhattan street at night`
+  한국어 번역: `밤의 분주한 맨해튼 거리`
   장소, 시간대, 도시 밀도를 한 번에 정합니다.
 - `low-angle cinematic composition`
+  한국어 번역: `로우앵글 시네마틱 구도`
   주인공을 더 크게, 더 영웅적으로 보이게 합니다.
 - `detailed 2D background art`
+  한국어 번역: `디테일한 2D 배경 아트`
   배경이 허전한 생성물로 무너지지 않도록 잡아 줍니다.
 
 ### Cut 2: 속도 충격과 접촉감
@@ -132,14 +137,19 @@ She flies directly toward a glowing sci-fi portal in midair and dives into it, b
 여기서는 달리는 것 자체보다 **세상을 때리는 속도**가 중요합니다.
 
 - `bursts forward at faster-than-light speed`
+  한국어 번역: `빛보다 빠른 속도로 폭발적으로 튀어나간다`
   속도 과장을 한 문장으로 확실히 못 박습니다.
 - `stepping on their roofs and hoods`
+  한국어 번역: `자동차들의 지붕과 보닛을 밟는다`
   어디를 밟는지 구체적으로 적어 동작을 선명하게 만듭니다.
 - `sparks, speed lines, shockwaves`
+  한국어 번역: `불꽃, 스피드 라인, 충격파`
   애니메식 충격 표현을 한꺼번에 공급합니다.
 - `dynamic side tracking shot`
+  한국어 번역: `역동적인 측면 추적 샷`
   속도감을 읽기 쉬운 카메라 선택입니다.
 - `dramatic anime motion blur`
+  한국어 번역: `드라마틱한 애니메식 모션 블러`
   빠른 이동을 애니메 문법으로 처리하라는 신호입니다.
 
 ### Cut 3: 수평에서 수직으로 전환
@@ -147,12 +157,16 @@ She flies directly toward a glowing sci-fi portal in midair and dives into it, b
 이 컷이 들어가야 영상이 단순 러닝 씬이 아니라 **월런 액션 시퀀스**가 됩니다.
 
 - `transitions from running on cars to sprinting along the vertical wall`
+  한국어 번역: `자동차 위를 달리던 흐름에서 수직 벽을 따라 질주하는 동작으로 전환한다`
   구조 변화가 분명합니다.
 - `impossible anime-style wall-running`
+  한국어 번역: `현실 불가능한 애니메식 월런`
   현실성을 버리는 대신 장르 일관성을 강화합니다.
 - `hair and skirt whipping violently`
+  한국어 번역: `머리카락과 스커트가 거칠게 휘날린다`
   속도와 바람을 인물 디테일로 체감하게 합니다.
 - `neon reflections on the glass`
+  한국어 번역: `유리 표면에 비치는 네온 반사`
   도시의 빛을 배경 표면에 얹어 줍니다.
 
 ### Cut 4: 스케일 확장과 리듬 전환
@@ -160,12 +174,16 @@ She flies directly toward a glowing sci-fi portal in midair and dives into it, b
 이 장면은 질주를 잠깐 들어 올려 **영웅 샷**으로 바꾸는 구간입니다.
 
 - `massive leap across the New York skyline`
+  한국어 번역: `뉴욕 스카이라인을 가로지르는 거대한 도약`
   스케일이 자동차나 도로가 아니라 도시 전체로 커집니다.
 - `dramatic midair pose`
+  한국어 번역: `드라마틱한 공중 포즈`
   애니메다운 포즈 연출을 허용합니다.
 - `brief anime-style slow motion`
+  한국어 번역: `잠깐의 애니메식 슬로모션`
   계속 빠르기만 한 리듬을 한 번 꺾어서 장면을 강조합니다.
 - `glowing portal appearing ahead`
+  한국어 번역: `앞에 나타나는 빛나는 포털`
   마지막 컷의 목적지를 미리 보여 줍니다.
 
 ### Cut 5: 포털로 닫는 엔딩
@@ -173,12 +191,16 @@ She flies directly toward a glowing sci-fi portal in midair and dives into it, b
 마지막 컷은 착지보다 **흡입감 있는 종결**을 선택합니다.
 
 - `flies directly toward a glowing sci-fi portal`
+  한국어 번역: `빛나는 SF 포털을 향해 곧장 날아간다`
   목표가 명확합니다.
 - `bright energy trails`
+  한국어 번역: `밝은 에너지 트레일`
   이동 궤적을 남깁니다.
 - `glowing portal light filling the frame`
+  한국어 번역: `프레임을 가득 채우는 포털의 빛`
   엔딩을 시각적으로 크게 닫아 줍니다.
 - `portal closes behind her`
+  한국어 번역: `그녀의 뒤에서 포털이 닫힌다`
   장면을 완결시키는 문장입니다.
 
 ## 핵심 키워드 분해

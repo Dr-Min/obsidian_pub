@@ -18,7 +18,7 @@ MINventory can be contacted by email for general site-related inquiries.
 
 ## Contact method
 
-- Email: [contact@minventory.org](mailto:contact@minventory.org)
+- Email: [mks010103@gmail.com](mailto:mks010103@gmail.com)
 
 ## Good reasons to contact the site
 
