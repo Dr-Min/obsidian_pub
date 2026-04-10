@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "AI Prompt Library",
+    pageTitle: "MINventory",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

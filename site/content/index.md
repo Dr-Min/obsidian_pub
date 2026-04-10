@@ -1,6 +1,6 @@
 ---
-title: "AI Prompt Library"
-description: "Bilingual publishing hub for AI prompt guides, visual references, and workflow notes."
+title: "MINventory"
+description: "MINventory is a bilingual publishing hub for AI prompt guides, visual references, and workflow notes."
 publish: true
 draft: false
 tags:
@@ -8,9 +8,9 @@ tags:
   - bilingual
 ---
 
-# AI Prompt Library
+# MINventory
 
-This site publishes prompt-writing notes in two language paths so Korean and English readers each get a dedicated URL.
+MINventory publishes prompt-writing notes in two language paths so Korean and English readers each get a dedicated URL.
 
 ## Editorial Rule
 

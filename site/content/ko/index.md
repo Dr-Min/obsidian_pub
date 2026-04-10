@@ -1,6 +1,6 @@
 ---
-title: "한국어 홈"
-description: "AI 영상 프롬프트, 촬영 구도, 화면 설계 글을 위한 한국어 허브."
+title: "MINventory"
+description: "MINventory의 한국어 허브입니다. AI 영상 프롬프트, 촬영 구도, 화면 설계 글을 다룹니다."
 publish: true
 draft: false
 lang: "ko"
@@ -10,9 +10,9 @@ tags:
   - ko
 ---
 
-# 한국어 허브
+# MINventory
 
-AI 영상 프롬프트와 이미지 프롬프트를 위한 글을 한국어로 정리하는 공간입니다.
+MINventory에서 AI 영상 프롬프트와 이미지 프롬프트 관련 글을 한국어로 정리하는 공간입니다.
 
 ## 여기서 다루는 것
 
