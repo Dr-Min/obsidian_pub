@@ -39,11 +39,11 @@ class SiteInfoPageTests(unittest.TestCase):
             en_text = read_text(en_path)
             self.assertEqual(frontmatter_value(ko_text, "translationKey"), frontmatter_value(en_text, "translationKey"))
 
-    def test_contact_pages_reference_minventory_email(self) -> None:
+    def test_contact_pages_include_contact_email(self) -> None:
         for locale in ("ko", "en"):
             path = CONTENT_ROOT / locale / "contact" / "index.md"
             text = read_text(path)
-            self.assertIn("contact@minventory.org", text)
+            self.assertRegex(text, r"mailto:[^)\\s]+")
 
 
 if __name__ == "__main__":

@@ -28,8 +28,9 @@ class AiVideoModelArticleTests(unittest.TestCase):
 
     def test_model_articles_exist_in_both_languages(self) -> None:
         for locale in ("ko", "en"):
-            path = CONTENT_ROOT / locale / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md"
-            self.assertTrue(path.exists(), f"missing model article: {path}")
+            for name in ("april-2025-ai-video-models.md", "pika-separate-category.md"):
+                path = CONTENT_ROOT / locale / "blog" / "ai-video" / "models" / name
+                self.assertTrue(path.exists(), f"missing model article: {path}")
 
     def test_model_pages_share_translation_keys(self) -> None:
         pairs = [
@@ -40,6 +41,10 @@ class AiVideoModelArticleTests(unittest.TestCase):
             (
                 CONTENT_ROOT / "ko" / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md",
                 CONTENT_ROOT / "en" / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md",
+            ),
+            (
+                CONTENT_ROOT / "ko" / "blog" / "ai-video" / "models" / "pika-separate-category.md",
+                CONTENT_ROOT / "en" / "blog" / "ai-video" / "models" / "pika-separate-category.md",
             ),
         ]
 
@@ -70,6 +75,17 @@ class AiVideoModelArticleTests(unittest.TestCase):
         text = read_text(CONTENT_ROOT / "en" / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md")
         for name in ("openai.png", "veo.svg", "runway.svg", "kling.png", "luma.svg", "hailuo.png"):
             self.assertIn(f"assets/ai-video/model-logos/april-2025/{name}", text)
+
+    def test_pika_note_is_linked_from_model_pages(self) -> None:
+        ko_index = read_text(CONTENT_ROOT / "ko" / "blog" / "ai-video" / "models" / "index.md")
+        en_index = read_text(CONTENT_ROOT / "en" / "blog" / "ai-video" / "models" / "index.md")
+        ko_article = read_text(CONTENT_ROOT / "ko" / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md")
+        en_article = read_text(CONTENT_ROOT / "en" / "blog" / "ai-video" / "models" / "april-2025-ai-video-models.md")
+
+        self.assertIn("pika-separate-category", ko_index)
+        self.assertIn("pika-separate-category", en_index)
+        self.assertIn("pika-separate-category", ko_article)
+        self.assertIn("pika-separate-category", en_article)
 
 
 if __name__ == "__main__":

@@ -19,3 +19,4 @@ This folder stores time-stamped snapshots of major AI video models, including re
 ## Articles
 
 - [[en/blog/ai-video/models/april-2025-ai-video-models|AI Video Models in April 2025]]
+- [[en/blog/ai-video/models/pika-separate-category|Why Pika Sits in a Separate Category]]

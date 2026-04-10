@@ -19,3 +19,4 @@ tags:
 ## 글 목록
 
 - [[ko/blog/ai-video/models/april-2025-ai-video-models|2025년 4월 기준 AI 비디오 모델 비교]]
+- [[ko/blog/ai-video/models/pika-separate-category|Pika는 왜 별도 분류로 보나]]

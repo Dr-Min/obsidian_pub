@@ -111,6 +111,8 @@ Important framing:
 
 Pika still mattered in April 2025. The reason it is not a core section in this particular snapshot is that the power-user comparison conversation in that window leaned more heavily toward `Sora / Veo / Runway / Kling / Luma / Hailuo` when people argued about raw model quality and workflow control. Pika deserves its own more effect-oriented comparison.
 
+The separate note lives here: [[en/blog/ai-video/models/pika-separate-category|Why Pika Sits in a Separate Category]].
+
 ## Source Snapshot
 
 - Official: [Sora is here](https://openai.com/blog/sora-is-here/)

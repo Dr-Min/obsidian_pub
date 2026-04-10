@@ -111,6 +111,8 @@ tags:
 
 2025년 4월에도 Pika는 여전히 중요했습니다. 다만 그 시점의 파워 유저 비교 담론은 대체로 `Sora / Veo / Runway / Kling / Luma / Hailuo` 쪽에 더 몰려 있었습니다. Pika는 효과형, 소셜형, 템플릿형 활용을 따로 묶어 비교하는 편이 더 정확합니다.
 
+별도 정리는 [[ko/blog/ai-video/models/pika-separate-category|Pika는 왜 별도 분류로 보나]]에서 따로 다룹니다.
+
 ## 출처 스냅샷
 
 - Official: [Sora is here](https://openai.com/blog/sora-is-here/)
