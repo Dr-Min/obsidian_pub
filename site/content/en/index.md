@@ -24,4 +24,7 @@ This section publishes English notes about AI video prompts, image prompts, and 
 ## Start Here
 
 - [[en/blog/index|English article index]]
+- [[en/about|About]]
+- [[en/privacy|Privacy Policy]]
+- [[en/contact|Contact]]
 - [한국어 보기](../ko/)

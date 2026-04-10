@@ -24,6 +24,15 @@ MINventory publishes prompt-writing notes in two language paths so Korean and En
 - [한국어로 보기](./ko/)
 - [Read in English](./en/)
 
+## Site Information
+
+- [[ko/about|소개]]
+- [[ko/privacy|개인정보처리방침]]
+- [[ko/contact|문의]]
+- [[en/about|About]]
+- [[en/privacy|Privacy Policy]]
+- [[en/contact|Contact]]
+
 ## What Lives Here
 
 - Camera composition guides

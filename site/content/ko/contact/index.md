@@ -1,0 +1,38 @@
+---
+title: "문의"
+description: "MINventory에 대한 정정 요청, 협업 제안, 일반 문의를 보낼 수 있는 방법을 안내합니다."
+publish: true
+draft: false
+lang: "ko"
+translationKey: "site-contact"
+tags:
+  - site
+  - ko
+---
+
+# 문의
+
+마지막 업데이트: 2026년 4월 10일
+
+MINventory 관련 문의는 이메일로 받을 예정입니다.
+
+## 연락 방법
+
+- 이메일: [contact@minventory.org](mailto:contact@minventory.org)
+
+## 이런 문의에 적합합니다
+
+- 글 내용 정정 요청
+- 출처 또는 이미지 레퍼런스 수정 요청
+- 협업, 인터뷰, 비즈니스 제안
+- 광고 또는 제휴 관련 문의
+
+## 보내면 좋은 정보
+
+- 어떤 페이지에 대한 문의인지
+- 무엇이 잘못되었는지 또는 무엇을 제안하는지
+- 답장을 받기 위한 연락처
+
+## 안내
+
+이메일 응답 속도는 상황에 따라 달라질 수 있습니다. 운영용 이메일 주소가 변경되면 이 페이지를 함께 수정합니다.

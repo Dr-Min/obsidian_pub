@@ -18,6 +18,12 @@ tags:
 
 - [[ko/blog/ai-video|AI 영상]]
 
+## 사이트 정보
+
+- [[ko/about|소개]]
+- [[ko/privacy|개인정보처리방침]]
+- [[ko/contact|문의]]
+
 ## 대표 글
 
 - [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]

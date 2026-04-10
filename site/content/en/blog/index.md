@@ -18,6 +18,12 @@ The main public series right now is `AI Video`, and every published page is mana
 
 - [[en/blog/ai-video|AI Video]]
 
+## Site Information
+
+- [[en/about|About]]
+- [[en/privacy|Privacy Policy]]
+- [[en/contact|Contact]]
+
 ## Featured Pages
 
 - [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]

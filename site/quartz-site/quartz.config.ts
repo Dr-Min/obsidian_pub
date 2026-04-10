@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: process.env.QUARTZ_BASE_URL ?? "example.com",
+    baseUrl: process.env.QUARTZ_BASE_URL ?? "minventory.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
