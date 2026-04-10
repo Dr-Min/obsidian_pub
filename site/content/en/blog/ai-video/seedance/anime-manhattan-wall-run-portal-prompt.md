@@ -26,7 +26,9 @@ If you want the live-action counterpart, compare it with [[en/blog/ai-video/seed
 
 ## Reference video
 
-- Provided Shorts URL: [https://www.youtube.com/shorts/RD3zo0q-610](https://www.youtube.com/shorts/RD3zo0q-610)
+![](https://www.youtube.com/watch?v=RD3zo0q-610)
+
+Original Shorts URL: [https://www.youtube.com/shorts/RD3zo0q-610](https://www.youtube.com/shorts/RD3zo0q-610)
 
 ## Archive metadata
 

@@ -26,7 +26,9 @@ aliases:
 
 ## 레퍼런스 영상
 
-- 제공된 Shorts 링크: [https://www.youtube.com/shorts/RD3zo0q-610](https://www.youtube.com/shorts/RD3zo0q-610)
+![](https://www.youtube.com/watch?v=RD3zo0q-610)
+
+원본 Shorts 링크: [https://www.youtube.com/shorts/RD3zo0q-610](https://www.youtube.com/shorts/RD3zo0q-610)
 
 ## 아카이브 메타
 
