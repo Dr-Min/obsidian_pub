@@ -21,7 +21,8 @@ tags:
 ## 대표 글
 
 - [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]
-- [[ko/blog/ai-video/shot-composition|화면 구도]]
-- [[ko/blog/ai-video/camera-movement|카메라 움직임]]
-- [[ko/blog/ai-video/lighting|조명]]
+- [[ko/blog/ai-video/prompt-terms|AI 영상 프롬프트 용어]]
+- [[ko/blog/ai-video/prompt-terms/shot-composition|화면 구도]]
+- [[ko/blog/ai-video/prompt-terms/camera-movement|카메라 움직임]]
+- [[ko/blog/ai-video/prompt-terms/lighting|조명]]
 - [[ko/blog/ai-video/seedance|Seedance]]

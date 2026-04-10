@@ -21,7 +21,8 @@ The main public series right now is `AI Video`, and every published page is mana
 ## Featured Pages
 
 - [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]
-- [[en/blog/ai-video/shot-composition|Shot Composition]]
-- [[en/blog/ai-video/camera-movement|Camera Movement]]
-- [[en/blog/ai-video/lighting|Lighting]]
+- [[en/blog/ai-video/prompt-terms|AI Video Prompt Terms]]
+- [[en/blog/ai-video/prompt-terms/shot-composition|Shot Composition]]
+- [[en/blog/ai-video/prompt-terms/camera-movement|Camera Movement]]
+- [[en/blog/ai-video/prompt-terms/lighting|Lighting]]
 - [[en/blog/ai-video/seedance|Seedance]]

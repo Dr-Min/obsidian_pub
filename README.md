@@ -44,16 +44,16 @@ Publishing rule:
 
 Current AI video category folders:
 
-- `site/content/ko/blog/ai-video/subject-action/` and `site/content/en/blog/ai-video/subject-action/`
-- `site/content/ko/blog/ai-video/shot-composition/` and `site/content/en/blog/ai-video/shot-composition/`
-- `site/content/ko/blog/ai-video/lens-depth/` and `site/content/en/blog/ai-video/lens-depth/`
-- `site/content/ko/blog/ai-video/camera-movement/` and `site/content/en/blog/ai-video/camera-movement/`
-- `site/content/ko/blog/ai-video/lighting/` and `site/content/en/blog/ai-video/lighting/`
-- `site/content/ko/blog/ai-video/mood-texture/` and `site/content/en/blog/ai-video/mood-texture/`
-- `site/content/ko/blog/ai-video/environment/` and `site/content/en/blog/ai-video/environment/`
-- `site/content/ko/blog/ai-video/speed-physics/` and `site/content/en/blog/ai-video/speed-physics/`
-- `site/content/ko/blog/ai-video/editing-cuts/` and `site/content/en/blog/ai-video/editing-cuts/`
-- `site/content/ko/blog/ai-video/technical-output/` and `site/content/en/blog/ai-video/technical-output/`
+- `site/content/ko/blog/ai-video/prompt-terms/subject-action/` and `site/content/en/blog/ai-video/prompt-terms/subject-action/`
+- `site/content/ko/blog/ai-video/prompt-terms/shot-composition/` and `site/content/en/blog/ai-video/prompt-terms/shot-composition/`
+- `site/content/ko/blog/ai-video/prompt-terms/lens-depth/` and `site/content/en/blog/ai-video/prompt-terms/lens-depth/`
+- `site/content/ko/blog/ai-video/prompt-terms/camera-movement/` and `site/content/en/blog/ai-video/prompt-terms/camera-movement/`
+- `site/content/ko/blog/ai-video/prompt-terms/lighting/` and `site/content/en/blog/ai-video/prompt-terms/lighting/`
+- `site/content/ko/blog/ai-video/prompt-terms/mood-texture/` and `site/content/en/blog/ai-video/prompt-terms/mood-texture/`
+- `site/content/ko/blog/ai-video/prompt-terms/environment/` and `site/content/en/blog/ai-video/prompt-terms/environment/`
+- `site/content/ko/blog/ai-video/prompt-terms/speed-physics/` and `site/content/en/blog/ai-video/prompt-terms/speed-physics/`
+- `site/content/ko/blog/ai-video/prompt-terms/editing-cuts/` and `site/content/en/blog/ai-video/prompt-terms/editing-cuts/`
+- `site/content/ko/blog/ai-video/prompt-terms/technical-output/` and `site/content/en/blog/ai-video/prompt-terms/technical-output/`
 - `site/content/ko/blog/ai-video/seedance/` and `site/content/en/blog/ai-video/seedance/`
 
 Optional WordPress publishing still exists:

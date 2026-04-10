@@ -16,16 +16,16 @@ Important publishing rule:
 
 Preferred AI video category folders:
 
-- `blog/ai-video/subject-action/`
-- `blog/ai-video/shot-composition/`
-- `blog/ai-video/lens-depth/`
-- `blog/ai-video/camera-movement/`
-- `blog/ai-video/lighting/`
-- `blog/ai-video/mood-texture/`
-- `blog/ai-video/environment/`
-- `blog/ai-video/speed-physics/`
-- `blog/ai-video/editing-cuts/`
-- `blog/ai-video/technical-output/`
+- `blog/ai-video/prompt-terms/subject-action/`
+- `blog/ai-video/prompt-terms/shot-composition/`
+- `blog/ai-video/prompt-terms/lens-depth/`
+- `blog/ai-video/prompt-terms/camera-movement/`
+- `blog/ai-video/prompt-terms/lighting/`
+- `blog/ai-video/prompt-terms/mood-texture/`
+- `blog/ai-video/prompt-terms/environment/`
+- `blog/ai-video/prompt-terms/speed-physics/`
+- `blog/ai-video/prompt-terms/editing-cuts/`
+- `blog/ai-video/prompt-terms/technical-output/`
 - `blog/ai-video/seedance/`
 
 ## How to Use It

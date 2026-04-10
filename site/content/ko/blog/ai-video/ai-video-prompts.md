@@ -26,11 +26,12 @@ tags:
 
 ## 먼저 읽으면 좋은 카테고리
 
-- [[ko/blog/ai-video/subject-action|주체와 행동]]
-- [[ko/blog/ai-video/shot-composition|화면 구도]]
-- [[ko/blog/ai-video/lens-depth|렌즈와 심도]]
-- [[ko/blog/ai-video/camera-movement|카메라 움직임]]
-- [[ko/blog/ai-video/lighting|조명]]
+- [[ko/blog/ai-video/prompt-terms|AI 영상 프롬프트 용어]]
+- [[ko/blog/ai-video/prompt-terms/subject-action|주체와 행동]]
+- [[ko/blog/ai-video/prompt-terms/shot-composition|화면 구도]]
+- [[ko/blog/ai-video/prompt-terms/lens-depth|렌즈와 심도]]
+- [[ko/blog/ai-video/prompt-terms/camera-movement|카메라 움직임]]
+- [[ko/blog/ai-video/prompt-terms/lighting|조명]]
 
 ## 실전 예시
 

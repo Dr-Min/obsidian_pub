@@ -23,16 +23,16 @@ The preferred publishing path is now:
 - Do not leave a public article as one-language-only unless the user explicitly asks for a temporary exception.
 - Do not dump public notes directly into `site/content/blog/`. Always place them inside a category path such as `blog/ai-video/`, `blog/ai-video/camera-techniques/`, or `blog/ai-video/seedance/`.
 - For AI video content, prefer the category folders already established in the site:
-  - `blog/ai-video/subject-action`
-  - `blog/ai-video/shot-composition`
-  - `blog/ai-video/lens-depth`
-  - `blog/ai-video/camera-movement`
-  - `blog/ai-video/lighting`
-  - `blog/ai-video/mood-texture`
-  - `blog/ai-video/environment`
-  - `blog/ai-video/speed-physics`
-  - `blog/ai-video/editing-cuts`
-  - `blog/ai-video/technical-output`
+  - `blog/ai-video/prompt-terms/subject-action`
+  - `blog/ai-video/prompt-terms/shot-composition`
+  - `blog/ai-video/prompt-terms/lens-depth`
+  - `blog/ai-video/prompt-terms/camera-movement`
+  - `blog/ai-video/prompt-terms/lighting`
+  - `blog/ai-video/prompt-terms/mood-texture`
+  - `blog/ai-video/prompt-terms/environment`
+  - `blog/ai-video/prompt-terms/speed-physics`
+  - `blog/ai-video/prompt-terms/editing-cuts`
+  - `blog/ai-video/prompt-terms/technical-output`
   - `blog/ai-video/seedance`
 
 ### 1. Audit Context

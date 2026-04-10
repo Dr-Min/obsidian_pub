@@ -1,27 +1,24 @@
 ---
-title: "AI Video"
-description: "A category hub for AI video prompt guides and glossaries."
+title: "AI Video Prompt Terms"
+description: "A glossary hub that groups the core visual language used in AI video prompts."
 publish: true
 draft: false
 lang: "en"
-translationKey: "blog-ai-video-index"
+translationKey: "ai-video-prompt-terms-index"
 tags:
   - blog
   - en
   - ai-video
+  - prompt-terms
 ---
 
-# AI Video
+# AI Video Prompt Terms
 
-This folder organizes AI video prompt writing by topic. This glossary set intentionally skips 9:16/shorts for now and focuses on the core camera language first.
+This folder groups the core visual language used again and again in AI video prompting.  
+The article titles are kept short and direct, such as `Lens and Depth` and `Technical and Output Style`.
 
-## Start Here
+## Categories
 
-- [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]
-
-## Glossary Folder
-
-- [[en/blog/ai-video/prompt-terms|AI Video Prompt Terms]]
 - [[en/blog/ai-video/prompt-terms/subject-action|Subject and Action]]
 - [[en/blog/ai-video/prompt-terms/shot-composition|Shot Composition]]
 - [[en/blog/ai-video/prompt-terms/lens-depth|Lens and Depth]]
@@ -32,8 +29,3 @@ This folder organizes AI video prompt writing by topic. This glossary set intent
 - [[en/blog/ai-video/prompt-terms/speed-physics|Speed and Physics]]
 - [[en/blog/ai-video/prompt-terms/editing-cuts|Editing and Cut Structure]]
 - [[en/blog/ai-video/prompt-terms/technical-output|Technical and Output Style]]
-
-## Archives
-
-- [[en/blog/ai-video/camera-techniques|Camera Techniques]]
-- [[en/blog/ai-video/seedance|Seedance]]

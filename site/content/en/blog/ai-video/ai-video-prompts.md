@@ -26,11 +26,12 @@ This page is the main guide for the structure. The detailed terminology now live
 
 ## Read These First
 
-- [[en/blog/ai-video/subject-action|Subject and Action]]
-- [[en/blog/ai-video/shot-composition|Shot Composition]]
-- [[en/blog/ai-video/lens-depth|Lens and Depth]]
-- [[en/blog/ai-video/camera-movement|Camera Movement]]
-- [[en/blog/ai-video/lighting|Lighting]]
+- [[en/blog/ai-video/prompt-terms|AI Video Prompt Terms]]
+- [[en/blog/ai-video/prompt-terms/subject-action|Subject and Action]]
+- [[en/blog/ai-video/prompt-terms/shot-composition|Shot Composition]]
+- [[en/blog/ai-video/prompt-terms/lens-depth|Lens and Depth]]
+- [[en/blog/ai-video/prompt-terms/camera-movement|Camera Movement]]
+- [[en/blog/ai-video/prompt-terms/lighting|Lighting]]
 
 ## Practical Example
 
