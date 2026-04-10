@@ -19,6 +19,10 @@ tags:
 
 - [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]
 
+## 모델 비교
+
+- [[ko/blog/ai-video/models|AI 비디오 모델 비교]]
+
 ## 용어 폴더
 
 - [[ko/blog/ai-video/prompt-terms|AI 영상 프롬프트 용어]]

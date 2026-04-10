@@ -19,6 +19,10 @@ This folder organizes AI video prompt writing by topic. This glossary set intent
 
 - [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]
 
+## Model Comparisons
+
+- [[en/blog/ai-video/models|AI Video Model Comparisons]]
+
 ## Glossary Folder
 
 - [[en/blog/ai-video/prompt-terms|AI Video Prompt Terms]]

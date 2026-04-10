@@ -1,0 +1,21 @@
+---
+title: "AI 비디오 모델 비교"
+description: "시점별로 AI 비디오 모델 라인업과 커뮤니티 평가를 정리한 폴더입니다."
+publish: true
+draft: false
+lang: "ko"
+translationKey: "blog-ai-video-models-index"
+tags:
+  - blog
+  - ko
+  - ai-video
+  - models
+---
+
+# AI 비디오 모델 비교
+
+이 폴더는 특정 시점을 기준으로 주요 AI 비디오 모델의 공개 상태, 강점, 약점, 커뮤니티 체감을 정리합니다. 날짜를 고정해 기록해두면 나중에 모델이 바뀌었을 때 비교가 쉬워집니다.
+
+## 글 목록
+
+- [[ko/blog/ai-video/models/april-2025-ai-video-models|2025년 4월 기준 AI 비디오 모델 비교]]
