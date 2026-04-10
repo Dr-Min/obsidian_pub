@@ -1,27 +1,27 @@
 ---
-title: "한국어 글 목록"
-description: "AI 영상 프롬프트 글을 카테고리별 폴더로 정리한 한국어 인덱스."
+title: "블로그"
+description: "Quartz로 발행하는 콘텐츠 허브입니다."
 publish: true
 draft: false
 lang: "ko"
-translationKey: "blog-index"
+translationKey: "blog-index-ko"
 tags:
   - blog
   - ko
 ---
 
-# 한국어 글 목록
+# 블로그
 
-한국어 글은 `AI 영상 -> 세부 카테고리` 구조로 정리됩니다.
+현재 메인 시리즈는 `AI 영상` 카테고리이며, 모든 공개 글은 한국어/영어 한 쌍으로 관리합니다.
 
-## AI 영상
+## 메인 카테고리
 
-- 카테고리 허브: [[ko/blog/ai-video|AI 영상]]
-- 카메라 기법 폴더: [[ko/blog/ai-video/camera-techniques|카메라 기법]]
-- Seedance 아카이브 폴더: [[ko/blog/ai-video/seedance|Seedance]]
+- [[ko/blog/ai-video|AI 영상]]
 
-## 바로 읽기
+## 대표 글
 
-- [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 완전 가이드]]
-- [[ko/blog/ai-video/camera-techniques/shot-composition-camera-movement|AI 영상 프롬프트에서 화면 구도와 카메라 움직임을 설명하는 법]]
-- [[ko/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 프롬프트 아카이브: 맨해튼 질주, 빌딩 월런, 포털 다이브]]
+- [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]
+- [[ko/blog/ai-video/shot-composition|화면 구도]]
+- [[ko/blog/ai-video/camera-movement|카메라 움직임]]
+- [[ko/blog/ai-video/lighting|조명]]
+- [[ko/blog/ai-video/seedance|Seedance]]

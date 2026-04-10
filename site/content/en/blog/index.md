@@ -1,27 +1,27 @@
 ---
-title: "English Articles"
-description: "English index for AI video prompt guides, camera techniques, and Seedance archives."
+title: "Blog"
+description: "A content hub published with Quartz."
 publish: true
 draft: false
 lang: "en"
-translationKey: "blog-index"
+translationKey: "blog-index-en"
 tags:
   - blog
   - en
 ---
 
-# English Articles
+# Blog
 
-The English section is organized as `AI Video -> category folders`.
+The main public series right now is `AI Video`, and every published page is managed as a Korean/English pair.
 
-## AI Video
+## Main Category
 
-- Category hub: [[en/blog/ai-video|AI Video]]
-- Camera techniques folder: [[en/blog/ai-video/camera-techniques|Camera Techniques]]
-- Seedance archive folder: [[en/blog/ai-video/seedance|Seedance]]
+- [[en/blog/ai-video|AI Video]]
 
-## Read Next
+## Featured Pages
 
-- [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and a Clear Structure]]
-- [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]]
-- [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]
+- [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]
+- [[en/blog/ai-video/shot-composition|Shot Composition]]
+- [[en/blog/ai-video/camera-movement|Camera Movement]]
+- [[en/blog/ai-video/lighting|Lighting]]
+- [[en/blog/ai-video/seedance|Seedance]]

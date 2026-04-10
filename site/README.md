@@ -14,6 +14,20 @@ Important publishing rule:
 - Reuse the same `translationKey` for both pages so the site language toggle can switch between them.
 - Keep public notes inside category folders such as `blog/ai-video/`, `blog/ai-video/camera-techniques/`, and `blog/ai-video/seedance/`.
 
+Preferred AI video category folders:
+
+- `blog/ai-video/subject-action/`
+- `blog/ai-video/shot-composition/`
+- `blog/ai-video/lens-depth/`
+- `blog/ai-video/camera-movement/`
+- `blog/ai-video/lighting/`
+- `blog/ai-video/mood-texture/`
+- `blog/ai-video/environment/`
+- `blog/ai-video/speed-physics/`
+- `blog/ai-video/editing-cuts/`
+- `blog/ai-video/technical-output/`
+- `blog/ai-video/seedance/`
+
 ## How to Use It
 
 1. Draft articles in `drafts/`.

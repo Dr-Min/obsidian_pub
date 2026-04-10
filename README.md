@@ -42,6 +42,20 @@ Publishing rule:
 - The language toggle only works correctly when both versions exist at matching relative paths.
 - Public notes should be filed into category folders, not dropped into a flat `blog/` root.
 
+Current AI video category folders:
+
+- `site/content/ko/blog/ai-video/subject-action/` and `site/content/en/blog/ai-video/subject-action/`
+- `site/content/ko/blog/ai-video/shot-composition/` and `site/content/en/blog/ai-video/shot-composition/`
+- `site/content/ko/blog/ai-video/lens-depth/` and `site/content/en/blog/ai-video/lens-depth/`
+- `site/content/ko/blog/ai-video/camera-movement/` and `site/content/en/blog/ai-video/camera-movement/`
+- `site/content/ko/blog/ai-video/lighting/` and `site/content/en/blog/ai-video/lighting/`
+- `site/content/ko/blog/ai-video/mood-texture/` and `site/content/en/blog/ai-video/mood-texture/`
+- `site/content/ko/blog/ai-video/environment/` and `site/content/en/blog/ai-video/environment/`
+- `site/content/ko/blog/ai-video/speed-physics/` and `site/content/en/blog/ai-video/speed-physics/`
+- `site/content/ko/blog/ai-video/editing-cuts/` and `site/content/en/blog/ai-video/editing-cuts/`
+- `site/content/ko/blog/ai-video/technical-output/` and `site/content/en/blog/ai-video/technical-output/`
+- `site/content/ko/blog/ai-video/seedance/` and `site/content/en/blog/ai-video/seedance/`
+
 Optional WordPress publishing still exists:
 
 ```powershell
