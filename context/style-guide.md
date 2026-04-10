@@ -351,6 +351,15 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 
 ## Voice & Tone Reminders
 
+### Korean Publishing Note
+- Korean public articles should sound like natural Korean written by an editor, not like AI-flavored summary copy.
+- Avoid vague ranking phrases or startup jargon when a concrete Korean explanation is available.
+- Watch for phrases such as `공격적이다`, `포지션`, `ceiling`, `워크플로 의존성`, and `커뮤니티 체감` when they are not immediately clear to a general reader.
+- Prefer concrete wording.
+- Example:
+  - Avoid: `기능 스펙만 보면 제일 공격적`
+  - Prefer: `공개된 지원 기능 범위가 가장 넓다`
+
 ### Core Voice Characteristics
 1. Professional yet approachable
 2. Educational and empowering

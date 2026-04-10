@@ -35,6 +35,16 @@ The preferred publishing path is now:
   - `blog/ai-video/prompt-terms/technical-output`
   - `blog/ai-video/seedance`
 
+## Korean Writing Tone Rules
+
+- Korean public-facing copy must read like natural editorial Korean, not like translated AI marketing copy.
+- Avoid lazy comparison jargon when plain Korean is available. Be especially careful with words and phrases such as `공격적`, `포지션`, `ceiling`, `워크플로 의존성`, and `커뮤니티 체감` when they are used as vague labels instead of concrete meaning.
+- Prefer concrete rewrites that describe what the reader can actually verify. Example:
+  - Avoid: `기능 스펙만 보면 제일 공격적`
+  - Prefer: `공개된 지원 기능 범위가 가장 넓다`
+- If an English industry term is unavoidable, explain it once and then keep the Korean sentence readable.
+- Before finalizing a Korean article, quickly reread standout lines and remove any phrase that sounds like model-generated summary prose rather than a human editor's sentence.
+
 ### 1. Audit Context
 
 Run:
@@ -74,6 +84,15 @@ When drafting:
 - Draft both the Korean and English versions for any publishable article.
 - Keep metadata in markdown using fields like `**Meta Title**:`, `**Meta Description**:`, and `**Primary Keyword**:`.
 - Prefer Obsidian-style links such as `[[other-note]]` or `[[other-note|Anchor Text]]` for cross-post references when the target note exists.
+
+### Korean Prompt Archive Preference
+
+- For Korean-only explanatory sections that unpack English prompt phrases, keep the English phrase and add a direct Korean translation immediately below it before the explanation.
+- Preferred pattern for Korean pages:
+  - `` `transitions from running on cars to sprinting along the vertical wall` ``
+  - `한국어 번역: 자동차 위를 달리던 흐름에서 수직 벽 질주로 전환한다`
+  - Then explain why that phrase matters.
+- Apply this preference only to Korean pages unless the user explicitly asks to mirror it in English pages.
 
 ### 5. Optimize the Draft
 
