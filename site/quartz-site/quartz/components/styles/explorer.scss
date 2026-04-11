@@ -226,8 +226,9 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       flex: 0 0 34px;
 
       & > .explorer-content {
-        transform: translateX(-100vw);
+        transform: translateX(-100%);
         visibility: hidden;
+        pointer-events: none;
       }
     }
 
@@ -237,20 +238,21 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       & > .explorer-content {
         transform: translateX(0);
         visibility: visible;
+        pointer-events: auto;
       }
     }
 
     .explorer-content {
       box-sizing: border-box;
       z-index: 100;
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       margin-top: 0;
       background-color: var(--light);
-      max-width: 100vw;
-      width: 100vw;
-      transform: translateX(-100vw);
+      max-width: 100dvw;
+      width: 100dvw;
+      transform: translateX(-100%);
       transition:
         transform 200ms ease,
         visibility 200ms ease;
@@ -259,6 +261,7 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       height: 100dvh;
       max-height: 100dvh;
       visibility: hidden;
+      pointer-events: none;
     }
 
     .mobile-explorer {
