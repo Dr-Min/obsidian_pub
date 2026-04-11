@@ -59,6 +59,45 @@ class SeedanceArchiveTests(unittest.TestCase):
         self.assertIn("Seedance 2.0", en_text)
         self.assertIn("5 cuts / 15 seconds", en_text)
 
+    def test_dark_warrior_archive_exists_in_both_languages(self) -> None:
+        for locale in ("ko", "en"):
+            path = (
+                CONTENT_ROOT
+                / locale
+                / "blog"
+                / "ai-video"
+                / "seedance"
+                / "dark-warrior-red-moon-temple-clash-prompt.md"
+            )
+            self.assertTrue(path.exists(), f"missing Seedance archive: {path}")
+
+    def test_dark_warrior_archive_shares_translation_key(self) -> None:
+        ko_path = CONTENT_ROOT / "ko" / "blog" / "ai-video" / "seedance" / "dark-warrior-red-moon-temple-clash-prompt.md"
+        en_path = CONTENT_ROOT / "en" / "blog" / "ai-video" / "seedance" / "dark-warrior-red-moon-temple-clash-prompt.md"
+        ko_text = read_text(ko_path)
+        en_text = read_text(en_path)
+
+        self.assertEqual(
+            frontmatter_value(ko_text, "translationKey"),
+            frontmatter_value(en_text, "translationKey"),
+        )
+
+    def test_dark_warrior_archive_is_linked_from_indexes(self) -> None:
+        ko_index = read_text(CONTENT_ROOT / "ko" / "blog" / "ai-video" / "seedance" / "index.md")
+        en_index = read_text(CONTENT_ROOT / "en" / "blog" / "ai-video" / "seedance" / "index.md")
+
+        self.assertIn("dark-warrior-red-moon-temple-clash-prompt", ko_index)
+        self.assertIn("dark-warrior-red-moon-temple-clash-prompt", en_index)
+
+    def test_dark_warrior_archive_mentions_model_and_structure(self) -> None:
+        ko_text = read_text(CONTENT_ROOT / "ko" / "blog" / "ai-video" / "seedance" / "dark-warrior-red-moon-temple-clash-prompt.md")
+        en_text = read_text(CONTENT_ROOT / "en" / "blog" / "ai-video" / "seedance" / "dark-warrior-red-moon-temple-clash-prompt.md")
+
+        self.assertIn("Seedance 2.0", ko_text)
+        self.assertIn("4 scenes / 15 seconds", ko_text)
+        self.assertIn("Seedance 2.0", en_text)
+        self.assertIn("4 scenes / 15 seconds", en_text)
+
 
 if __name__ == "__main__":
     unittest.main()

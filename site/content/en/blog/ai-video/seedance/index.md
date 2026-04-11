@@ -19,3 +19,4 @@ This folder archives Seedance prompt builds and explains how their cuts and keyw
 - [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]
 - [[en/blog/ai-video/seedance/anime-manhattan-wall-run-portal-prompt|Anime Action Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]
 - [[en/blog/ai-video/seedance/anime-nyc-giant-monster-punch-prompt|Seedance 2.0 Prompt Archive: Anime Heroine vs Giant Monster in New York]]
+- [[en/blog/ai-video/seedance/dark-warrior-red-moon-temple-clash-prompt|Seedance 2.0 Prompt Archive: Dark Warrior Under a Red Moon]]
