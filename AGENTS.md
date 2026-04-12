@@ -45,6 +45,29 @@ The preferred publishing path is now:
 - If an English industry term is unavoidable, explain it once and then keep the Korean sentence readable.
 - Before finalizing a Korean article, quickly reread standout lines and remove any phrase that sounds like model-generated summary prose rather than a human editor's sentence.
 
+## YouTube And Shorts Embed Rule
+
+- If the user provides a specific YouTube video or Shorts URL for a public article, embed it in the article unless the user explicitly wants a plain link only.
+- For Korean and English article pairs, keep the embed in both versions at the same relative position.
+- Default placement is immediately below the H1.
+- In Quartz markdown, use a raw HTML `iframe`, not a plain pasted URL, when the goal is an inline playable embed.
+- Reuse the site class `external-embed youtube` so the existing responsive styling applies automatically.
+- Convert Shorts URLs from `https://www.youtube.com/shorts/VIDEO_ID` to `https://www.youtube.com/embed/VIDEO_ID`.
+- Standard snippet:
+
+```html
+<iframe
+  class="external-embed youtube"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="Descriptive video title"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+```
+
+- Only replace `VIDEO_ID` and `title` unless the user asks for a custom layout.
+
 ### 1. Audit Context
 
 Run:
