@@ -306,6 +306,28 @@ Fill in this template with Castos-specific style preferences. Update as the styl
 - Always provide context in surrounding text
 - Alt text should describe the key finding, not just "chart"
 
+### YouTube / Shorts Embeds
+- If a post is archiving or analyzing a specific YouTube video, place the embed near the top of the article.
+- Default placement: directly below the H1.
+- For Korean and English article pairs, keep the embed in both versions.
+- Use a raw HTML `iframe` in the markdown file when the goal is an inline playable embed.
+- Reuse the shared class `external-embed youtube` so the existing site styling handles sizing automatically.
+- Convert Shorts links from `https://www.youtube.com/shorts/VIDEO_ID` to `https://www.youtube.com/embed/VIDEO_ID`.
+- Standard embed snippet:
+
+```html
+<iframe
+  class="external-embed youtube"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  title="Descriptive video title"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen
+></iframe>
+```
+
+- Keep the `title` descriptive so the embed remains understandable and accessible.
+
 ---
 
 ## Brand-Specific Guidelines
