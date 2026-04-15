@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 프롬프트 아카이브: 적외선 트럼펫 고양이 침실 기상 소동"
+title: "적외선 트럼펫 고양이 침실 기상 소동"
 description: "새벽 3시 적외선 보안 카메라 구도 안에서 두 발로 걷는 고양이가 트럼펫을 연주해 주인을 깨우는 Seedance 2.0 싱글샷 프롬프트 아카이브."
 date: 2026-04-14
 modified: 2026-04-14
@@ -21,7 +21,7 @@ aliases:
   - "적외선 트럼펫 고양이 프롬프트 아카이브"
 ---
 
-# Seedance 2.0 프롬프트 아카이브: 적외선 트럼펫 고양이 침실 기상 소동
+# 적외선 트럼펫 고양이 침실 기상 소동
 
 <iframe
   class="external-embed youtube"
@@ -43,7 +43,7 @@ aliases:
 - 고양이가 중간에 네 발로 내려오지 않고 완전히 직립 상태를 유지할 것
 - 주인의 반응이 공포가 아니라 "시끄러우니 그만해"라는 짜증으로 읽힐 것
 
-느와르 전환 중심 프롬프트와 비교하고 싶다면 [[ko/blog/ai-video/seedance/noir-western-saloon-madam-cowboy-lighter-transition-prompt|Seedance 2.0 프롬프트 아카이브: 느와르 서부 술집 마담과 카우보이 라이터 전환]]도 함께 볼 수 있습니다.
+느와르 전환 중심 프롬프트와 비교하고 싶다면 [[ko/blog/ai-video/seedance/noir-western-saloon-madam-cowboy-lighter-transition-prompt|느와르 서부 술집 마담과 카우보이 라이터 전환]]도 함께 볼 수 있습니다.
 
 ## 아카이브 메타
 

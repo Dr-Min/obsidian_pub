@@ -1,5 +1,5 @@
 ---
-title: "Anime Action Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive"
+title: "Anime Manhattan Sprint, Wall Run, Portal Dive"
 description: "An archive and keyword breakdown of a 5-cut anime action prompt that starts on a Manhattan street, runs across moving cars, sprints up a skyscraper wall, and ends in a glowing portal."
 date: 2026-04-10
 modified: 2026-04-10
@@ -18,11 +18,11 @@ aliases:
   - "Anime Manhattan wall run portal prompt archive"
 ---
 
-# Anime Action Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive
+# Anime Manhattan Sprint, Wall Run, Portal Dive
 
 This page archives a **5-cut anime-style action prompt**. The goal is not just to store the wording, but to make it reusable later by documenting the **cut structure**, **main keywords**, **why the anime version works**, and **what the prompt is really saying in plain English**.
 
-If you want the live-action counterpart, compare it with [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]]. If you want a broader grounding in framing and movement first, pair this with [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]].
+If you want the live-action counterpart, compare it with [[en/blog/ai-video/seedance/seedance-manhattan-wall-run-portal-prompt|Manhattan Sprint, Wall Run, Portal Dive]]. If you want a broader grounding in framing and movement first, pair this with [[en/blog/ai-video/camera-techniques/shot-composition-camera-movement|How to Describe Shot Composition and Camera Movement in AI Video Prompts]].
 
 ## Reference video
 

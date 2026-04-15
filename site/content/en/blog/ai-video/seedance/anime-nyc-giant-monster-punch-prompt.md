@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Anime Heroine vs Giant Monster in New York"
+title: "Anime Heroine vs Giant Monster in New York"
 description: "An archive of a 5-cut Seedance 2.0 prompt featuring a colossal monster in New York, an anime heroine's hyper-speed evasions, and a final midair punch finish."
 date: 2026-04-10
 modified: 2026-04-10
@@ -19,7 +19,7 @@ aliases:
   - "Anime heroine giant monster New York prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Anime Heroine vs Giant Monster in New York
+# Anime Heroine vs Giant Monster in New York
 
 <iframe
   class="external-embed youtube"
@@ -39,7 +39,7 @@ The core of this prompt is not just "monster battle." What really drives it is:
 - destruction and evasive movement happening at the same time
 - a clean finishing sequence of **launch -> face punch -> explosion -> rooftop landing**
 
-If you want a related action archive in the same folder, compare it with [[en/blog/ai-video/seedance/anime-manhattan-wall-run-portal-prompt|Anime Action Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive]].
+If you want a related action archive in the same folder, compare it with [[en/blog/ai-video/seedance/anime-manhattan-wall-run-portal-prompt|Anime Manhattan Sprint, Wall Run, Portal Dive]].
 
 ## Archive metadata
 
