@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Anime Swordswoman Beneath a Crimson Moon"
+title: "Anime Swordswoman Beneath a Crimson Moon"
 description: "An archive of a 4-scene Seedance 2.0 anime fantasy action prompt featuring a lone swordswoman in a ruined temple, a massive crimson moon, and a final clash against a colossal beast."
 date: 2026-04-12
 modified: 2026-04-12
@@ -20,7 +20,7 @@ aliases:
   - "Anime swordswoman crimson moon temple prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Anime Swordswoman Beneath a Crimson Moon
+# Anime Swordswoman Beneath a Crimson Moon
 
 <iframe
   class="external-embed youtube"
@@ -42,7 +42,7 @@ This prompt is driven by four things:
 - a vertical escalation from ground combat to collapsing ascent
 - a final airborne confrontation framed as a dramatic anime silhouette
 
-If you want the less explicitly anime version of this same fantasy setup, compare it with [[en/blog/ai-video/seedance/dark-warrior-red-moon-temple-clash-prompt|Seedance 2.0 Prompt Archive: Dark Warrior Under a Red Moon]].
+If you want the less explicitly anime version of this same fantasy setup, compare it with [[en/blog/ai-video/seedance/dark-warrior-red-moon-temple-clash-prompt|Dark Warrior Under a Red Moon]].
 
 ## Archive metadata
 

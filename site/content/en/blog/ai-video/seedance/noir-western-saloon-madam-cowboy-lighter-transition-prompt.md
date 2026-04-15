@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Noir Western Saloon Lighter Transition"
+title: "Noir Western Saloon Lighter Transition"
 description: "An archive of a 3-cut Seedance 2.0 noir western transition prompt featuring a saloon madam, a cowboy lighting a lighter, and a match-to-flame handoff."
 date: 2026-04-12
 modified: 2026-04-12
@@ -20,7 +20,7 @@ aliases:
   - "Noir western saloon lighter transition prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Noir Western Saloon Lighter Transition
+# Noir Western Saloon Lighter Transition
 
 <iframe
   class="external-embed youtube"
@@ -42,7 +42,7 @@ The sequence works because of four things:
 - an immediate object handoff from snap to lighter flame
 - a final flame-bridging beat that closes the transition chain cleanly
 
-If you want a larger action-oriented Seedance archive in the same folder, compare this with [[en/blog/ai-video/seedance/anime-swordswoman-crimson-moon-temple-clash-prompt|Seedance 2.0 Prompt Archive: Anime Swordswoman Beneath a Crimson Moon]].
+If you want a larger action-oriented Seedance archive in the same folder, compare this with [[en/blog/ai-video/seedance/anime-swordswoman-crimson-moon-temple-clash-prompt|Anime Swordswoman Beneath a Crimson Moon]].
 
 ## Reference note
 

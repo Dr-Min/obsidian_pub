@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive"
+title: "Manhattan Sprint, Wall Run, Portal Dive"
 description: "An archive and keyword breakdown of a 5-cut Seedance 2.0 action prompt that starts on a Manhattan street, moves across cars, runs up a skyscraper wall, and ends in a sci-fi portal."
 date: 2026-04-10
 modified: 2026-04-10
@@ -19,7 +19,7 @@ aliases:
   - "Manhattan wall run portal prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Manhattan Sprint, Wall Run, Portal Dive
+# Manhattan Sprint, Wall Run, Portal Dive
 
 This page is a **Seedance 2.0 action prompt archive**. The goal is not only to preserve the prompt, but to make it reusable later by documenting the **cut structure**, **main keywords**, **why it works**, and **how it adapts to 9:16 vertical framing**.
 

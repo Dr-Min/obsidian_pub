@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 프롬프트 아카이브: 진홍빛 달 아래의 애니메이션 여검사"
+title: "진홍빛 달 아래의 애니메이션 여검사"
 description: "무너진 고대 신전, 거대한 진홍빛 달, 암흑 갑옷의 여검사, 그리고 마지막 거대 괴수 대치까지 이어지는 4장면 Seedance 2.0 애니메이션 판타지 액션 프롬프트 아카이브."
 date: 2026-04-12
 modified: 2026-04-12
@@ -20,7 +20,7 @@ aliases:
   - "진홍빛 달 여검사 프롬프트 아카이브"
 ---
 
-# Seedance 2.0 프롬프트 아카이브: 진홍빛 달 아래의 애니메이션 여검사
+# 진홍빛 달 아래의 애니메이션 여검사
 
 <iframe
   class="external-embed youtube"
@@ -42,7 +42,7 @@ aliases:
 - 지상 돌진에서 붕괴하는 수직 상승으로 바뀌는 스케일 업
 - 마지막 충돌을 직접 보여주기보다 실루엣으로 붙잡는 애니메이션 클라이맥스
 
-같은 판타지 구도를 더 덜 애니메이션적인 버전으로 보고 싶다면 [[ko/blog/ai-video/seedance/dark-warrior-red-moon-temple-clash-prompt|Seedance 2.0 프롬프트 아카이브: 붉은 달 아래의 암흑 전사]]와 비교해 보세요.
+같은 판타지 구도를 더 덜 애니메이션적인 버전으로 보고 싶다면 [[ko/blog/ai-video/seedance/dark-warrior-red-moon-temple-clash-prompt|붉은 달 아래의 암흑 전사]]와 비교해 보세요.
 
 ## 아카이브 메타
 

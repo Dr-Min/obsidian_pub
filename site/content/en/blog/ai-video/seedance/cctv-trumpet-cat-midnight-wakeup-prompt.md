@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Infrared Trumpet Cat Bedroom Wake-Up"
+title: "Infrared Trumpet Cat Bedroom Wake-Up"
 description: "An archive of a single-shot Seedance 2.0 prompt featuring found-footage-style infrared security-camera footage of a bipedal trumpet cat waking a sleeping owner at 3 AM."
 date: 2026-04-14
 modified: 2026-04-14
@@ -21,7 +21,7 @@ aliases:
   - "Infrared trumpet cat prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Infrared Trumpet Cat Bedroom Wake-Up
+# Infrared Trumpet Cat Bedroom Wake-Up
 
 <iframe
   class="external-embed youtube"
@@ -43,7 +43,7 @@ The concept works because it combines four strong constraints:
 - a cat that remains bipedal for the full shot without dropping to all fours
 - a clear human wake-up reaction that grounds the absurdity
 
-If you want a transition-driven archive instead of a fixed-shot found-footage gag, compare this with [[en/blog/ai-video/seedance/noir-western-saloon-madam-cowboy-lighter-transition-prompt|Seedance 2.0 Prompt Archive: Noir Western Saloon Lighter Transition]]. In this version, the **Paranormal Activity atmosphere** is part of the core prompt logic.
+If you want a transition-driven archive instead of a fixed-shot found-footage gag, compare this with [[en/blog/ai-video/seedance/noir-western-saloon-madam-cowboy-lighter-transition-prompt|Noir Western Saloon Lighter Transition]]. In this version, the **Paranormal Activity atmosphere** is part of the core prompt logic.
 
 ## Archive metadata
 

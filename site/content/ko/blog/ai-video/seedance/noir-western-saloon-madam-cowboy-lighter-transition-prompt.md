@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 프롬프트 아카이브: 느와르 서부 술집 마담과 카우보이 라이터 전환"
+title: "느와르 서부 술집 마담과 카우보이 라이터 전환"
 description: "서부 술집 밤 배경, 서부시대 마담의 핑거 스냅, 카우보이의 라이터 점화, 그리고 성냥과 불꽃이 이어지는 3컷 Seedance 2.0 전환 프롬프트 아카이브."
 date: 2026-04-12
 modified: 2026-04-12
@@ -20,7 +20,7 @@ aliases:
   - "서부 술집 라이터 전환 프롬프트 아카이브"
 ---
 
-# Seedance 2.0 프롬프트 아카이브: 느와르 서부 술집 마담과 카우보이 라이터 전환
+# 느와르 서부 술집 마담과 카우보이 라이터 전환
 
 <iframe
   class="external-embed youtube"
@@ -42,7 +42,7 @@ aliases:
 - 스냅 다음에 즉시 이어지는 라이터 점화
 - 마지막 성냥과 불꽃의 접점으로 마무리되는 소품 연속성
 
-더 큰 액션형 Seedance 아카이브와 비교하고 싶다면 [[ko/blog/ai-video/seedance/anime-swordswoman-crimson-moon-temple-clash-prompt|Seedance 2.0 프롬프트 아카이브: 진홍빛 달 아래의 애니메이션 여검사]]를 함께 보면 좋습니다.
+더 큰 액션형 Seedance 아카이브와 비교하고 싶다면 [[ko/blog/ai-video/seedance/anime-swordswoman-crimson-moon-temple-clash-prompt|진홍빛 달 아래의 애니메이션 여검사]]를 함께 보면 좋습니다.
 
 ## 레퍼런스 메모
 

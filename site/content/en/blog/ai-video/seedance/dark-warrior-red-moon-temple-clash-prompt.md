@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 Prompt Archive: Dark Warrior Under a Red Moon"
+title: "Dark Warrior Under a Red Moon"
 description: "An archive of a 4-scene Seedance 2.0 fantasy action prompt featuring a lone armored warrior, a ruined temple under a red moon, and a final clash with a colossal horned beast."
 date: 2026-04-11
 modified: 2026-04-11
@@ -19,7 +19,7 @@ aliases:
   - "Dark warrior red moon temple prompt archive"
 ---
 
-# Seedance 2.0 Prompt Archive: Dark Warrior Under a Red Moon
+# Dark Warrior Under a Red Moon
 
 <iframe
   class="external-embed youtube"
@@ -41,7 +41,7 @@ The core of this prompt is not simply "female warrior fights monsters." What rea
 - a vertical escalation from ground combat to collapsing ascent
 - a final airborne clash framed as a silhouette payoff
 
-If you want another Seedance action archive with a different type of scale payoff, compare this with [[en/blog/ai-video/seedance/anime-nyc-giant-monster-punch-prompt|Seedance 2.0 Prompt Archive: Anime Heroine vs Giant Monster in New York]].
+If you want another Seedance action archive with a different type of scale payoff, compare this with [[en/blog/ai-video/seedance/anime-nyc-giant-monster-punch-prompt|Anime Heroine vs Giant Monster in New York]].
 
 ## Archive metadata
 

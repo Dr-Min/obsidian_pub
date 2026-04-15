@@ -1,5 +1,5 @@
 ---
-title: "Seedance 2.0 프롬프트 아카이브: 붉은 달 아래의 암흑 전사"
+title: "붉은 달 아래의 암흑 전사"
 description: "거대한 붉은 달 아래 무너진 신전에서 홀로 돌진하는 여성 전사와 마지막 거대 뿔 달린 짐승의 충돌 직전까지를 담은 4장면 Seedance 2.0 판타지 액션 프롬프트 아카이브."
 date: 2026-04-11
 modified: 2026-04-11
@@ -19,7 +19,7 @@ aliases:
   - "붉은 달 신전 전사 프롬프트 아카이브"
 ---
 
-# Seedance 2.0 프롬프트 아카이브: 붉은 달 아래의 암흑 전사
+# 붉은 달 아래의 암흑 전사
 
 <iframe
   class="external-embed youtube"
@@ -41,7 +41,7 @@ aliases:
 - 수평 돌진에서 수직 상승으로 바뀌는 스케일 업
 - 충돌 자체보다 충돌 직전의 긴장을 남기는 마지막 와이드 샷
 
-비슷한 Seedance 액션 아카이브를 함께 보고 싶다면 [[ko/blog/ai-video/seedance/anime-nyc-giant-monster-punch-prompt|Seedance 2.0 프롬프트 아카이브: 뉴욕 거대 괴수와 애니메이션 히로인의 공중 펀치]]와 비교해 보세요.
+비슷한 Seedance 액션 아카이브를 함께 보고 싶다면 [[ko/blog/ai-video/seedance/anime-nyc-giant-monster-punch-prompt|뉴욕 거대 괴수와 애니메이션 히로인의 공중 펀치]]와 비교해 보세요.
 
 ## 아카이브 메타
 
