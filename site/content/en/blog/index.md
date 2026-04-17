@@ -17,6 +17,7 @@ The main public series right now is `AI Video`, and every published page is mana
 ## Main Category
 
 - [[en/blog/ai-video|AI Video]]
+- [[en/blog/english|English]]
 
 ## Site Information
 
@@ -32,3 +33,6 @@ The main public series right now is `AI Video`, and every published page is mana
 - [[en/blog/ai-video/prompt-terms/camera-movement|Camera Movement]]
 - [[en/blog/ai-video/prompt-terms/lighting|Lighting]]
 - [[en/blog/ai-video/seedance|Seedance]]
+- [[en/blog/english/words|English Words]]
+- [[en/blog/english/words/run|run]]
+- [[en/blog/english/words/address|address]]
