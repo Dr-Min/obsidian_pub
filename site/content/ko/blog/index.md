@@ -17,6 +17,7 @@ tags:
 ## 메인 카테고리
 
 - [[ko/blog/ai-video|AI 영상]]
+- [[ko/blog/english|영어]]
 
 ## 사이트 정보
 
@@ -32,3 +33,6 @@ tags:
 - [[ko/blog/ai-video/prompt-terms/camera-movement|카메라 움직임]]
 - [[ko/blog/ai-video/prompt-terms/lighting|조명]]
 - [[ko/blog/ai-video/seedance|Seedance]]
+- [[ko/blog/english/words|영어 단어]]
+- [[ko/blog/english/words/run|run 뜻 정리]]
+- [[ko/blog/english/words/address|address 뜻 정리]]
