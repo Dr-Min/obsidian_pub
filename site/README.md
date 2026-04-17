@@ -7,6 +7,11 @@ It now uses a bilingual structure:
 - `site/content/en/` for English pages
 - `site/content/index.md` as the language hub
 
+## Quick Links
+
+- Daily deploy runbook: [DEPLOY-QUICK.md](./DEPLOY-QUICK.md)
+- Full Quartz + Cloudflare setup: [DEPLOY-QUARTZ-CLOUDFLARE.md](./DEPLOY-QUARTZ-CLOUDFLARE.md)
+
 Important publishing rule:
 
 - Public articles should be created in both Korean and English.
