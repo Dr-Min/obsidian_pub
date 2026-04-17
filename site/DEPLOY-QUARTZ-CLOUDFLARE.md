@@ -2,6 +2,8 @@
 
 This is the recommended free publishing setup for this repository.
 
+For the current day-to-day release flow used for `minventory.org`, start with [DEPLOY-QUICK.md](./DEPLOY-QUICK.md).
+
 ## Target Stack
 
 - Content authoring: Obsidian-compatible Markdown
