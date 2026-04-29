@@ -12,10 +12,11 @@ tags:
 
 # 블로그
 
-현재 메인 시리즈는 `AI 영상` 카테고리이며, 모든 공개 글은 한국어/영어 한 쌍으로 관리합니다.
+현재 공개 글은 `AI`, `AI 영상`, `영어` 카테고리를 중심으로 한국어/영어 한 쌍으로 관리합니다.
 
 ## 메인 카테고리
 
+- [[ko/blog/ai|AI]]
 - [[ko/blog/ai-video|AI 영상]]
 - [[ko/blog/english|영어]]
 
@@ -27,6 +28,7 @@ tags:
 
 ## 대표 글
 
+- [[ko/blog/ai/hermes-agent|Hermes Agent 사용 지도]]
 - [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]
 - [[ko/blog/ai-video/prompt-terms|AI 영상 프롬프트 용어]]
 - [[ko/blog/ai-video/prompt-terms/shot-composition|화면 구도]]
