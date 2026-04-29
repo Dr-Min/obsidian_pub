@@ -28,7 +28,7 @@ tags:
 
 ## 대표 글
 
-- [[ko/blog/ai/hermes-agent|Hermes Agent 사용 지도]]
+- [[ko/blog/ai/hermes-agent|Hermes Agent]]
 - [[ko/blog/ai-video/ai-video-prompts|AI 영상 프롬프트 작성법: 실전 예시와 구조 가이드]]
 - [[ko/blog/ai-video/prompt-terms|AI 영상 프롬프트 용어]]
 - [[ko/blog/ai-video/prompt-terms/shot-composition|화면 구도]]

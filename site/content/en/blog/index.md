@@ -28,7 +28,7 @@ Public pages are managed as Korean/English pairs across the `AI`, `AI Video`, an
 
 ## Featured Pages
 
-- [[en/blog/ai/hermes-agent|Hermes Agent Field Guide]]
+- [[en/blog/ai/hermes-agent|Hermes Agent]]
 - [[en/blog/ai-video/ai-video-prompts|How to Write AI Video Prompts: Practical Examples and Structure]]
 - [[en/blog/ai-video/prompt-terms|AI Video Prompt Terms]]
 - [[en/blog/ai-video/prompt-terms/shot-composition|Shot Composition]]

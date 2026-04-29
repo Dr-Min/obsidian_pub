@@ -1,6 +1,6 @@
 ---
-title: "Hermes Agent Field Guide: Commands, Tools, and Skills"
-description: "A public field guide to Hermes Agent's CLI, slash commands, tools, toolsets, and installed skills."
+title: "Hermes Agent"
+description: "A short guide to Hermes Agent commands, tools, and skills."
 publish: true
 draft: false
 lang: "en"
@@ -14,14 +14,10 @@ tags:
   - automation
 ---
 
-# Hermes Agent Field Guide: Commands, Tools, and Skills
+# Hermes Agent
 
 Hermes Agent is a tool-using AI agent that can run in terminals, messaging platforms, IDEs, and automation workflows. It is not just a chatbot: it can read and write files, execute shell commands, automate browsers, schedule jobs, search prior sessions, and delegate work to subagents.
 
-This page is a public-facing field guide distilled from a private working reference. Private paths, credentials, message-routing details, and operational logs are intentionally excluded.
-
-> Snapshot: 2026-04-29 22:14 KST
-> Inventory covered here: 99 CLI commands, 48 slash commands, 20 toolsets, 30 API tools, and 90 installed skills.
 
 ## The core vocabulary
 
@@ -57,6 +53,6 @@ To use Hermes well, choose the model, the toolsets, and the relevant skills toge
 
 ## In this series
 
-- [[en/blog/ai/hermes-agent/commands|Hermes Agent Command Reference]] — CLI and slash commands.
-- [[en/blog/ai/hermes-agent/tools|Hermes Agent Tools and Toolsets]] — the tool surface available to an agent session.
-- [[en/blog/ai/hermes-agent/skills|Hermes Agent Installed Skills Catalog]] — the installed skill catalog grouped by category.
+- [[en/blog/ai/hermes-agent/commands|Commands]] — terminal and in-session commands.
+- [[en/blog/ai/hermes-agent/tools|Tools]] — how the agent acts outside chat.
+- [[en/blog/ai/hermes-agent/skills|Skills]] — reusable workflows for specific tasks.

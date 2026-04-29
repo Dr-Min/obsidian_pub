@@ -1,6 +1,6 @@
 ---
-title: "Hermes Agent 사용 지도: 커맨드, 도구, 스킬 전체 기능 정리"
-description: "Hermes Agent의 CLI, 슬래시 명령어, 도구, Toolset, 스킬을 공개용으로 한눈에 정리한 필드 가이드입니다."
+title: "Hermes Agent"
+description: "Hermes Agent의 명령어, 도구, 스킬 구조를 짧게 정리합니다."
 publish: true
 draft: false
 lang: "ko"
@@ -14,14 +14,10 @@ tags:
   - automation
 ---
 
-# Hermes Agent 사용 지도: 커맨드, 도구, 스킬 전체 기능 정리
+# Hermes Agent
 
 Hermes Agent는 터미널, 메신저, IDE, 자동화 작업에서 동작하는 **도구 사용형 AI 에이전트**입니다. 단순 챗봇처럼 답만 하는 것이 아니라, 파일을 읽고 쓰고, 터미널 명령을 실행하고, 브라우저를 조작하고, 스케줄 작업을 등록하고, 필요하면 다른 하위 에이전트에게 일을 나눌 수 있습니다.
 
-이 글은 개인 작업용 노트를 그대로 공개한 것이 아니라, 공개 블로그 독자가 읽기 좋도록 다시 정리한 **기능 지도**입니다.
-
-> 기준 시점: 2026-04-29 22:14 KST
-> 공개 스냅샷: CLI 커맨드 99개, 세션 슬래시 명령어 48개, Toolset 20개, API tool 30개, 설치 스킬 90개.
 
 ## 먼저 구분해야 할 것
 
@@ -57,10 +53,6 @@ Hermes를 이해할 때 제일 헷갈리는 부분은 “명령어”, “도구
 
 ## 이 시리즈의 글
 
-- [[ko/blog/ai/hermes-agent/commands|Hermes Agent 커맨드 레퍼런스]] — CLI 커맨드와 슬래시 명령어.
-- [[ko/blog/ai/hermes-agent/tools|Hermes Agent 도구와 Toolset]] — toolset 20개와 API tool 30개.
-- [[ko/blog/ai/hermes-agent/skills|Hermes Agent 설치 스킬 카탈로그]] — 설치된 스킬 90개를 카테고리별로 정리.
-
-## 공개 글에서 일부러 뺀 것
-
-개인 환경에서 실제로 쓰는 내부 경로, 토큰, API key, OAuth 정보, 메신저 세션 식별자, 처리 로그 전문은 공개 글에 넣지 않았습니다. 이 글은 사용법과 기능 구조를 설명하는 공개용 가이드입니다.
+- [[ko/blog/ai/hermes-agent/commands|명령어]] — 터미널 명령과 세션 명령.
+- [[ko/blog/ai/hermes-agent/tools|도구]] — 에이전트가 실제로 일하는 방식.
+- [[ko/blog/ai/hermes-agent/skills|스킬]] — 작업 절차를 불러오는 방식.

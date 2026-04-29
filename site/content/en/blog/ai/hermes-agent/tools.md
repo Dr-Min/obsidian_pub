@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Tools and Toolsets: How the Agent Acts"
+title: "Hermes Agent Tools"
 description: "A public reference for Hermes Agent toolsets and callable API tools."
 publish: true
 draft: false
@@ -15,11 +15,10 @@ tags:
   - toolsets
 ---
 
-# Hermes Agent Tools and Toolsets: How the Agent Acts
+# Hermes Agent Tools
 
 A toolset is the unit that gives Hermes a class of capabilities. If the agent needs to edit files, it needs file tools. If it needs to run builds, it needs terminal tools. If it needs to inspect a web UI, it needs browser tools.
 
-> Snapshot: 2026-04-29 22:14 KST
 
 ### Toolsets
 
@@ -52,9 +51,9 @@ Tool changes take effect on `/reset` (new session). They do NOT apply mid-conver
 
 ---
 
-## Callable API tools in this public snapshot
+## Callable API Tools
 
-The exact callable tool surface depends on profile, platform, and enabled toolsets. This table shows the public snapshot used for this guide.
+The exact callable tool surface depends on profile, platform, and enabled toolsets.
 
 | API tool | What it does |
 | --- | --- |

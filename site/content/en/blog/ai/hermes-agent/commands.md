@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Command Reference: CLI and Slash Commands"
+title: "Hermes Agent Commands"
 description: "A public reference for controlling Hermes Agent from the terminal and from an active session."
 publish: true
 draft: false
@@ -15,14 +15,13 @@ tags:
   - commands
 ---
 
-# Hermes Agent Command Reference: CLI and Slash Commands
+# Hermes Agent Commands
 
 Hermes has two command layers.
 
 - **CLI commands** are typed in the terminal and control installation, configuration, profiles, gateway, cron jobs, tools, and skills.
 - **Slash commands** are typed inside an active session and control the current conversation, model, toolsets, skills, and gateway actions.
 
-> Snapshot: 2026-04-29 22:14 KST
 
 ## Most-used commands
 
@@ -37,7 +36,7 @@ Hermes has two command layers.
 | Inspect cron jobs | `hermes cron list`, `/cron` |
 | Start a fresh session | `/new`, `/reset` |
 
-## CLI Reference
+## CLI Commands
 
 ### Global Flags
 

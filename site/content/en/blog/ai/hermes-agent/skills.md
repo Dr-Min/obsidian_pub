@@ -1,6 +1,6 @@
 ---
-title: "Hermes Agent Installed Skills Catalog: 90 Reusable Workflows"
-description: "A public catalog of the installed Hermes Agent skills, grouped by category."
+title: "Hermes Agent Skills"
+description: "A category guide to Hermes Agent skills."
 publish: true
 draft: false
 lang: "en"
@@ -15,35 +15,10 @@ tags:
   - catalog
 ---
 
-# Hermes Agent Installed Skills Catalog: 90 Reusable Workflows
+# Hermes Agent Skills
 
 A skill is a reusable procedure that tells Hermes how to perform a class of work. If tools are the agent's hands, skills are the operating manuals it loads for specific tasks.
 
-> Snapshot: 2026-04-29 22:14 KST
-> Installed skills found in the local skill directory: 90.
-
-## Quick Summary
-
-| Category | Count |
-| --- | --: |
-| dogfood/QA | 1 |
-| autonomous-ai-agents | 4 |
-| creative | 18 |
-| data-science | 1 |
-| devops | 1 |
-| email | 1 |
-| gaming | 2 |
-| github | 7 |
-| leisure | 1 |
-| mcp | 2 |
-| media | 5 |
-| mlops | 22 |
-| note-taking | 3 |
-| productivity | 9 |
-| red-teaming | 1 |
-| research | 5 |
-| smart-home | 1 |
-| software-development | 6 |
 
 ## dogfood/QA
 
@@ -175,7 +150,7 @@ A skill is a reusable procedure that tells Hermes how to perform a class of work
 | Skill | What it is for |
 | --- | --- |
 | `obsidian` | Read, search, and create notes in the Obsidian vault. |
-| `obsidian-personal-docs-human-guides` | Audit and improve Obsidian private working docs so they are practical human-facing documents grounded in source archive / knowledge-base sources, with source links, logs, and verifier checks. |
+| `obsidian-personal-docs-human-guides` | Audit and improve Obsidian document sets so they become practical human-facing guides with source links, logs, and verifier checks. |
 | `toeic-vocab-study-system` | Build and maintain a TOEIC vocabulary study system from photographed textbook pages, with Obsidian notes, machine-readable JSON, cumulative error tracking, and Ebbinghaus-style review reminders. |
 
 ## productivity

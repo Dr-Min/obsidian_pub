@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent 커맨드 레퍼런스: CLI 99개와 슬래시 명령어 48개"
+title: "Hermes Agent 명령어"
 description: "Hermes Agent를 터미널과 대화 세션에서 조작하는 CLI 커맨드와 슬래시 명령어를 정리합니다."
 publish: true
 draft: false
@@ -15,14 +15,13 @@ tags:
   - commands
 ---
 
-# Hermes Agent 커맨드 레퍼런스: CLI 99개와 슬래시 명령어 48개
+# Hermes Agent 명령어
 
 Hermes에는 두 종류의 명령 계층이 있습니다.
 
 - 터미널에서 쓰는 **CLI 커맨드**: 설치, 설정, gateway, profile, cron, skills 등을 관리합니다.
 - 대화 중 쓰는 **슬래시 명령어**: 현재 세션의 모델, 도구, 스킬, 상태, 재시작 등을 빠르게 제어합니다.
 
-> 기준 시점: 2026-04-29 22:14 KST
 
 ## 가장 자주 쓰는 명령
 
@@ -37,7 +36,7 @@ Hermes에는 두 종류의 명령 계층이 있습니다.
 | cron 확인 | `hermes cron list`, `/cron` |
 | 세션 새로 시작 | `/new`, `/reset` |
 
-## CLI 커맨드 전체 목록
+## CLI 커맨드
 
 | 커맨드 | 기능 |
 | --- | --- |

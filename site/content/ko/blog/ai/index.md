@@ -18,7 +18,7 @@ AI 자동화와 에이전트 활용을 정리하는 공개 카테고리입니다
 
 ## Hermes Agent
 
-- [[ko/blog/ai/hermes-agent|Hermes Agent 사용 지도]]
-- [[ko/blog/ai/hermes-agent/commands|Hermes Agent 커맨드 레퍼런스]]
-- [[ko/blog/ai/hermes-agent/tools|Hermes Agent 도구와 Toolset]]
-- [[ko/blog/ai/hermes-agent/skills|Hermes Agent 설치 스킬 카탈로그]]
+- [[ko/blog/ai/hermes-agent|Hermes Agent]]
+- [[ko/blog/ai/hermes-agent/commands|명령어]]
+- [[ko/blog/ai/hermes-agent/tools|도구]]
+- [[ko/blog/ai/hermes-agent/skills|스킬]]

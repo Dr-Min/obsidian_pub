@@ -103,8 +103,9 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Custom per-page OG images are disabled because the generator can break Korean text.
+      // Use the static brand image at quartz/static/og-image.png instead.
+      // Plugin.CustomOgImages(),
     ],
   },
 }

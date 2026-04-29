@@ -18,7 +18,7 @@ Public notes on AI automation, agents, and model workflows.
 
 ## Hermes Agent
 
-- [[en/blog/ai/hermes-agent|Hermes Agent Field Guide]]
-- [[en/blog/ai/hermes-agent/commands|Hermes Agent Command Reference]]
-- [[en/blog/ai/hermes-agent/tools|Hermes Agent Tools and Toolsets]]
-- [[en/blog/ai/hermes-agent/skills|Hermes Agent Installed Skills Catalog]]
+- [[en/blog/ai/hermes-agent|Hermes Agent]]
+- [[en/blog/ai/hermes-agent/commands|Commands]]
+- [[en/blog/ai/hermes-agent/tools|Tools]]
+- [[en/blog/ai/hermes-agent/skills|Skills]]
