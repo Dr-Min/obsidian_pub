@@ -18,7 +18,6 @@ tags:
 
 Hermes Agent는 터미널, 메신저, IDE, 자동화 작업에서 동작하는 **도구 사용형 AI 에이전트**입니다. 단순 챗봇처럼 답만 하는 것이 아니라, 파일을 읽고 쓰고, 터미널 명령을 실행하고, 브라우저를 조작하고, 스케줄 작업을 등록하고, 필요하면 다른 하위 에이전트에게 일을 나눌 수 있습니다.
 
-
 ## 먼저 구분해야 할 것
 
 | 구분 | 의미 | 예시 |
@@ -53,6 +52,7 @@ Hermes를 이해할 때 제일 헷갈리는 부분은 “명령어”, “도구
 
 ## 이 시리즈의 글
 
+- [[ko/blog/ai/hermes-agent/why-hermes-agent|왜 Hermes Agent를 쓰는가]] — Codex와 구분해서 Hermes Agent를 쓰는 이유와 Telegram 연결 흐름.
 - [[ko/blog/ai/hermes-agent/commands|명령어]] — 터미널 명령과 세션 명령.
 - [[ko/blog/ai/hermes-agent/tools|도구]] — 에이전트가 실제로 일하는 방식.
 - [[ko/blog/ai/hermes-agent/skills|스킬]] — 작업 절차를 불러오는 방식.

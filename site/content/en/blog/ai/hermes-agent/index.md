@@ -18,7 +18,6 @@ tags:
 
 Hermes Agent is a tool-using AI agent that can run in terminals, messaging platforms, IDEs, and automation workflows. It is not just a chatbot: it can read and write files, execute shell commands, automate browsers, schedule jobs, search prior sessions, and delegate work to subagents.
 
-
 ## The core vocabulary
 
 | Term | Meaning | Examples |
@@ -53,6 +52,7 @@ To use Hermes well, choose the model, the toolsets, and the relevant skills toge
 
 ## In this series
 
+- [[en/blog/ai/hermes-agent/why-hermes-agent|Why use Hermes Agent?]] — how Hermes differs from Codex and how Telegram fits into the workflow.
 - [[en/blog/ai/hermes-agent/commands|Commands]] — terminal and in-session commands.
 - [[en/blog/ai/hermes-agent/tools|Tools]] — how the agent acts outside chat.
 - [[en/blog/ai/hermes-agent/skills|Skills]] — reusable workflows for specific tasks.
